@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: robominer-bringup
+Version: 0.0.0
+Summary: ROS2 launch scripts for starting the robominer
+Home-page: UNKNOWN
+Maintainer: Roza Gkliva
+Maintainer-email: roza.gkliva@ttu.ee
+License: TODO: License declaration
+Description: UNKNOWN
+Platform: UNKNOWN

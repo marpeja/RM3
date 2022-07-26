@@ -1,0 +1,16 @@
+[0.799s] Invoking command in '/home/jaime/RM3_ws/build/robominer_bringup': PYTHONPATH=/home/jaime/RM3_ws/install/robominer_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/jaime/RM3_ws/install/robominer_bringup --editable --build-directory /home/jaime/RM3_ws/build/robominer_bringup/build --no-deps install_data --install-dir /home/jaime/RM3_ws/install/robominer_bringup
+[1.067s] running develop
+[1.206s] running egg_info
+[1.206s] writing robominer_bringup.egg-info/PKG-INFO
+[1.207s] writing dependency_links to robominer_bringup.egg-info/dependency_links.txt
+[1.207s] writing entry points to robominer_bringup.egg-info/entry_points.txt
+[1.208s] writing requirements to robominer_bringup.egg-info/requires.txt
+[1.208s] writing top-level names to robominer_bringup.egg-info/top_level.txt
+[1.253s] reading manifest file 'robominer_bringup.egg-info/SOURCES.txt'
+[1.254s] writing manifest file 'robominer_bringup.egg-info/SOURCES.txt'
+[1.305s] running build_ext
+[1.305s] Creating /home/jaime/RM3_ws/install/robominer_bringup/lib/python3.8/site-packages/robominer-bringup.egg-link (link to .)
+[1.306s] 
+[1.306s] Installed /home/jaime/RM3_ws/build/robominer_bringup
+[1.306s] running install_data
+[1.363s] Invoked command in '/home/jaime/RM3_ws/build/robominer_bringup' returned '0': PYTHONPATH=/home/jaime/RM3_ws/install/robominer_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/jaime/RM3_ws/install/robominer_bringup --editable --build-directory /home/jaime/RM3_ws/build/robominer_bringup/build --no-deps install_data --install-dir /home/jaime/RM3_ws/install/robominer_bringup

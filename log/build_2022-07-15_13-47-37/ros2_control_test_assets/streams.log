@@ -1,0 +1,24 @@
+[0.116s] Invoking command in '/home/jaime/RM3_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jaime/RM3_ws/build/ros2_control_test_assets -- -j8 -l8
+[1.246s] Invoked command in '/home/jaime/RM3_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jaime/RM3_ws/build/ros2_control_test_assets -- -j8 -l8
+[1.322s] Invoking command in '/home/jaime/RM3_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jaime/RM3_ws/build/ros2_control_test_assets
+[1.334s] -- Install configuration: ""
+[1.335s] -- Execute custom install script
+[1.337s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/components_urdfs.hpp
+[1.338s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/descriptions.hpp
+[1.339s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/ros2_control_test_assets/share/ament_index/resource_index/package_run_dependencies/ros2_control_test_assets
+[1.341s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/ros2_control_test_assets/share/ament_index/resource_index/parent_prefix_path/ros2_control_test_assets
+[1.342s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.sh
+[1.343s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.dsv
+[1.344s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.sh
+[1.345s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.dsv
+[1.346s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.bash
+[1.349s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.sh
+[1.349s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.zsh
+[1.359s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.dsv
+[1.359s] -- Symlinking: /home/jaime/RM3_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.dsv
+[1.367s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/ros2_control_test_assets/share/ament_index/resource_index/packages/ros2_control_test_assets
+[1.368s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.368s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig.cmake
+[1.368s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig-version.cmake
+[1.369s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.xml
+[1.393s] Invoked command in '/home/jaime/RM3_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jaime/RM3_ws/build/ros2_control_test_assets

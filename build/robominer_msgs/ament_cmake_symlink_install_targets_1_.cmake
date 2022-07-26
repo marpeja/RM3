@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jaime/RM3_ws/build/robominer_msgs/librobominer_msgs__rosidl_typesupport_fastrtps_cpp.so" "TARGETS" "robominer_msgs__rosidl_typesupport_fastrtps_cpp" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

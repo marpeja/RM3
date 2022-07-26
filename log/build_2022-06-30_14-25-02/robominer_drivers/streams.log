@@ -1,0 +1,67 @@
+[0.270s] Invoking command in '/home/jaime/RM3_ws/build/robominer_drivers': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_drivers -DCMAKE_INSTALL_PREFIX=/home/jaime/RM3_ws/install/robominer_drivers
+[0.533s] -- The C compiler identification is GNU 9.4.0
+[0.533s] -- The CXX compiler identification is GNU 9.4.0
+[0.533s] -- Check for working C compiler: /usr/bin/cc
+[0.533s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.533s] -- Detecting C compiler ABI info
+[0.533s] -- Detecting C compiler ABI info - done
+[0.541s] -- Detecting C compile features
+[0.542s] -- Detecting C compile features - done
+[0.543s] -- Check for working CXX compiler: /usr/bin/c++
+[0.631s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.632s] -- Detecting CXX compiler ABI info
+[0.715s] -- Detecting CXX compiler ABI info - done
+[0.730s] -- Detecting CXX compile features
+[0.730s] -- Detecting CXX compile features - done
+[0.733s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.761s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.761s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.990s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.061s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.067s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.168s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.200s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.289s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.387s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.391s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.395s] -- Looking for pthread.h
+[1.472s] -- Looking for pthread.h - found
+[1.472s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.550s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.550s] -- Looking for pthread_create in pthreads
+[1.613s] -- Looking for pthread_create in pthreads - not found
+[1.613s] -- Looking for pthread_create in pthread
+[1.684s] -- Looking for pthread_create in pthread - found
+[1.685s] -- Found Threads: TRUE  
+[1.893s] -- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)
+[1.895s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.036s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[2.130s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[2.155s] CMake Warning at CMakeLists.txt:27 (find_package):
+[2.155s]   By not providing "Findrobominer_msgs.cmake" in CMAKE_MODULE_PATH this
+[2.156s]   project has asked CMake to find a package configuration file provided by
+[2.156s]   "robominer_msgs", but CMake did not find one.
+[2.156s] 
+[2.156s]   Could not find a package configuration file provided by "robominer_msgs"
+[2.156s]   with any of the following names:
+[2.156s] 
+[2.156s]     robominer_msgsConfig.cmake
+[2.156s]     robominer_msgs-config.cmake
+[2.156s] 
+[2.156s]   Add the installation prefix of "robominer_msgs" to CMAKE_PREFIX_PATH or set
+[2.156s]   "robominer_msgs_DIR" to a directory containing one of the above files.  If
+[2.156s]   "robominer_msgs" provides a separate development package or SDK, be sure it
+[2.156s]   has been installed.
+[2.156s] 
+[2.156s] 
+[2.157s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[2.157s]   ament_target_dependencies() the passed package name 'robominer_msgs' was
+[2.157s]   not found before
+[2.157s] Call Stack (most recent call first):
+[2.157s]   CMakeLists.txt:51 (ament_target_dependencies)
+[2.157s] 
+[2.157s] 
+[2.159s] -- Configuring incomplete, errors occurred!
+[2.159s] See also "/home/jaime/RM3_ws/build/robominer_drivers/CMakeFiles/CMakeOutput.log".
+[2.159s] See also "/home/jaime/RM3_ws/build/robominer_drivers/CMakeFiles/CMakeError.log".
+[2.169s] Invoked command in '/home/jaime/RM3_ws/build/robominer_drivers' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_drivers -DCMAKE_INSTALL_PREFIX=/home/jaime/RM3_ws/install/robominer_drivers

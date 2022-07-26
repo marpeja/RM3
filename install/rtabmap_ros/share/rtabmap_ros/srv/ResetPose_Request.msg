@@ -1,0 +1,1 @@
+/home/jaime/RM3_ws/build/rtabmap_ros/rosidl_cmake/srv/ResetPose_Request.msg

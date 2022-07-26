@@ -1,0 +1,4 @@
+Invoking command in '/home/jaime/RM3_ws/build/controller_manager_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jaime/RM3_ws/build/controller_manager_msgs
+Invoked command in '/home/jaime/RM3_ws/build/controller_manager_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jaime/RM3_ws/build/controller_manager_msgs
+Invoking command in '/home/jaime/RM3_ws/build/controller_manager_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jaime/RM3_ws/build/controller_manager_msgs
+Invoked command in '/home/jaime/RM3_ws/build/controller_manager_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jaime/RM3_ws/build/controller_manager_msgs

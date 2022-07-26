@@ -1,0 +1,20 @@
+[1.484s] Invoking command in '/home/jaime/RM3_ws/src/nav_rm3': PYTHONPATH=/home/jaime/RM3_ws/install/nav_rm3/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nav_rm3 build --build-base /home/jaime/RM3_ws/build/nav_rm3/build install --prefix /home/jaime/RM3_ws/install/nav_rm3 --record /home/jaime/RM3_ws/build/nav_rm3/install.log --single-version-externally-managed
+[1.780s] running egg_info
+[1.781s] writing ../../build/nav_rm3/nav_rm3.egg-info/PKG-INFO
+[1.781s] writing dependency_links to ../../build/nav_rm3/nav_rm3.egg-info/dependency_links.txt
+[1.782s] writing entry points to ../../build/nav_rm3/nav_rm3.egg-info/entry_points.txt
+[1.782s] writing requirements to ../../build/nav_rm3/nav_rm3.egg-info/requires.txt
+[1.782s] writing top-level names to ../../build/nav_rm3/nav_rm3.egg-info/top_level.txt
+[1.840s] reading manifest file '../../build/nav_rm3/nav_rm3.egg-info/SOURCES.txt'
+[1.842s] writing manifest file '../../build/nav_rm3/nav_rm3.egg-info/SOURCES.txt'
+[1.843s] running build
+[1.843s] running build_py
+[1.844s] running install
+[1.844s] running install_lib
+[1.847s] running install_data
+[1.849s] running install_egg_info
+[1.853s] removing '/home/jaime/RM3_ws/install/nav_rm3/lib/python3.8/site-packages/nav_rm3-0.0.0-py3.8.egg-info' (and everything under it)
+[1.854s] Copying ../../build/nav_rm3/nav_rm3.egg-info to /home/jaime/RM3_ws/install/nav_rm3/lib/python3.8/site-packages/nav_rm3-0.0.0-py3.8.egg-info
+[1.856s] running install_scripts
+[1.881s] writing list of installed files to '/home/jaime/RM3_ws/build/nav_rm3/install.log'
+[1.942s] Invoked command in '/home/jaime/RM3_ws/src/nav_rm3' returned '0': PYTHONPATH=/home/jaime/RM3_ws/install/nav_rm3/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nav_rm3 build --build-base /home/jaime/RM3_ws/build/nav_rm3/build install --prefix /home/jaime/RM3_ws/install/nav_rm3 --record /home/jaime/RM3_ws/build/nav_rm3/install.log --single-version-externally-managed

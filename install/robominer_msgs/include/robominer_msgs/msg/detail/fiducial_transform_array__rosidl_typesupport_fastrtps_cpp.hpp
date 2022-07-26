@@ -1,0 +1,1 @@
+/home/jaime/RM3_ws/build/robominer_msgs/rosidl_typesupport_fastrtps_cpp/robominer_msgs/msg/detail/fiducial_transform_array__rosidl_typesupport_fastrtps_cpp.hpp

@@ -1,0 +1,10 @@
+In file included from [01m[K/usr/include/pcl-1.10/pcl/octree/octree_base.h:45[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/octree/octree_pointcloud.h:41[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/octree/octree_search.h:43[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/search/octree.h:42[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/search/pcl_search.h:44[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/filters/radius_outlier_removal.h:43[m[K,
+                 from [01m[K/home/jaime/RM3_ws/src/rtabmap_ros/src/nodelets/point_cloud_assembler.cpp:35[m[K:
+[01m[K/usr/include/pcl-1.10/pcl/octree/octree_key.h:155:9:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+  155 |         [01;35m[K}[m[K;
+      |         [01;35m[K^[m[K

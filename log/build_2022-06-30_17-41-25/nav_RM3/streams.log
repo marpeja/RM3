@@ -1,0 +1,17 @@
+[1.764s] Invoking command in '/home/jaime/RM3_ws/build/nav_RM3': PYTHONPATH=/home/jaime/RM3_ws/install/nav_RM3/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/jaime/RM3_ws/install/nav_RM3 --editable --build-directory /home/jaime/RM3_ws/build/nav_RM3/build --no-deps install_data --install-dir /home/jaime/RM3_ws/install/nav_RM3
+[2.464s] running develop
+[2.464s] running egg_info
+[2.464s] writing nav_RM3.egg-info/PKG-INFO
+[2.464s] writing dependency_links to nav_RM3.egg-info/dependency_links.txt
+[2.465s] writing entry points to nav_RM3.egg-info/entry_points.txt
+[2.465s] writing requirements to nav_RM3.egg-info/requires.txt
+[2.465s] writing top-level names to nav_RM3.egg-info/top_level.txt
+[2.465s] reading manifest file 'nav_RM3.egg-info/SOURCES.txt'
+[2.465s] writing manifest file 'nav_RM3.egg-info/SOURCES.txt'
+[2.487s] running build_ext
+[2.488s] Creating /home/jaime/RM3_ws/install/nav_RM3/lib/python3.8/site-packages/site.py
+[2.490s] Creating /home/jaime/RM3_ws/install/nav_RM3/lib/python3.8/site-packages/nav-RM3.egg-link (link to .)
+[2.491s] 
+[2.491s] Installed /home/jaime/RM3_ws/build/nav_RM3
+[2.491s] running install_data
+[2.574s] Invoked command in '/home/jaime/RM3_ws/build/nav_RM3' returned '0': PYTHONPATH=/home/jaime/RM3_ws/install/nav_RM3/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/jaime/RM3_ws/install/nav_RM3 --editable --build-directory /home/jaime/RM3_ws/build/nav_RM3/build --no-deps install_data --install-dir /home/jaime/RM3_ws/install/nav_RM3

@@ -1,0 +1,39 @@
+[1.323s] Invoking command in '/home/jaime/RM3_ws/src/nav_RM3': PYTHONPATH=/home/jaime/RM3_ws/install/nav_RM3/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nav_RM3 build --build-base /home/jaime/RM3_ws/build/nav_RM3/build install --prefix /home/jaime/RM3_ws/install/nav_RM3 --record /home/jaime/RM3_ws/build/nav_RM3/install.log --single-version-externally-managed
+[1.577s] running egg_info
+[1.579s] creating ../../build/nav_RM3/nav_RM3.egg-info
+[1.580s] writing ../../build/nav_RM3/nav_RM3.egg-info/PKG-INFO
+[1.580s] writing dependency_links to ../../build/nav_RM3/nav_RM3.egg-info/dependency_links.txt
+[1.580s] writing entry points to ../../build/nav_RM3/nav_RM3.egg-info/entry_points.txt
+[1.580s] writing requirements to ../../build/nav_RM3/nav_RM3.egg-info/requires.txt
+[1.580s] writing top-level names to ../../build/nav_RM3/nav_RM3.egg-info/top_level.txt
+[1.581s] writing manifest file '../../build/nav_RM3/nav_RM3.egg-info/SOURCES.txt'
+[1.628s] reading manifest file '../../build/nav_RM3/nav_RM3.egg-info/SOURCES.txt'
+[1.629s] writing manifest file '../../build/nav_RM3/nav_RM3.egg-info/SOURCES.txt'
+[1.630s] running build
+[1.630s] running build_py
+[1.630s] creating /home/jaime/RM3_ws/build/nav_RM3/build
+[1.630s] creating /home/jaime/RM3_ws/build/nav_RM3/build/lib
+[1.630s] creating /home/jaime/RM3_ws/build/nav_RM3/build/lib/nav_RM3
+[1.630s] copying nav_RM3/__init__.py -> /home/jaime/RM3_ws/build/nav_RM3/build/lib/nav_RM3
+[1.630s] running install
+[1.631s] running install_lib
+[1.632s] creating /home/jaime/RM3_ws/install/nav_RM3/lib/python3.8/site-packages/nav_RM3
+[1.632s] copying /home/jaime/RM3_ws/build/nav_RM3/build/lib/nav_RM3/__init__.py -> /home/jaime/RM3_ws/install/nav_RM3/lib/python3.8/site-packages/nav_RM3
+[1.633s] byte-compiling /home/jaime/RM3_ws/install/nav_RM3/lib/python3.8/site-packages/nav_RM3/__init__.py to __init__.cpython-38.pyc
+[1.634s] running install_data
+[1.635s] creating /home/jaime/RM3_ws/install/nav_RM3/share/ament_index
+[1.635s] creating /home/jaime/RM3_ws/install/nav_RM3/share/ament_index/resource_index
+[1.635s] creating /home/jaime/RM3_ws/install/nav_RM3/share/ament_index/resource_index/packages
+[1.635s] copying resource/nav_RM3 -> /home/jaime/RM3_ws/install/nav_RM3/share/ament_index/resource_index/packages
+[1.635s] copying package.xml -> /home/jaime/RM3_ws/install/nav_RM3/share/nav_RM3
+[1.635s] creating /home/jaime/RM3_ws/install/nav_RM3/share/nav_RM3/launch
+[1.636s] copying launch/navigation2.launch.py -> /home/jaime/RM3_ws/install/nav_RM3/share/nav_RM3/launch
+[1.636s] creating /home/jaime/RM3_ws/install/nav_RM3/share/nav_RM3/config
+[1.636s] copying config/nav2.yaml -> /home/jaime/RM3_ws/install/nav_RM3/share/nav_RM3/config
+[1.636s] creating /home/jaime/RM3_ws/install/nav_RM3/share/nav_RM3/rviz
+[1.636s] copying rviz/nav2_default_view.rviz -> /home/jaime/RM3_ws/install/nav_RM3/share/nav_RM3/rviz
+[1.636s] running install_egg_info
+[1.638s] Copying ../../build/nav_RM3/nav_RM3.egg-info to /home/jaime/RM3_ws/install/nav_RM3/lib/python3.8/site-packages/nav_RM3-0.0.0-py3.8.egg-info
+[1.639s] running install_scripts
+[1.661s] writing list of installed files to '/home/jaime/RM3_ws/build/nav_RM3/install.log'
+[1.701s] Invoked command in '/home/jaime/RM3_ws/src/nav_RM3' returned '0': PYTHONPATH=/home/jaime/RM3_ws/install/nav_RM3/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nav_RM3 build --build-base /home/jaime/RM3_ws/build/nav_RM3/build install --prefix /home/jaime/RM3_ws/install/nav_RM3 --record /home/jaime/RM3_ws/build/nav_RM3/install.log --single-version-externally-managed

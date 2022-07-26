@@ -1,0 +1,99 @@
+[0.024s] Invoking command in '/home/jaime/RM3_ws/build/imu_sensor_broadcaster': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jaime/RM3_ws/src/ros2_controllers/imu_sensor_broadcaster -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jaime/RM3_ws/install/imu_sensor_broadcaster
+[0.096s] -- The C compiler identification is GNU 9.4.0
+[0.167s] -- The CXX compiler identification is GNU 9.4.0
+[0.173s] -- Check for working C compiler: /usr/bin/cc
+[0.259s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.261s] -- Detecting C compiler ABI info
+[0.341s] -- Detecting C compiler ABI info - done
+[0.356s] -- Detecting C compile features
+[0.357s] -- Detecting C compile features - done
+[0.360s] -- Check for working CXX compiler: /usr/bin/c++
+[0.450s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.451s] -- Detecting CXX compiler ABI info
+[0.548s] -- Detecting CXX compiler ABI info - done
+[0.564s] -- Detecting CXX compile features
+[0.564s] -- Detecting CXX compile features - done
+[0.568s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.601s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.601s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.829s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.861s] -- Found controller_interface: 0.10.1 (/home/jaime/RM3_ws/install/controller_interface/share/controller_interface/cmake)
+[0.906s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.915s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.035s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.073s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.173s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.884s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.886s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.887s] -- Looking for pthread.h
+[1.975s] -- Looking for pthread.h - found
+[1.975s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.066s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.066s] -- Looking for pthread_create in pthreads
+[2.130s] -- Looking for pthread_create in pthreads - not found
+[2.131s] -- Looking for pthread_create in pthread
+[2.208s] -- Looking for pthread_create in pthread - found
+[2.209s] -- Found Threads: TRUE  
+[2.547s] -- Found realtime_tools: 2.2.0 (/opt/ros/foxy/share/realtime_tools/cmake)
+[2.665s] -- Found ament_cmake_gmock: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[2.666s] -- Found controller_manager: 0.10.1 (/home/jaime/RM3_ws/install/controller_manager/share/controller_manager/cmake)
+[2.749s] -- Found ros2_control_test_assets: 0.10.1 (/home/jaime/RM3_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[2.754s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.759s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[2.759s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.120s] -- Configuring done
+[3.230s] -- Generating done
+[3.233s] -- Build files have been written to: /home/jaime/RM3_ws/build/imu_sensor_broadcaster
+[3.247s] Invoked command in '/home/jaime/RM3_ws/build/imu_sensor_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jaime/RM3_ws/src/ros2_controllers/imu_sensor_broadcaster -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jaime/RM3_ws/install/imu_sensor_broadcaster
+[3.251s] Invoking command in '/home/jaime/RM3_ws/build/imu_sensor_broadcaster': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jaime/RM3_ws/build/imu_sensor_broadcaster -- -j8 -l8
+[3.297s] [35m[1mScanning dependencies of target gmock[0m
+[3.297s] [35m[1mScanning dependencies of target gmock_main[0m
+[3.298s] [35m[1mScanning dependencies of target imu_sensor_broadcaster[0m
+[3.318s] [  9%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[3.321s] [ 27%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[3.322s] [ 27%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[3.358s] [ 36%] [32mBuilding CXX object CMakeFiles/imu_sensor_broadcaster.dir/src/imu_sensor_broadcaster.cpp.o[0m
+[4.332s] [ 45%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[4.370s] [ 45%] Built target gmock_main
+[7.137s] [ 54%] [32m[1mLinking CXX static library libgmock.a[0m
+[7.211s] [ 54%] Built target gmock
+[7.223s] [35m[1mScanning dependencies of target test_load_imu_sensor_broadcaster[0m
+[7.286s] [ 63%] [32mBuilding CXX object CMakeFiles/test_load_imu_sensor_broadcaster.dir/test/test_load_imu_sensor_broadcaster.cpp.o[0m
+[7.624s] [ 72%] [32m[1mLinking CXX shared library libimu_sensor_broadcaster.so[0m
+[8.092s] [ 72%] Built target imu_sensor_broadcaster
+[8.106s] [35m[1mScanning dependencies of target test_imu_sensor_broadcaster[0m
+[8.164s] [ 81%] [32mBuilding CXX object CMakeFiles/test_imu_sensor_broadcaster.dir/test/test_imu_sensor_broadcaster.cpp.o[0m
+[11.279s] [ 90%] [32m[1mLinking CXX executable test_load_imu_sensor_broadcaster[0m
+[12.973s] [ 90%] Built target test_load_imu_sensor_broadcaster
+[16.186s] [100%] [32m[1mLinking CXX executable test_imu_sensor_broadcaster[0m
+[17.644s] [100%] Built target test_imu_sensor_broadcaster
+[17.657s] Invoked command in '/home/jaime/RM3_ws/build/imu_sensor_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jaime/RM3_ws/build/imu_sensor_broadcaster -- -j8 -l8
+[17.695s] Invoking command in '/home/jaime/RM3_ws/build/imu_sensor_broadcaster': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jaime/RM3_ws/build/imu_sensor_broadcaster
+[17.703s] -- Install configuration: ""
+[17.703s] -- Execute custom install script
+[17.704s] -- Symlinking: /home/jaime/RM3_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster//imu_sensor_broadcaster.xml
+[17.714s] -- Symlinking: /home/jaime/RM3_ws/install/imu_sensor_broadcaster/lib/libimu_sensor_broadcaster.so
+[17.724s] -- Symlinking: /home/jaime/RM3_ws/install/imu_sensor_broadcaster/include/imu_sensor_broadcaster/imu_sensor_broadcaster.hpp
+[17.734s] -- Symlinking: /home/jaime/RM3_ws/install/imu_sensor_broadcaster/include/imu_sensor_broadcaster/visibility_control.h
+[17.744s] -- Symlinking: /home/jaime/RM3_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/library_path.sh
+[17.754s] -- Symlinking: /home/jaime/RM3_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/library_path.dsv
+[17.765s] -- Symlinking: /home/jaime/RM3_ws/install/imu_sensor_broadcaster/share/ament_index/resource_index/package_run_dependencies/imu_sensor_broadcaster
+[17.775s] -- Symlinking: /home/jaime/RM3_ws/install/imu_sensor_broadcaster/share/ament_index/resource_index/parent_prefix_path/imu_sensor_broadcaster
+[17.784s] -- Symlinking: /home/jaime/RM3_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/ament_prefix_path.sh
+[17.794s] -- Symlinking: /home/jaime/RM3_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/ament_prefix_path.dsv
+[17.804s] -- Symlinking: /home/jaime/RM3_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/path.sh
+[17.814s] -- Symlinking: /home/jaime/RM3_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/path.dsv
+[17.824s] -- Symlinking: /home/jaime/RM3_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/local_setup.bash
+[17.833s] -- Symlinking: /home/jaime/RM3_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/local_setup.sh
+[17.843s] -- Symlinking: /home/jaime/RM3_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/local_setup.zsh
+[17.852s] -- Symlinking: /home/jaime/RM3_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/local_setup.dsv
+[17.863s] -- Symlinking: /home/jaime/RM3_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/package.dsv
+[17.872s] -- Symlinking: /home/jaime/RM3_ws/install/imu_sensor_broadcaster/share/ament_index/resource_index/packages/imu_sensor_broadcaster
+[17.883s] -- Symlinking: /home/jaime/RM3_ws/install/imu_sensor_broadcaster/share/ament_index/resource_index/controller_interface__pluginlib__plugin/imu_sensor_broadcaster
+[17.893s] -- Symlinking: /home/jaime/RM3_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.903s] -- Symlinking: /home/jaime/RM3_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/ament_cmake_export_libraries-extras.cmake
+[17.913s] -- Symlinking: /home/jaime/RM3_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.924s] -- Symlinking: /home/jaime/RM3_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/imu_sensor_broadcasterConfig.cmake
+[17.934s] -- Symlinking: /home/jaime/RM3_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/imu_sensor_broadcasterConfig-version.cmake
+[17.945s] -- Symlinking: /home/jaime/RM3_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/package.xml
+[17.958s] Invoked command in '/home/jaime/RM3_ws/build/imu_sensor_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jaime/RM3_ws/build/imu_sensor_broadcaster

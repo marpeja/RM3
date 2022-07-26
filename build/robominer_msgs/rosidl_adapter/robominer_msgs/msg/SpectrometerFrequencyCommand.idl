@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robominer_msgs/msg/SpectrometerFrequencyCommand.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module robominer_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " Message for sending command for controlling output frequency of the spectrometer")
+    struct SpectrometerFrequencyCommand {
+      std_msgs::msg::Header header;
+
+      float frequency;
+    };
+  };
+};

@@ -1,0 +1,6 @@
+Invoking command in '/home/jaime/RM3_ws/build/robominer_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jaime/RM3_ws/install/robominer_msgs
+Invoked command in '/home/jaime/RM3_ws/build/robominer_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jaime/RM3_ws/install/robominer_msgs
+Invoking command in '/home/jaime/RM3_ws/build/robominer_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jaime/RM3_ws/build/robominer_msgs
+Invoked command in '/home/jaime/RM3_ws/build/robominer_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jaime/RM3_ws/build/robominer_msgs
+Invoking command in '/home/jaime/RM3_ws/build/robominer_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jaime/RM3_ws/build/robominer_msgs
+Invoked command in '/home/jaime/RM3_ws/build/robominer_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jaime/RM3_ws/build/robominer_msgs

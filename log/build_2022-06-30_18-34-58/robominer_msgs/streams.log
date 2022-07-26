@@ -1,0 +1,16 @@
+[0.865s] Invoking command in '/home/jaime/RM3_ws/build/robominer_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jaime/RM3_ws/build/robominer_msgs -- -j8 -l8
+[0.920s] [  0%] Built target robominer_msgs__cpp
+[0.923s] [ 12%] Built target robominer_msgs__rosidl_generator_c
+[0.955s] [ 24%] Built target robominer_msgs__rosidl_typesupport_cpp
+[0.956s] [ 35%] Built target robominer_msgs__rosidl_typesupport_fastrtps_cpp
+[0.959s] [ 47%] Built target robominer_msgs__rosidl_typesupport_introspection_cpp
+[0.961s] [ 58%] Built target robominer_msgs__rosidl_typesupport_c
+[0.978s] [ 70%] Built target robominer_msgs__rosidl_typesupport_introspection_c
+[0.996s] [ 82%] Built target robominer_msgs__rosidl_typesupport_fastrtps_c
+[1.018s] [ 82%] Built target robominer_msgs
+[1.050s] [ 83%] Built target robominer_msgs__py
+[1.081s] [ 94%] Built target robominer_msgs__python
+[1.121s] [ 96%] Built target robominer_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.122s] [ 98%] Built target robominer_msgs__rosidl_typesupport_c__pyext
+[1.122s] [100%] Built target robominer_msgs__rosidl_typesupport_introspection_c__pyext
+[1.144s] Invoked command in '/home/jaime/RM3_ws/build/robominer_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jaime/RM3_ws/build/robominer_msgs -- -j8 -l8

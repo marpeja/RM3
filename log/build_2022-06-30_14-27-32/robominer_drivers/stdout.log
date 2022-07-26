@@ -1,0 +1,68 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+-- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+-- Found robominer_msgs: 0.0.0 (/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake)
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_drivers/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jaime/RM3_ws/build/robominer_drivers
+[ 16%] [32m[1mLinking CXX executable tlv493d_tca9548a_whiskers[0m
+[ 16%] [32m[1mLinking CXX executable bno080_imu[0m
+[100%] Built target tlv493d_tca9548a_whiskers
+[100%] Built target bno080_imu
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/lib/robominer_drivers/bno080_imu
+-- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/lib/robominer_drivers/tlv493d_tca9548a_whiskers
+-- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/environment/pythonpath.sh
+-- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/environment/pythonpath.dsv
+-- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/lib/python3.8/site-packages/robominer_drivers/__init__.py
+-- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/lib/robominer_drivers/motor_serial_interface.py
+-- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/lib/robominer_drivers/temperature_sensor.py
+-- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/lib/robominer_drivers/pi48_interface.py
+-- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/launch/four_motor_modules.launch.py
+-- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/launch/old_module_com_id.launch.py
+-- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/launch/pi48.launch.py
+-- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/launch/right_module_com_id.launch.py
+-- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/launch/single_motor.launch.py
+-- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/launch/single_motor_com_id.launch.py
+-- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/launch/two_unos_com_id.launch.py
+-- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/launch/whiskers_launch.py
+-- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/ament_index/resource_index/package_run_dependencies/robominer_drivers
+-- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/ament_index/resource_index/parent_prefix_path/robominer_drivers
+-- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/environment/ament_prefix_path.sh
+-- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/environment/ament_prefix_path.dsv
+-- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/environment/path.sh
+-- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/environment/path.dsv
+-- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/local_setup.bash
+-- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/local_setup.sh
+-- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/local_setup.zsh
+-- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/local_setup.dsv
+-- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/package.dsv
+-- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/ament_index/resource_index/packages/robominer_drivers
+-- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/cmake/robominer_driversConfig.cmake
+-- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/cmake/robominer_driversConfig-version.cmake
+-- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/package.xml
+Listing '/home/jaime/RM3_ws/install/robominer_drivers/lib/python3.8/site-packages/robominer_drivers'...

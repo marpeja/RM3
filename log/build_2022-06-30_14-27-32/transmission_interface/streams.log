@@ -1,0 +1,93 @@
+[0.025s] Invoking command in '/home/jaime/RM3_ws/build/transmission_interface': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/jaime/RM3_ws/src/ros2_control/transmission_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jaime/RM3_ws/install/transmission_interface
+[0.082s] -- The C compiler identification is GNU 9.4.0
+[0.142s] -- The CXX compiler identification is GNU 9.4.0
+[0.147s] -- Check for working C compiler: /usr/bin/cc
+[0.221s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.222s] -- Detecting C compiler ABI info
+[0.294s] -- Detecting C compiler ABI info - done
+[0.307s] -- Detecting C compile features
+[0.308s] -- Detecting C compile features - done
+[0.310s] -- Check for working CXX compiler: /usr/bin/c++
+[0.398s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.399s] -- Detecting CXX compiler ABI info
+[0.482s] -- Detecting CXX compiler ABI info - done
+[0.497s] -- Detecting CXX compile features
+[0.498s] -- Detecting CXX compile features - done
+[0.501s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.527s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.527s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.722s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.746s] -- Found hardware_interface: 0.10.1 (/home/jaime/RM3_ws/install/hardware_interface/share/hardware_interface/cmake)
+[0.781s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.789s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.877s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.912s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.997s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.582s] -- Found ament_cmake_gmock: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[1.583s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.667s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.671s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[1.673s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.722s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.723s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.724s] -- Configured cppcheck include dirs: /home/jaime/RM3_ws/src/ros2_control/transmission_interface/include;/home/jaime/RM3_ws/src/ros2_control/transmission_interface/hardware_interface
+[1.724s] -- Configured cppcheck exclude dirs and/or files: 
+[1.725s] -- Added test 'lint_cmake' to check CMake code style
+[1.726s] -- Added test 'xmllint' to check XML markup files
+[1.733s] -- Configuring done
+[1.781s] -- Generating done
+[1.784s] -- Build files have been written to: /home/jaime/RM3_ws/build/transmission_interface
+[1.795s] Invoked command in '/home/jaime/RM3_ws/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/jaime/RM3_ws/src/ros2_control/transmission_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jaime/RM3_ws/install/transmission_interface
+[1.799s] Invoking command in '/home/jaime/RM3_ws/build/transmission_interface': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/jaime/RM3_ws/build/transmission_interface -- -j8 -l8
+[1.839s] [35m[1mScanning dependencies of target gmock[0m
+[1.839s] [35m[1mScanning dependencies of target gmock_main[0m
+[1.858s] [  9%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[1.863s] [ 27%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[1.863s] [ 27%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[2.863s] [ 36%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[3.000s] [ 36%] Built target gmock_main
+[5.616s] [ 45%] [32m[1mLinking CXX static library libgmock.a[0m
+[5.679s] [ 45%] Built target gmock
+[5.688s] [35m[1mScanning dependencies of target test_four_bar_linkage_transmission[0m
+[5.688s] [35m[1mScanning dependencies of target test_simple_transmission[0m
+[5.688s] [35m[1mScanning dependencies of target test_differential_transmission[0m
+[5.710s] [ 72%] [32mBuilding CXX object CMakeFiles/test_differential_transmission.dir/test/differential_transmission_test.cpp.o[0m
+[5.710s] [ 72%] [32mBuilding CXX object CMakeFiles/test_simple_transmission.dir/test/simple_transmission_test.cpp.o[0m
+[5.710s] [ 72%] [32mBuilding CXX object CMakeFiles/test_four_bar_linkage_transmission.dir/test/four_bar_linkage_transmission_test.cpp.o[0m
+[7.746s] [ 81%] [32m[1mLinking CXX executable test_simple_transmission[0m
+[7.867s] [ 90%] [32m[1mLinking CXX executable test_differential_transmission[0m
+[7.879s] [100%] [32m[1mLinking CXX executable test_four_bar_linkage_transmission[0m
+[8.231s] [100%] Built target test_simple_transmission
+[8.329s] [100%] Built target test_four_bar_linkage_transmission
+[8.334s] [100%] Built target test_differential_transmission
+[8.345s] Invoked command in '/home/jaime/RM3_ws/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/jaime/RM3_ws/build/transmission_interface -- -j8 -l8
+[8.382s] Invoking command in '/home/jaime/RM3_ws/build/transmission_interface': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/jaime/RM3_ws/build/transmission_interface
+[8.390s] -- Install configuration: ""
+[8.391s] -- Execute custom install script
+[8.391s] -- Symlinking: /home/jaime/RM3_ws/install/transmission_interface/include/transmission_interface/accessor.hpp
+[8.400s] -- Symlinking: /home/jaime/RM3_ws/install/transmission_interface/include/transmission_interface/differential_transmission.hpp
+[8.409s] -- Symlinking: /home/jaime/RM3_ws/install/transmission_interface/include/transmission_interface/exception.hpp
+[8.418s] -- Symlinking: /home/jaime/RM3_ws/install/transmission_interface/include/transmission_interface/four_bar_linkage_transmission.hpp
+[8.428s] -- Symlinking: /home/jaime/RM3_ws/install/transmission_interface/include/transmission_interface/handle.hpp
+[8.437s] -- Symlinking: /home/jaime/RM3_ws/install/transmission_interface/include/transmission_interface/simple_transmission.hpp
+[8.447s] -- Symlinking: /home/jaime/RM3_ws/install/transmission_interface/include/transmission_interface/transmission.hpp
+[8.456s] -- Symlinking: /home/jaime/RM3_ws/install/transmission_interface/include/transmission_interface/transmission_parser.hpp
+[8.465s] -- Symlinking: /home/jaime/RM3_ws/install/transmission_interface/include/transmission_interface/visibility_control.h
+[8.474s] -- Symlinking: /home/jaime/RM3_ws/install/transmission_interface/share/ament_index/resource_index/package_run_dependencies/transmission_interface
+[8.484s] -- Symlinking: /home/jaime/RM3_ws/install/transmission_interface/share/ament_index/resource_index/parent_prefix_path/transmission_interface
+[8.493s] -- Symlinking: /home/jaime/RM3_ws/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.sh
+[8.503s] -- Symlinking: /home/jaime/RM3_ws/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.dsv
+[8.512s] -- Symlinking: /home/jaime/RM3_ws/install/transmission_interface/share/transmission_interface/environment/path.sh
+[8.522s] -- Symlinking: /home/jaime/RM3_ws/install/transmission_interface/share/transmission_interface/environment/path.dsv
+[8.531s] -- Symlinking: /home/jaime/RM3_ws/install/transmission_interface/share/transmission_interface/local_setup.bash
+[8.540s] -- Symlinking: /home/jaime/RM3_ws/install/transmission_interface/share/transmission_interface/local_setup.sh
+[8.549s] -- Symlinking: /home/jaime/RM3_ws/install/transmission_interface/share/transmission_interface/local_setup.zsh
+[8.559s] -- Symlinking: /home/jaime/RM3_ws/install/transmission_interface/share/transmission_interface/local_setup.dsv
+[8.568s] -- Symlinking: /home/jaime/RM3_ws/install/transmission_interface/share/transmission_interface/package.dsv
+[8.578s] -- Symlinking: /home/jaime/RM3_ws/install/transmission_interface/share/ament_index/resource_index/packages/transmission_interface
+[8.587s] -- Symlinking: /home/jaime/RM3_ws/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.596s] -- Symlinking: /home/jaime/RM3_ws/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.605s] -- Symlinking: /home/jaime/RM3_ws/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig.cmake
+[8.613s] -- Symlinking: /home/jaime/RM3_ws/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig-version.cmake
+[8.623s] -- Symlinking: /home/jaime/RM3_ws/install/transmission_interface/share/transmission_interface/package.xml
+[8.636s] Invoked command in '/home/jaime/RM3_ws/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/jaime/RM3_ws/build/transmission_interface

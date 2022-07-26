@@ -1,0 +1,23 @@
+[1.630s] Invoking command in '/home/jaime/RM3_ws/build/robominer_bringup': PYTHONPATH=/home/jaime/RM3_ws/install/robominer_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/jaime/RM3_ws/install/robominer_bringup --uninstall --editable --build-directory /home/jaime/RM3_ws/build/robominer_bringup/build
+[1.992s] running develop
+[2.257s] Invoked command in '/home/jaime/RM3_ws/build/robominer_bringup' returned '0': PYTHONPATH=/home/jaime/RM3_ws/install/robominer_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/jaime/RM3_ws/install/robominer_bringup --uninstall --editable --build-directory /home/jaime/RM3_ws/build/robominer_bringup/build
+[2.258s] Invoking command in '/home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_bringup': PYTHONPATH=/home/jaime/RM3_ws/install/robominer_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/robominer_bringup build --build-base /home/jaime/RM3_ws/build/robominer_bringup/build install --prefix /home/jaime/RM3_ws/install/robominer_bringup --record /home/jaime/RM3_ws/build/robominer_bringup/install.log --single-version-externally-managed
+[2.532s] running egg_info
+[2.535s] writing ../../../build/robominer_bringup/robominer_bringup.egg-info/PKG-INFO
+[2.535s] writing dependency_links to ../../../build/robominer_bringup/robominer_bringup.egg-info/dependency_links.txt
+[2.535s] writing entry points to ../../../build/robominer_bringup/robominer_bringup.egg-info/entry_points.txt
+[2.535s] writing requirements to ../../../build/robominer_bringup/robominer_bringup.egg-info/requires.txt
+[2.535s] writing top-level names to ../../../build/robominer_bringup/robominer_bringup.egg-info/top_level.txt
+[2.584s] reading manifest file '../../../build/robominer_bringup/robominer_bringup.egg-info/SOURCES.txt'
+[2.586s] writing manifest file '../../../build/robominer_bringup/robominer_bringup.egg-info/SOURCES.txt'
+[2.586s] running build
+[2.586s] running build_py
+[2.586s] running install
+[2.587s] running install_lib
+[2.589s] running install_data
+[2.590s] running install_egg_info
+[2.593s] removing '/home/jaime/RM3_ws/install/robominer_bringup/lib/python3.8/site-packages/robominer_bringup-0.0.0-py3.8.egg-info' (and everything under it)
+[2.594s] Copying ../../../build/robominer_bringup/robominer_bringup.egg-info to /home/jaime/RM3_ws/install/robominer_bringup/lib/python3.8/site-packages/robominer_bringup-0.0.0-py3.8.egg-info
+[2.594s] running install_scripts
+[2.618s] writing list of installed files to '/home/jaime/RM3_ws/build/robominer_bringup/install.log'
+[2.674s] Invoked command in '/home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_bringup' returned '0': PYTHONPATH=/home/jaime/RM3_ws/install/robominer_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/robominer_bringup build --build-base /home/jaime/RM3_ws/build/robominer_bringup/build install --prefix /home/jaime/RM3_ws/install/robominer_bringup --record /home/jaime/RM3_ws/build/robominer_bringup/install.log --single-version-externally-managed

@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robominer_msgs/msg/MotorModuleFeedback.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module robominer_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " single motor message")
+    struct MotorModuleFeedback {
+      std_msgs::msg::Header header;
+
+      string motor_id;
+
+      float motor_rpm;
+
+      float motor_current_ma;
+
+      float motor_voltage_v;
+    };
+  };
+};

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jaime/RM3_ws/build/robominer_msgs/rosidl_generator_py/robominer_msgs/robominer_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" "TARGETS" "robominer_msgs__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "lib/python3.8/site-packages/robominer_msgs")

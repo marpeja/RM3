@@ -1,0 +1,116 @@
+[0.031s] Invoking command in '/home/jaime/RM3_ws/build/controller_interface': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/jaime/RM3_ws/src/ros2_control/controller_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jaime/RM3_ws/install/controller_interface
+[0.081s] -- The C compiler identification is GNU 9.4.0
+[0.142s] -- The CXX compiler identification is GNU 9.4.0
+[0.148s] -- Check for working C compiler: /usr/bin/cc
+[0.218s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.220s] -- Detecting C compiler ABI info
+[0.291s] -- Detecting C compiler ABI info - done
+[0.305s] -- Detecting C compile features
+[0.305s] -- Detecting C compile features - done
+[0.308s] -- Check for working CXX compiler: /usr/bin/c++
+[0.390s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.391s] -- Detecting CXX compiler ABI info
+[0.472s] -- Detecting CXX compiler ABI info - done
+[0.487s] -- Detecting CXX compile features
+[0.487s] -- Detecting CXX compile features - done
+[0.489s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.517s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.517s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.712s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.736s] -- Found hardware_interface: 0.10.1 (/home/jaime/RM3_ws/install/hardware_interface/share/hardware_interface/cmake)
+[0.772s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.779s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.869s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.905s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.992s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.613s] -- Found rclcpp_lifecycle: 2.4.1 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[1.673s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.675s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.676s] -- Looking for pthread.h
+[1.750s] -- Looking for pthread.h - found
+[1.751s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.830s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.830s] -- Looking for pthread_create in pthreads
+[1.897s] -- Looking for pthread_create in pthreads - not found
+[1.898s] -- Looking for pthread_create in pthread
+[1.982s] -- Looking for pthread_create in pthread - found
+[1.983s] -- Found Threads: TRUE  
+[2.241s] -- Found ament_cmake_gmock: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[2.242s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.245s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.428s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.433s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[2.434s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.486s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.488s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.489s] -- Configured cppcheck include dirs: /home/jaime/RM3_ws/src/ros2_control/controller_interface/include
+[2.489s] -- Configured cppcheck exclude dirs and/or files: 
+[2.490s] -- Added test 'lint_cmake' to check CMake code style
+[2.492s] -- Added test 'xmllint' to check XML markup files
+[2.499s] -- Configuring done
+[2.588s] -- Generating done
+[2.592s] -- Build files have been written to: /home/jaime/RM3_ws/build/controller_interface
+[2.612s] Invoked command in '/home/jaime/RM3_ws/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/jaime/RM3_ws/src/ros2_control/controller_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jaime/RM3_ws/install/controller_interface
+[2.613s] Invoking command in '/home/jaime/RM3_ws/build/controller_interface': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/jaime/RM3_ws/build/controller_interface -- -j8 -l8
+[2.654s] [35m[1mScanning dependencies of target gmock_main[0m
+[2.654s] [35m[1mScanning dependencies of target controller_interface[0m
+[2.654s] [35m[1mScanning dependencies of target gmock[0m
+[2.674s] [  6%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[2.680s] [ 20%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[2.680s] [ 20%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[2.717s] [ 26%] [32mBuilding CXX object CMakeFiles/controller_interface.dir/src/controller_interface.cpp.o[0m
+[3.784s] [ 33%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[3.817s] [ 33%] Built target gmock_main
+[4.956s] [ 40%] [32m[1mLinking CXX shared library libcontroller_interface.so[0m
+[5.195s] [ 40%] Built target controller_interface
+[6.433s] [ 46%] [32m[1mLinking CXX static library libgmock.a[0m
+[6.500s] [ 46%] Built target gmock
+[6.510s] [35m[1mScanning dependencies of target test_controller_with_options[0m
+[6.510s] [35m[1mScanning dependencies of target test_force_torque_sensor[0m
+[6.511s] [35m[1mScanning dependencies of target test_semantic_component_interface[0m
+[6.511s] [35m[1mScanning dependencies of target test_imu_sensor[0m
+[6.539s] [ 53%] [32mBuilding CXX object CMakeFiles/test_force_torque_sensor.dir/test/test_force_torque_sensor.cpp.o[0m
+[6.539s] [ 60%] [32mBuilding CXX object CMakeFiles/test_imu_sensor.dir/test/test_imu_sensor.cpp.o[0m
+[6.544s] [ 66%] [32mBuilding CXX object CMakeFiles/test_semantic_component_interface.dir/test/test_semantic_component_interface.cpp.o[0m
+[6.588s] [ 73%] [32mBuilding CXX object CMakeFiles/test_controller_with_options.dir/test/test_controller_with_options.cpp.o[0m
+[8.156s] [ 80%] [32m[1mLinking CXX executable test_semantic_component_interface[0m
+[8.176s] [ 86%] [32m[1mLinking CXX executable test_imu_sensor[0m
+[8.242s] [ 93%] [32m[1mLinking CXX executable test_force_torque_sensor[0m
+[8.537s] [ 93%] Built target test_semantic_component_interface
+[8.562s] [ 93%] Built target test_imu_sensor
+[8.603s] [ 93%] Built target test_force_torque_sensor
+[9.406s] [100%] [32m[1mLinking CXX executable test_controller_with_options[0m
+[9.815s] [100%] Built target test_controller_with_options
+[9.826s] Invoked command in '/home/jaime/RM3_ws/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/jaime/RM3_ws/build/controller_interface -- -j8 -l8
+[9.864s] Invoking command in '/home/jaime/RM3_ws/build/controller_interface': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/jaime/RM3_ws/build/controller_interface
+[9.871s] -- Install configuration: ""
+[9.872s] -- Execute custom install script
+[9.872s] -- Symlinking: /home/jaime/RM3_ws/install/controller_interface/include/controller_interface/controller_interface.hpp
+[9.881s] -- Symlinking: /home/jaime/RM3_ws/install/controller_interface/include/controller_interface/controller_state_names.hpp
+[9.889s] -- Symlinking: /home/jaime/RM3_ws/install/controller_interface/include/controller_interface/helpers.hpp
+[9.897s] -- Symlinking: /home/jaime/RM3_ws/install/controller_interface/include/controller_interface/visibility_control.h
+[9.906s] -- Symlinking: /home/jaime/RM3_ws/install/controller_interface/include/semantic_components/force_torque_sensor.hpp
+[9.914s] -- Symlinking: /home/jaime/RM3_ws/install/controller_interface/include/semantic_components/imu_sensor.hpp
+[9.922s] -- Symlinking: /home/jaime/RM3_ws/install/controller_interface/include/semantic_components/semantic_component_interface.hpp
+[9.932s] -- Symlinking: /home/jaime/RM3_ws/install/controller_interface/lib/libcontroller_interface.so
+[9.940s] -- Symlinking: /home/jaime/RM3_ws/install/controller_interface/share/controller_interface/environment/library_path.sh
+[9.949s] -- Symlinking: /home/jaime/RM3_ws/install/controller_interface/share/controller_interface/environment/library_path.dsv
+[9.958s] -- Symlinking: /home/jaime/RM3_ws/install/controller_interface/share/ament_index/resource_index/package_run_dependencies/controller_interface
+[9.967s] -- Symlinking: /home/jaime/RM3_ws/install/controller_interface/share/ament_index/resource_index/parent_prefix_path/controller_interface
+[9.976s] -- Symlinking: /home/jaime/RM3_ws/install/controller_interface/share/controller_interface/environment/ament_prefix_path.sh
+[9.985s] -- Symlinking: /home/jaime/RM3_ws/install/controller_interface/share/controller_interface/environment/ament_prefix_path.dsv
+[9.993s] -- Symlinking: /home/jaime/RM3_ws/install/controller_interface/share/controller_interface/environment/path.sh
+[10.004s] -- Symlinking: /home/jaime/RM3_ws/install/controller_interface/share/controller_interface/environment/path.dsv
+[10.013s] -- Symlinking: /home/jaime/RM3_ws/install/controller_interface/share/controller_interface/local_setup.bash
+[10.021s] -- Symlinking: /home/jaime/RM3_ws/install/controller_interface/share/controller_interface/local_setup.sh
+[10.030s] -- Symlinking: /home/jaime/RM3_ws/install/controller_interface/share/controller_interface/local_setup.zsh
+[10.038s] -- Symlinking: /home/jaime/RM3_ws/install/controller_interface/share/controller_interface/local_setup.dsv
+[10.048s] -- Symlinking: /home/jaime/RM3_ws/install/controller_interface/share/controller_interface/package.dsv
+[10.056s] -- Symlinking: /home/jaime/RM3_ws/install/controller_interface/share/ament_index/resource_index/packages/controller_interface
+[10.065s] -- Symlinking: /home/jaime/RM3_ws/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.073s] -- Symlinking: /home/jaime/RM3_ws/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.081s] -- Symlinking: /home/jaime/RM3_ws/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[10.091s] -- Symlinking: /home/jaime/RM3_ws/install/controller_interface/share/controller_interface/cmake/controller_interfaceConfig.cmake
+[10.100s] -- Symlinking: /home/jaime/RM3_ws/install/controller_interface/share/controller_interface/cmake/controller_interfaceConfig-version.cmake
+[10.108s] -- Symlinking: /home/jaime/RM3_ws/install/controller_interface/share/controller_interface/package.xml
+[10.121s] Invoked command in '/home/jaime/RM3_ws/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/jaime/RM3_ws/build/controller_interface

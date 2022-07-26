@@ -1,0 +1,260 @@
+[0.062s] Invoking command in '/home/jaime/RM3_ws/build/robominer_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jaime/RM3_ws/install/robominer_msgs
+[0.097s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.162s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.163s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.461s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.471s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.474s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.478s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.663s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.694s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[0.738s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.782s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.897s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.216s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.825s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.060s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.101s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[2.102s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[2.147s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.148s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[2.148s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[2.238s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.240s] -- Added test 'lint_cmake' to check CMake code style
+[2.241s] -- Added test 'xmllint' to check XML markup files
+[2.250s] -- Configuring done
+[2.371s] -- Generating done
+[2.378s] -- Build files have been written to: /home/jaime/RM3_ws/build/robominer_msgs
+[2.397s] Invoked command in '/home/jaime/RM3_ws/build/robominer_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jaime/RM3_ws/install/robominer_msgs
+[2.399s] Invoking command in '/home/jaime/RM3_ws/build/robominer_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jaime/RM3_ws/build/robominer_msgs -- -j8 -l8
+[2.526s] [  0%] Built target robominer_msgs__cpp
+[2.599s] [ 12%] Built target robominer_msgs__rosidl_generator_c
+[2.632s] [ 24%] Built target robominer_msgs__rosidl_typesupport_cpp
+[2.632s] [ 25%] [32m[1mLinking CXX shared library librobominer_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.644s] [ 37%] Built target robominer_msgs__rosidl_typesupport_introspection_cpp
+[2.691s] [ 48%] Built target robominer_msgs__rosidl_typesupport_c
+[2.706s] [ 60%] Built target robominer_msgs__rosidl_typesupport_introspection_c
+[2.867s] [ 70%] Built target robominer_msgs__rosidl_typesupport_fastrtps_cpp
+[2.919s] [ 71%] [32m[1mLinking CXX shared library librobominer_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.305s] [ 82%] Built target robominer_msgs__rosidl_typesupport_fastrtps_c
+[3.400s] [ 82%] Built target robominer_msgs
+[3.481s] [ 83%] Built target robominer_msgs__py
+[3.547s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/robominer_msgs/librobominer_msgs__python.so[0m
+[3.635s] [ 94%] Built target robominer_msgs__python
+[3.731s] [ 95%] [32m[1mLinking CXX shared library rosidl_generator_py/robominer_msgs/robominer_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[3.763s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/robominer_msgs/robominer_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[3.799s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/robominer_msgs/robominer_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[3.904s] [ 98%] Built target robominer_msgs__rosidl_typesupport_c__pyext
+[3.919s] [ 99%] Built target robominer_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.977s] [100%] Built target robominer_msgs__rosidl_typesupport_introspection_c__pyext
+[4.006s] Invoked command in '/home/jaime/RM3_ws/build/robominer_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jaime/RM3_ws/build/robominer_msgs -- -j8 -l8
+[4.393s] Invoking command in '/home/jaime/RM3_ws/build/robominer_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jaime/RM3_ws/build/robominer_msgs
+[4.401s] -- Install configuration: ""
+[4.402s] -- Execute custom install script
+[4.402s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/ament_index/resource_index/rosidl_interfaces/robominer_msgs
+[4.412s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/fiducial_transform__functions.h
+[4.420s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/fiducial_transform__struct.h
+[4.428s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/fiducial_transform__type_support.h
+[4.436s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/fiducial_transform_array__functions.h
+[4.445s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/fiducial_transform_array__struct.h
+[4.455s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/fiducial_transform_array__type_support.h
+[4.463s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/motor_module_command__functions.h
+[4.471s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/motor_module_command__struct.h
+[4.480s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/motor_module_command__type_support.h
+[4.489s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/motor_module_feedback__functions.h
+[4.499s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/motor_module_feedback__struct.h
+[4.509s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/motor_module_feedback__type_support.h
+[4.517s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/spectrometer_calibration__functions.h
+[4.526s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/spectrometer_calibration__struct.h
+[4.534s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/spectrometer_calibration__type_support.h
+[4.543s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/spectrometer_frequency_command__functions.h
+[4.552s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/spectrometer_frequency_command__struct.h
+[4.561s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/spectrometer_frequency_command__type_support.h
+[4.570s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/spectrometer_measurement__functions.h
+[4.581s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/spectrometer_measurement__struct.h
+[4.589s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/spectrometer_measurement__type_support.h
+[4.599s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/whisker__functions.h
+[4.607s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/whisker__struct.h
+[4.617s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/whisker__type_support.h
+[4.624s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/whisker_array__functions.h
+[4.633s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/whisker_array__struct.h
+[4.644s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/whisker_array__type_support.h
+[4.654s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/whisker_pos_in_grid__functions.h
+[4.665s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/whisker_pos_in_grid__struct.h
+[4.679s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/whisker_pos_in_grid__type_support.h
+[4.707s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/fiducial_transform.h
+[4.742s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/fiducial_transform_array.h
+[4.776s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/motor_module_command.h
+[4.819s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/motor_module_feedback.h
+[4.852s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.884s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/spectrometer_calibration.h
+[4.918s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/spectrometer_frequency_command.h
+[4.951s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/spectrometer_measurement.h
+[4.987s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/whisker.h
+[5.008s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/whisker_array.h
+[5.041s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/whisker_pos_in_grid.h
+[5.060s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/environment/library_path.sh
+[5.088s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/environment/library_path.dsv
+[5.116s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/fiducial_transform__rosidl_typesupport_fastrtps_c.h
+[5.135s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/fiducial_transform_array__rosidl_typesupport_fastrtps_c.h
+[5.157s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/motor_module_command__rosidl_typesupport_fastrtps_c.h
+[5.196s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/motor_module_feedback__rosidl_typesupport_fastrtps_c.h
+[5.227s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/spectrometer_calibration__rosidl_typesupport_fastrtps_c.h
+[5.262s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/spectrometer_frequency_command__rosidl_typesupport_fastrtps_c.h
+[5.300s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/spectrometer_measurement__rosidl_typesupport_fastrtps_c.h
+[5.339s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/whisker__rosidl_typesupport_fastrtps_c.h
+[5.361s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/whisker_array__rosidl_typesupport_fastrtps_c.h
+[5.371s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/whisker_pos_in_grid__rosidl_typesupport_fastrtps_c.h
+[5.381s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.391s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/lib/librobominer_msgs__rosidl_typesupport_fastrtps_c.so
+[5.402s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/fiducial_transform__rosidl_typesupport_fastrtps_cpp.hpp
+[5.412s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/fiducial_transform_array__rosidl_typesupport_fastrtps_cpp.hpp
+[5.422s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/motor_module_command__rosidl_typesupport_fastrtps_cpp.hpp
+[5.432s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/motor_module_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[5.443s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/spectrometer_calibration__rosidl_typesupport_fastrtps_cpp.hpp
+[5.453s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/spectrometer_frequency_command__rosidl_typesupport_fastrtps_cpp.hpp
+[5.463s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/spectrometer_measurement__rosidl_typesupport_fastrtps_cpp.hpp
+[5.473s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/whisker__rosidl_typesupport_fastrtps_cpp.hpp
+[5.484s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/whisker_array__rosidl_typesupport_fastrtps_cpp.hpp
+[5.495s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/whisker_pos_in_grid__rosidl_typesupport_fastrtps_cpp.hpp
+[5.505s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.521s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/lib/librobominer_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.532s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/fiducial_transform__rosidl_typesupport_introspection_c.h
+[5.542s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/fiducial_transform_array__rosidl_typesupport_introspection_c.h
+[5.552s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/motor_module_command__rosidl_typesupport_introspection_c.h
+[5.563s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/motor_module_feedback__rosidl_typesupport_introspection_c.h
+[5.573s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/spectrometer_calibration__rosidl_typesupport_introspection_c.h
+[5.584s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/spectrometer_frequency_command__rosidl_typesupport_introspection_c.h
+[5.594s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/spectrometer_measurement__rosidl_typesupport_introspection_c.h
+[5.605s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/whisker__rosidl_typesupport_introspection_c.h
+[5.615s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/whisker_array__rosidl_typesupport_introspection_c.h
+[5.625s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/whisker_pos_in_grid__rosidl_typesupport_introspection_c.h
+[5.635s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.648s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/fiducial_transform__builder.hpp
+[5.660s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/fiducial_transform__struct.hpp
+[5.673s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/fiducial_transform__traits.hpp
+[5.686s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/fiducial_transform_array__builder.hpp
+[5.699s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/fiducial_transform_array__struct.hpp
+[5.711s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/fiducial_transform_array__traits.hpp
+[5.723s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/motor_module_command__builder.hpp
+[5.736s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/motor_module_command__struct.hpp
+[5.749s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/motor_module_command__traits.hpp
+[5.760s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/motor_module_feedback__builder.hpp
+[5.772s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/motor_module_feedback__struct.hpp
+[5.783s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/motor_module_feedback__traits.hpp
+[5.809s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/spectrometer_calibration__builder.hpp
+[5.829s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/spectrometer_calibration__struct.hpp
+[5.848s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/spectrometer_calibration__traits.hpp
+[5.862s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/spectrometer_frequency_command__builder.hpp
+[5.876s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/spectrometer_frequency_command__struct.hpp
+[5.906s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/spectrometer_frequency_command__traits.hpp
+[5.918s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/spectrometer_measurement__builder.hpp
+[5.930s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/spectrometer_measurement__struct.hpp
+[5.940s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/spectrometer_measurement__traits.hpp
+[5.951s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/whisker__builder.hpp
+[5.963s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/whisker__struct.hpp
+[5.973s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/whisker__traits.hpp
+[5.985s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/whisker_array__builder.hpp
+[5.996s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/whisker_array__struct.hpp
+[6.007s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/whisker_array__traits.hpp
+[6.017s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/whisker_pos_in_grid__builder.hpp
+[6.029s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/whisker_pos_in_grid__struct.hpp
+[6.044s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/whisker_pos_in_grid__traits.hpp
+[6.055s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/fiducial_transform.hpp
+[6.067s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/fiducial_transform_array.hpp
+[6.079s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/motor_module_command.hpp
+[6.092s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/motor_module_feedback.hpp
+[6.104s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/spectrometer_calibration.hpp
+[6.117s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/spectrometer_frequency_command.hpp
+[6.130s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/spectrometer_measurement.hpp
+[6.143s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/whisker.hpp
+[6.155s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/whisker_array.hpp
+[6.168s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/whisker_pos_in_grid.hpp
+[6.181s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/fiducial_transform__rosidl_typesupport_introspection_cpp.hpp
+[6.194s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/fiducial_transform_array__rosidl_typesupport_introspection_cpp.hpp
+[6.208s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/motor_module_command__rosidl_typesupport_introspection_cpp.hpp
+[6.220s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/motor_module_feedback__rosidl_typesupport_introspection_cpp.hpp
+[6.233s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/spectrometer_calibration__rosidl_typesupport_introspection_cpp.hpp
+[6.245s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/spectrometer_frequency_command__rosidl_typesupport_introspection_cpp.hpp
+[6.258s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/spectrometer_measurement__rosidl_typesupport_introspection_cpp.hpp
+[6.275s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/whisker__rosidl_typesupport_introspection_cpp.hpp
+[6.296s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/whisker_array__rosidl_typesupport_introspection_cpp.hpp
+[6.311s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/include/robominer_msgs/msg/detail/whisker_pos_in_grid__rosidl_typesupport_introspection_cpp.hpp
+[6.341s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/environment/pythonpath.sh
+[6.369s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/environment/pythonpath.dsv
+[6.378s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/lib/python3.8/site-packages/robominer_msgs/__init__.py
+[6.387s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/lib/python3.8/site-packages/robominer_msgs/msg/__init__.py
+[6.397s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/lib/python3.8/site-packages/robominer_msgs/msg/_fiducial_transform.py
+[6.406s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/lib/python3.8/site-packages/robominer_msgs/msg/_fiducial_transform_array.py
+[6.415s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/lib/python3.8/site-packages/robominer_msgs/msg/_motor_module_command.py
+[6.439s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/lib/python3.8/site-packages/robominer_msgs/msg/_motor_module_feedback.py
+[6.462s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/lib/python3.8/site-packages/robominer_msgs/msg/_spectrometer_calibration.py
+[6.488s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/lib/python3.8/site-packages/robominer_msgs/msg/_spectrometer_frequency_command.py
+[6.505s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/lib/python3.8/site-packages/robominer_msgs/msg/_spectrometer_measurement.py
+[6.535s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/lib/python3.8/site-packages/robominer_msgs/msg/_whisker.py
+[6.564s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/lib/python3.8/site-packages/robominer_msgs/msg/_whisker_array.py
+[6.604s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/lib/python3.8/site-packages/robominer_msgs/msg/_whisker_pos_in_grid.py
+[6.630s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/lib/python3.8/site-packages/robominer_msgs/robominer_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[6.641s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/lib/python3.8/site-packages/robominer_msgs/robominer_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[6.651s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/lib/python3.8/site-packages/robominer_msgs/robominer_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[6.663s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/lib/librobominer_msgs__python.so
+[6.675s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/msg/MotorModuleFeedback.idl
+[6.689s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/msg/MotorModuleCommand.idl
+[6.700s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/msg/WhiskerPosInGrid.idl
+[6.714s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/msg/Whisker.idl
+[6.761s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/msg/WhiskerArray.idl
+[6.795s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/msg/SpectrometerMeasurement.idl
+[6.833s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/msg/SpectrometerCalibration.idl
+[6.857s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/msg/SpectrometerFrequencyCommand.idl
+[6.875s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/msg/FiducialTransform.idl
+[6.898s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/msg/FiducialTransformArray.idl
+[6.916s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/msg/MotorModuleFeedback.msg
+[6.928s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/msg/MotorModuleCommand.msg
+[6.948s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/msg/WhiskerPosInGrid.msg
+[6.959s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/msg/Whisker.msg
+[6.973s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/msg/WhiskerArray.msg
+[6.993s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/msg/SpectrometerMeasurement.msg
+[7.003s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/msg/SpectrometerCalibration.msg
+[7.014s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/msg/SpectrometerFrequencyCommand.msg
+[7.025s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/msg/FiducialTransform.msg
+[7.044s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/msg/FiducialTransformArray.msg
+[7.085s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/ament_index/resource_index/package_run_dependencies/robominer_msgs
+[7.124s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/ament_index/resource_index/parent_prefix_path/robominer_msgs
+[7.147s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/environment/ament_prefix_path.sh
+[7.174s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/environment/ament_prefix_path.dsv
+[7.204s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/environment/path.sh
+[7.231s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/environment/path.dsv
+[7.271s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/local_setup.bash
+[7.320s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/local_setup.sh
+[7.371s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/local_setup.zsh
+[7.392s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/local_setup.dsv
+[7.444s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/package.dsv
+[7.466s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/ament_index/resource_index/packages/robominer_msgs
+[7.489s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake/rosidl_cmake-extras.cmake
+[7.511s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.548s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[7.584s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[7.620s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.659s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.707s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.745s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake/robominer_msgsConfig.cmake
+[7.810s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake/robominer_msgsConfig-version.cmake
+[7.843s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/package.xml
+[7.877s] -- Up-to-date: /home/jaime/RM3_ws/install/robominer_msgs/lib/librobominer_msgs__rosidl_generator_c.so
+[7.877s] -- Up-to-date: /home/jaime/RM3_ws/install/robominer_msgs/lib/librobominer_msgs__rosidl_typesupport_introspection_c.so
+[7.877s] -- Up-to-date: /home/jaime/RM3_ws/install/robominer_msgs/lib/librobominer_msgs__rosidl_typesupport_c.so
+[7.877s] -- Up-to-date: /home/jaime/RM3_ws/install/robominer_msgs/lib/librobominer_msgs__rosidl_typesupport_introspection_cpp.so
+[7.878s] -- Up-to-date: /home/jaime/RM3_ws/install/robominer_msgs/lib/librobominer_msgs__rosidl_typesupport_cpp.so
+[7.984s] Compiling '/home/jaime/RM3_ws/install/robominer_msgs/lib/python3.8/site-packages/robominer_msgs/__init__.py'...
+[8.019s] -- Up-to-date: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake/robominer_msgs__rosidl_generator_cExport.cmake
+[8.019s] -- Installing: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake/robominer_msgs__rosidl_generator_cExport-noconfig.cmake
+[8.020s] -- Up-to-date: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake/robominer_msgs__rosidl_typesupport_introspection_cExport.cmake
+[8.020s] -- Installing: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake/robominer_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.020s] -- Up-to-date: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake/robominer_msgs__rosidl_typesupport_cExport.cmake
+[8.020s] -- Installing: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake/robominer_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[8.020s] -- Up-to-date: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake/robominer_msgs__rosidl_generator_cppExport.cmake
+[8.020s] -- Up-to-date: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake/robominer_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[8.021s] -- Installing: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake/robominer_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.021s] -- Up-to-date: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake/robominer_msgs__rosidl_typesupport_cppExport.cmake
+[8.021s] -- Installing: /home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake/robominer_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[8.029s] Invoked command in '/home/jaime/RM3_ws/build/robominer_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jaime/RM3_ws/build/robominer_msgs

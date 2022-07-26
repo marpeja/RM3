@@ -1,0 +1,1 @@
+/home/jaime/RM3_ws/build/robominer_msgs/rosidl_typesupport_fastrtps_c/robominer_msgs/msg/detail/spectrometer_calibration__rosidl_typesupport_fastrtps_c.h

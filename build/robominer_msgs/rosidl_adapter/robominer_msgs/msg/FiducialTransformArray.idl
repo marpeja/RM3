@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robominer_msgs/msg/FiducialTransformArray.msg
+// generated code does not contain a copyright notice
+
+#include "robominer_msgs/msg/FiducialTransform.idl"
+#include "std_msgs/msg/Header.idl"
+
+module robominer_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " A set of camera to fiducial transform with supporting data corresponding" "\n"
+      " to an image")
+    struct FiducialTransformArray {
+      std_msgs::msg::Header header;
+
+      int32 image_seq;
+
+      sequence<robominer_msgs::msg::FiducialTransform> transforms;
+    };
+  };
+};

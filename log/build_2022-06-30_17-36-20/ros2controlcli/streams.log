@@ -1,0 +1,84 @@
+[0.862s] Invoking command in '/home/jaime/RM3_ws/build/ros2controlcli': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/jaime/RM3_ws/install/ros2controlcli --uninstall --editable --build-directory /home/jaime/RM3_ws/build/ros2controlcli/build
+[1.947s] running develop
+[1.948s] Removing /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli.egg-link (link to .)
+[1.957s] Invoked command in '/home/jaime/RM3_ws/build/ros2controlcli' returned '0': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/jaime/RM3_ws/install/ros2controlcli --uninstall --editable --build-directory /home/jaime/RM3_ws/build/ros2controlcli/build
+[1.958s] Invoking command in '/home/jaime/RM3_ws/src/ros2_control/ros2controlcli': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros2controlcli build --build-base /home/jaime/RM3_ws/build/ros2controlcli/build install --prefix /home/jaime/RM3_ws/install/ros2controlcli --record /home/jaime/RM3_ws/build/ros2controlcli/install.log --single-version-externally-managed
+[2.219s] running egg_info
+[2.220s] writing ../../../build/ros2controlcli/ros2controlcli.egg-info/PKG-INFO
+[2.221s] writing dependency_links to ../../../build/ros2controlcli/ros2controlcli.egg-info/dependency_links.txt
+[2.221s] writing entry points to ../../../build/ros2controlcli/ros2controlcli.egg-info/entry_points.txt
+[2.221s] writing requirements to ../../../build/ros2controlcli/ros2controlcli.egg-info/requires.txt
+[2.221s] writing top-level names to ../../../build/ros2controlcli/ros2controlcli.egg-info/top_level.txt
+[2.276s] reading manifest file '../../../build/ros2controlcli/ros2controlcli.egg-info/SOURCES.txt'
+[2.277s] writing manifest file '../../../build/ros2controlcli/ros2controlcli.egg-info/SOURCES.txt'
+[2.277s] running build
+[2.277s] running build_py
+[2.278s] creating /home/jaime/RM3_ws/build/ros2controlcli/build
+[2.278s] creating /home/jaime/RM3_ws/build/ros2controlcli/build/lib
+[2.278s] creating /home/jaime/RM3_ws/build/ros2controlcli/build/lib/ros2controlcli
+[2.278s] copying ros2controlcli/__init__.py -> /home/jaime/RM3_ws/build/ros2controlcli/build/lib/ros2controlcli
+[2.278s] creating /home/jaime/RM3_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[2.278s] copying ros2controlcli/verb/load_configure_controller.py -> /home/jaime/RM3_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[2.278s] copying ros2controlcli/verb/unload_controller.py -> /home/jaime/RM3_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[2.278s] copying ros2controlcli/verb/__init__.py -> /home/jaime/RM3_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[2.279s] copying ros2controlcli/verb/reload_controller_libraries.py -> /home/jaime/RM3_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[2.279s] copying ros2controlcli/verb/configure_controller.py -> /home/jaime/RM3_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[2.279s] copying ros2controlcli/verb/load_controller.py -> /home/jaime/RM3_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[2.279s] copying ros2controlcli/verb/set_controller_state.py -> /home/jaime/RM3_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[2.279s] copying ros2controlcli/verb/configure_start_controller.py -> /home/jaime/RM3_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[2.280s] copying ros2controlcli/verb/list_controllers.py -> /home/jaime/RM3_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[2.280s] copying ros2controlcli/verb/list_hardware_interfaces.py -> /home/jaime/RM3_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[2.281s] copying ros2controlcli/verb/list_controller_types.py -> /home/jaime/RM3_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[2.282s] copying ros2controlcli/verb/load_start_controller.py -> /home/jaime/RM3_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[2.282s] copying ros2controlcli/verb/switch_controllers.py -> /home/jaime/RM3_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[2.283s] creating /home/jaime/RM3_ws/build/ros2controlcli/build/lib/ros2controlcli/command
+[2.283s] copying ros2controlcli/command/__init__.py -> /home/jaime/RM3_ws/build/ros2controlcli/build/lib/ros2controlcli/command
+[2.284s] copying ros2controlcli/command/control.py -> /home/jaime/RM3_ws/build/ros2controlcli/build/lib/ros2controlcli/command
+[2.284s] creating /home/jaime/RM3_ws/build/ros2controlcli/build/lib/ros2controlcli/api
+[2.284s] copying ros2controlcli/api/__init__.py -> /home/jaime/RM3_ws/build/ros2controlcli/build/lib/ros2controlcli/api
+[2.291s] running install
+[2.295s] running install_lib
+[2.295s] creating /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli
+[2.295s] creating /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb
+[2.295s] copying /home/jaime/RM3_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/load_configure_controller.py -> /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb
+[2.295s] copying /home/jaime/RM3_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/unload_controller.py -> /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb
+[2.302s] copying /home/jaime/RM3_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/__init__.py -> /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb
+[2.302s] copying /home/jaime/RM3_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/reload_controller_libraries.py -> /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb
+[2.302s] copying /home/jaime/RM3_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/configure_controller.py -> /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb
+[2.303s] copying /home/jaime/RM3_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/load_controller.py -> /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb
+[2.303s] copying /home/jaime/RM3_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/set_controller_state.py -> /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb
+[2.304s] copying /home/jaime/RM3_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/configure_start_controller.py -> /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb
+[2.304s] copying /home/jaime/RM3_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/list_controllers.py -> /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb
+[2.304s] copying /home/jaime/RM3_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/list_hardware_interfaces.py -> /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb
+[2.304s] copying /home/jaime/RM3_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/list_controller_types.py -> /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb
+[2.304s] copying /home/jaime/RM3_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/load_start_controller.py -> /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb
+[2.304s] copying /home/jaime/RM3_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/switch_controllers.py -> /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb
+[2.304s] creating /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/command
+[2.304s] copying /home/jaime/RM3_ws/build/ros2controlcli/build/lib/ros2controlcli/command/__init__.py -> /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/command
+[2.304s] copying /home/jaime/RM3_ws/build/ros2controlcli/build/lib/ros2controlcli/command/control.py -> /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/command
+[2.304s] copying /home/jaime/RM3_ws/build/ros2controlcli/build/lib/ros2controlcli/__init__.py -> /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli
+[2.304s] creating /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/api
+[2.305s] copying /home/jaime/RM3_ws/build/ros2controlcli/build/lib/ros2controlcli/api/__init__.py -> /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/api
+[2.305s] byte-compiling /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb/load_configure_controller.py to load_configure_controller.cpython-38.pyc
+[2.305s] byte-compiling /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb/unload_controller.py to unload_controller.cpython-38.pyc
+[2.305s] byte-compiling /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb/__init__.py to __init__.cpython-38.pyc
+[2.305s] byte-compiling /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb/reload_controller_libraries.py to reload_controller_libraries.cpython-38.pyc
+[2.305s] byte-compiling /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb/configure_controller.py to configure_controller.cpython-38.pyc
+[2.305s] byte-compiling /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb/load_controller.py to load_controller.cpython-38.pyc
+[2.305s] byte-compiling /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb/set_controller_state.py to set_controller_state.cpython-38.pyc
+[2.305s] byte-compiling /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb/configure_start_controller.py to configure_start_controller.cpython-38.pyc
+[2.305s] byte-compiling /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb/list_controllers.py to list_controllers.cpython-38.pyc
+[2.305s] byte-compiling /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb/list_hardware_interfaces.py to list_hardware_interfaces.cpython-38.pyc
+[2.305s] byte-compiling /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb/list_controller_types.py to list_controller_types.cpython-38.pyc
+[2.311s] byte-compiling /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb/load_start_controller.py to load_start_controller.cpython-38.pyc
+[2.312s] byte-compiling /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/verb/switch_controllers.py to switch_controllers.cpython-38.pyc
+[2.312s] byte-compiling /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/command/__init__.py to __init__.cpython-38.pyc
+[2.312s] byte-compiling /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/command/control.py to control.cpython-38.pyc
+[2.312s] byte-compiling /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/__init__.py to __init__.cpython-38.pyc
+[2.312s] byte-compiling /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli/api/__init__.py to __init__.cpython-38.pyc
+[2.312s] running install_data
+[2.312s] running install_egg_info
+[2.312s] Copying ../../../build/ros2controlcli/ros2controlcli.egg-info to /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli-0.10.1-py3.8.egg-info
+[2.312s] running install_scripts
+[2.333s] writing list of installed files to '/home/jaime/RM3_ws/build/ros2controlcli/install.log'
+[2.392s] Invoked command in '/home/jaime/RM3_ws/src/ros2_control/ros2controlcli' returned '0': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros2controlcli build --build-base /home/jaime/RM3_ws/build/ros2controlcli/build install --prefix /home/jaime/RM3_ws/install/ros2controlcli --record /home/jaime/RM3_ws/build/ros2controlcli/install.log --single-version-externally-managed

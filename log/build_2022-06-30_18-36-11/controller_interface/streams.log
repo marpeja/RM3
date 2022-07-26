@@ -1,0 +1,8 @@
+[0.058s] Invoking command in '/home/jaime/RM3_ws/build/controller_interface': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/hardware_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/jaime/RM3_ws/build/controller_interface -- -j8 -l8
+[0.138s] [ 20%] Built target gmock
+[0.146s] [ 33%] Built target gmock_main
+[0.179s] [ 46%] Built target controller_interface
+[0.194s] [ 60%] Built target test_force_torque_sensor
+[0.197s] [ 73%] Built target test_imu_sensor
+[0.205s] [ 86%] Built target test_semantic_component_interface
+[0.234s] [100%] Built target test_controller_with_options

@@ -1,0 +1,24 @@
+[0.155s] Invoking command in '/home/jaime/RM3_ws/build/ros2_control_test_assets': /usr/bin/cmake --build /home/jaime/RM3_ws/build/ros2_control_test_assets -- -j8 -l8
+[1.434s] Invoked command in '/home/jaime/RM3_ws/build/ros2_control_test_assets' returned '0': /usr/bin/cmake --build /home/jaime/RM3_ws/build/ros2_control_test_assets -- -j8 -l8
+[1.497s] Invoking command in '/home/jaime/RM3_ws/build/ros2_control_test_assets': /usr/bin/cmake --install /home/jaime/RM3_ws/build/ros2_control_test_assets
+[1.511s] -- Install configuration: ""
+[1.513s] -- Execute custom install script
+[1.514s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/components_urdfs.hpp
+[1.514s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/descriptions.hpp
+[1.516s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/ros2_control_test_assets/share/ament_index/resource_index/package_run_dependencies/ros2_control_test_assets
+[1.516s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/ros2_control_test_assets/share/ament_index/resource_index/parent_prefix_path/ros2_control_test_assets
+[1.517s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.sh
+[1.518s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.dsv
+[1.519s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.sh
+[1.520s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.dsv
+[1.521s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.bash
+[1.522s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.sh
+[1.522s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.zsh
+[1.523s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.dsv
+[1.524s] -- Symlinking: /home/jaime/RM3_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.dsv
+[1.550s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/ros2_control_test_assets/share/ament_index/resource_index/packages/ros2_control_test_assets
+[1.551s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.552s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig.cmake
+[1.552s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig-version.cmake
+[1.553s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.xml
+[1.558s] Invoked command in '/home/jaime/RM3_ws/build/ros2_control_test_assets' returned '0': /usr/bin/cmake --install /home/jaime/RM3_ws/build/ros2_control_test_assets

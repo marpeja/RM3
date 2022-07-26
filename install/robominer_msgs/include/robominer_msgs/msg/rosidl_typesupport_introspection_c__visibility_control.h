@@ -1,0 +1,1 @@
+/home/jaime/RM3_ws/build/robominer_msgs/rosidl_typesupport_introspection_c/robominer_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h

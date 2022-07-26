@@ -1,0 +1,6 @@
+[0.043s] Invoking command in '/home/jaime/RM3_ws/build/transmission_interface': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/hardware_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/jaime/RM3_ws/build/transmission_interface -- -j8 -l8
+[0.162s] [ 27%] Built target gmock
+[0.169s] [ 45%] Built target gmock_main
+[0.221s] [ 63%] Built target test_four_bar_linkage_transmission
+[0.223s] [ 81%] Built target test_differential_transmission
+[0.244s] [100%] Built target test_simple_transmission

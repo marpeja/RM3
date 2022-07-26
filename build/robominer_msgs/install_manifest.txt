@@ -1,0 +1,16 @@
+/home/jaime/RM3_ws/install/robominer_msgs/lib/librobominer_msgs__rosidl_generator_c.so
+/home/jaime/RM3_ws/install/robominer_msgs/lib/librobominer_msgs__rosidl_typesupport_introspection_c.so
+/home/jaime/RM3_ws/install/robominer_msgs/lib/librobominer_msgs__rosidl_typesupport_c.so
+/home/jaime/RM3_ws/install/robominer_msgs/lib/librobominer_msgs__rosidl_typesupport_introspection_cpp.so
+/home/jaime/RM3_ws/install/robominer_msgs/lib/librobominer_msgs__rosidl_typesupport_cpp.so
+/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake/robominer_msgs__rosidl_generator_cExport.cmake
+/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake/robominer_msgs__rosidl_generator_cExport-noconfig.cmake
+/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake/robominer_msgs__rosidl_typesupport_introspection_cExport.cmake
+/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake/robominer_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake/robominer_msgs__rosidl_typesupport_cExport.cmake
+/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake/robominer_msgs__rosidl_typesupport_cExport-noconfig.cmake
+/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake/robominer_msgs__rosidl_generator_cppExport.cmake
+/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake/robominer_msgs__rosidl_typesupport_introspection_cppExport.cmake
+/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake/robominer_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake/robominer_msgs__rosidl_typesupport_cppExport.cmake
+/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake/robominer_msgs__rosidl_typesupport_cppExport-noconfig.cmake

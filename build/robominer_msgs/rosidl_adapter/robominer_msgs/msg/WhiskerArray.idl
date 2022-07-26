@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robominer_msgs/msg/WhiskerArray.msg
+// generated code does not contain a copyright notice
+
+#include "robominer_msgs/msg/Whisker.idl"
+#include "std_msgs/msg/Header.idl"
+
+module robominer_msgs {
+  module msg {
+    struct WhiskerArray {
+      std_msgs::msg::Header header;
+
+      uint8 num_mux;
+
+      uint8 num_sensors;
+
+      string representation;
+
+      sequence<robominer_msgs::msg::Whisker> whiskers;
+    };
+  };
+};

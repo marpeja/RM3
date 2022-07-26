@@ -1,0 +1,24 @@
+[0.833s] Invoking command in '/home/jaime/RM3_ws/build/ros2controlcli': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/jaime/RM3_ws/install/ros2controlcli --editable --build-directory /home/jaime/RM3_ws/build/ros2controlcli/build --no-deps install_data --install-dir /home/jaime/RM3_ws/install/ros2controlcli
+[1.119s] running develop
+[1.259s] running egg_info
+[1.260s] creating ros2controlcli.egg-info
+[1.260s] writing ros2controlcli.egg-info/PKG-INFO
+[1.260s] writing dependency_links to ros2controlcli.egg-info/dependency_links.txt
+[1.260s] writing entry points to ros2controlcli.egg-info/entry_points.txt
+[1.260s] writing requirements to ros2controlcli.egg-info/requires.txt
+[1.260s] writing top-level names to ros2controlcli.egg-info/top_level.txt
+[1.262s] writing manifest file 'ros2controlcli.egg-info/SOURCES.txt'
+[1.306s] reading manifest file 'ros2controlcli.egg-info/SOURCES.txt'
+[1.307s] writing manifest file 'ros2controlcli.egg-info/SOURCES.txt'
+[1.355s] running build_ext
+[1.355s] Creating /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/site.py
+[1.358s] Creating /home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli.egg-link (link to .)
+[1.359s] 
+[1.359s] Installed /home/jaime/RM3_ws/build/ros2controlcli
+[1.359s] running install_data
+[1.360s] copying package.xml -> /home/jaime/RM3_ws/install/ros2controlcli/share/ros2controlcli
+[1.360s] creating /home/jaime/RM3_ws/install/ros2controlcli/share/ament_index
+[1.360s] creating /home/jaime/RM3_ws/install/ros2controlcli/share/ament_index/resource_index
+[1.360s] creating /home/jaime/RM3_ws/install/ros2controlcli/share/ament_index/resource_index/packages
+[1.360s] copying resource/ros2controlcli -> /home/jaime/RM3_ws/install/ros2controlcli/share/ament_index/resource_index/packages
+[1.428s] Invoked command in '/home/jaime/RM3_ws/build/ros2controlcli' returned '0': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/ros2controlcli/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/jaime/RM3_ws/install/ros2controlcli --editable --build-directory /home/jaime/RM3_ws/build/ros2controlcli/build --no-deps install_data --install-dir /home/jaime/RM3_ws/install/ros2controlcli

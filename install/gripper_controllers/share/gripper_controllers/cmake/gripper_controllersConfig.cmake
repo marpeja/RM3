@@ -1,0 +1,1 @@
+/home/jaime/RM3_ws/build/gripper_controllers/ament_cmake_core/gripper_controllersConfig.cmake

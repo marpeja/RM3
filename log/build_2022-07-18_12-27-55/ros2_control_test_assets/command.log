@@ -1,0 +1,4 @@
+Invoking command in '/home/jaime/RM3_ws/build/ros2_control_test_assets': /usr/bin/cmake --build /home/jaime/RM3_ws/build/ros2_control_test_assets -- -j8 -l8
+Invoked command in '/home/jaime/RM3_ws/build/ros2_control_test_assets' returned '0': /usr/bin/cmake --build /home/jaime/RM3_ws/build/ros2_control_test_assets -- -j8 -l8
+Invoking command in '/home/jaime/RM3_ws/build/ros2_control_test_assets': /usr/bin/cmake --install /home/jaime/RM3_ws/build/ros2_control_test_assets
+Invoked command in '/home/jaime/RM3_ws/build/ros2_control_test_assets' returned '0': /usr/bin/cmake --install /home/jaime/RM3_ws/build/ros2_control_test_assets

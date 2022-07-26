@@ -1,0 +1,21 @@
+[2.631s] Invoking command in '/home/jaime/RM3_ws/src/nav_rm3': PYTHONPATH=/home/jaime/RM3_ws/install/nav_rm3/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nav_rm3 build --build-base /home/jaime/RM3_ws/build/nav_rm3/build install --prefix /home/jaime/RM3_ws/install/nav_rm3 --record /home/jaime/RM3_ws/build/nav_rm3/install.log --single-version-externally-managed
+[3.152s] running egg_info
+[3.154s] writing ../../build/nav_rm3/nav_rm3.egg-info/PKG-INFO
+[3.155s] writing dependency_links to ../../build/nav_rm3/nav_rm3.egg-info/dependency_links.txt
+[3.156s] writing entry points to ../../build/nav_rm3/nav_rm3.egg-info/entry_points.txt
+[3.157s] writing requirements to ../../build/nav_rm3/nav_rm3.egg-info/requires.txt
+[3.157s] writing top-level names to ../../build/nav_rm3/nav_rm3.egg-info/top_level.txt
+[3.264s] reading manifest file '../../build/nav_rm3/nav_rm3.egg-info/SOURCES.txt'
+[3.271s] writing manifest file '../../build/nav_rm3/nav_rm3.egg-info/SOURCES.txt'
+[3.272s] running build
+[3.272s] running build_py
+[3.272s] running install
+[3.272s] running install_lib
+[3.273s] running install_data
+[3.275s] copying config/nav2.yaml -> /home/jaime/RM3_ws/install/nav_rm3/share/nav_rm3/config
+[3.275s] running install_egg_info
+[3.279s] removing '/home/jaime/RM3_ws/install/nav_rm3/lib/python3.8/site-packages/nav_rm3-0.0.0-py3.8.egg-info' (and everything under it)
+[3.279s] Copying ../../build/nav_rm3/nav_rm3.egg-info to /home/jaime/RM3_ws/install/nav_rm3/lib/python3.8/site-packages/nav_rm3-0.0.0-py3.8.egg-info
+[3.281s] running install_scripts
+[3.329s] writing list of installed files to '/home/jaime/RM3_ws/build/nav_rm3/install.log'
+[3.418s] Invoked command in '/home/jaime/RM3_ws/src/nav_rm3' returned '0': PYTHONPATH=/home/jaime/RM3_ws/install/nav_rm3/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/nav_rm3 build --build-base /home/jaime/RM3_ws/build/nav_rm3/build install --prefix /home/jaime/RM3_ws/install/nav_rm3 --record /home/jaime/RM3_ws/build/nav_rm3/install.log --single-version-externally-managed

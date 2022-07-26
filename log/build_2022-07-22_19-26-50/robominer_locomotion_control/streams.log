@@ -1,0 +1,24 @@
+[1.682s] Invoking command in '/home/jaime/RM3_ws/build/robominer_locomotion_control': PYTHONPATH=/home/jaime/RM3_ws/install/robominer_locomotion_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/jaime/RM3_ws/install/robominer_locomotion_control --uninstall --editable --build-directory /home/jaime/RM3_ws/build/robominer_locomotion_control/build
+[2.042s] running develop
+[2.334s] Invoked command in '/home/jaime/RM3_ws/build/robominer_locomotion_control' returned '0': PYTHONPATH=/home/jaime/RM3_ws/install/robominer_locomotion_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/jaime/RM3_ws/install/robominer_locomotion_control --uninstall --editable --build-directory /home/jaime/RM3_ws/build/robominer_locomotion_control/build
+[2.338s] Invoking command in '/home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_locomotion_control': PYTHONPATH=/home/jaime/RM3_ws/install/robominer_locomotion_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/robominer_locomotion_control build --build-base /home/jaime/RM3_ws/build/robominer_locomotion_control/build install --prefix /home/jaime/RM3_ws/install/robominer_locomotion_control --record /home/jaime/RM3_ws/build/robominer_locomotion_control/install.log --single-version-externally-managed
+[2.643s] running egg_info
+[2.643s] writing ../../../build/robominer_locomotion_control/robominer_locomotion_control.egg-info/PKG-INFO
+[2.644s] writing dependency_links to ../../../build/robominer_locomotion_control/robominer_locomotion_control.egg-info/dependency_links.txt
+[2.644s] writing entry points to ../../../build/robominer_locomotion_control/robominer_locomotion_control.egg-info/entry_points.txt
+[2.644s] writing requirements to ../../../build/robominer_locomotion_control/robominer_locomotion_control.egg-info/requires.txt
+[2.644s] writing top-level names to ../../../build/robominer_locomotion_control/robominer_locomotion_control.egg-info/top_level.txt
+[2.699s] reading manifest file '../../../build/robominer_locomotion_control/robominer_locomotion_control.egg-info/SOURCES.txt'
+[2.706s] writing manifest file '../../../build/robominer_locomotion_control/robominer_locomotion_control.egg-info/SOURCES.txt'
+[2.706s] running build
+[2.707s] running build_py
+[2.707s] running install
+[2.707s] running install_lib
+[2.707s] running install_data
+[2.707s] running install_egg_info
+[2.708s] removing '/home/jaime/RM3_ws/install/robominer_locomotion_control/lib/python3.8/site-packages/robominer_locomotion_control-0.0.0-py3.8.egg-info' (and everything under it)
+[2.708s] Copying ../../../build/robominer_locomotion_control/robominer_locomotion_control.egg-info to /home/jaime/RM3_ws/install/robominer_locomotion_control/lib/python3.8/site-packages/robominer_locomotion_control-0.0.0-py3.8.egg-info
+[2.708s] running install_scripts
+[2.734s] Installing open_loop_steering script to /home/jaime/RM3_ws/install/robominer_locomotion_control/lib/robominer_locomotion_control
+[2.735s] writing list of installed files to '/home/jaime/RM3_ws/build/robominer_locomotion_control/install.log'
+[2.788s] Invoked command in '/home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_locomotion_control' returned '0': PYTHONPATH=/home/jaime/RM3_ws/install/robominer_locomotion_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/robominer_locomotion_control build --build-base /home/jaime/RM3_ws/build/robominer_locomotion_control/build install --prefix /home/jaime/RM3_ws/install/robominer_locomotion_control --record /home/jaime/RM3_ws/build/robominer_locomotion_control/install.log --single-version-externally-managed

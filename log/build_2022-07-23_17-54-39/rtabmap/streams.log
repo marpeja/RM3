@@ -1,0 +1,278 @@
+[0.163s] Invoking command in '/home/jaime/RM3_ws/build/rtabmap': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jaime/RM3_ws/build/rtabmap -- -j8 -l8
+[1.508s] [  4%] Built target rtabmap_utilite
+[1.508s] [  5%] Built target res_tool
+[1.509s] [  5%] Built target extractObject
+[1.509s] [ 43%] Built target rtabmap_core
+[1.509s] [ 44%] Built target imagesJoiner
+[1.509s] [ 45%] Built target euroc_dataset
+[1.509s] [ 46%] Built target recovery
+[1.509s] [ 46%] Built target reprocess
+[1.509s] [ 47%] Built target detectMoreLoopClosures
+[1.510s] [ 48%] Built target export
+[1.510s] [ 48%] Built target info
+[1.510s] [ 49%] Built target cleanupLocalGrids
+[1.510s] [ 50%] Built target globalBundleAdjustment
+[1.510s] [ 51%] Built target rgbd_camera
+[1.511s] [ 51%] Built target bow_mapping
+[1.512s] [ 51%] Built target rgbd_dataset
+[1.512s] [ 52%] Built target kitti_dataset
+[1.513s] [ 53%] Built target stereoEval
+[1.513s] [ 53%] Built target camera
+[1.535s] [ 54%] Built target consoleApp
+[1.994s] [ 91%] Built target rtabmap_gui
+[2.073s] [ 91%] Built target rtabmap
+[2.162s] [ 91%] Built target matcher
+[2.260s] [ 93%] Built target rgbd_mapping
+[2.364s] [ 95%] Built target wifi_mapping
+[2.455s] [ 97%] Built target noEventsExample
+[2.517s] [ 98%] Built target calibration
+[2.583s] [ 98%] Built target dataRecorder
+[2.657s] [ 98%] Built target odometryViewer
+[2.738s] [ 98%] Built target epipolar_geometry
+[2.843s] [ 99%] Built target databaseViewer
+[2.898s] [100%] Built target report
+[2.963s] Invoked command in '/home/jaime/RM3_ws/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jaime/RM3_ws/build/rtabmap -- -j8 -l8
+[3.085s] Invoking command in '/home/jaime/RM3_ws/build/rtabmap': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jaime/RM3_ws/build/rtabmap
+[3.102s] -- Install configuration: "Release"
+[3.102s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/lib/rtabmap-0.20/RTABMapConfig.cmake
+[3.103s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/lib/rtabmap-0.20/RTABMapConfigVersion.cmake
+[3.103s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/share/rtabmap/package.xml
+[3.103s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/lib/librtabmap_utilite.so.0.20.18
+[3.103s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/lib/librtabmap_utilite.so.0.20
+[3.103s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/lib/librtabmap_utilite.so
+[3.104s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20
+[3.104s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap
+[3.104s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite
+[3.105s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UThread.h
+[3.105s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/USemaphore.h
+[3.106s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UThreadNode.h
+[3.106s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UEvent.h
+[3.106s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UMutex.h
+[3.106s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UVariant.h
+[3.108s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UEventsManager.h
+[3.108s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/ULogger.h
+[3.108s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UDestroyer.h
+[3.109s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UProcessInfo.h
+[3.110s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UTimer.h
+[3.111s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UFile.h
+[3.111s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UConversion.h
+[3.112s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UThreadC.h
+[3.112s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UMath.h
+[3.112s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UDirectory.h
+[3.113s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/Posix
+[3.114s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/Posix/UThreadC.h
+[3.114s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UException.h
+[3.114s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UObjDeletionThread.h
+[3.115s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/Win32
+[3.115s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/Win32/UWin32.h
+[3.115s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/Win32/UThreadC.h
+[3.115s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UEventsHandler.h
+[3.116s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UtiLite.h
+[3.116s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UStl.h
+[3.117s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UtiLiteExp.h
+[3.117s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UEventsSender.h
+[3.117s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/bin/rtabmap-res_tool-0.3.0
+[3.118s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/bin/rtabmap-res_tool
+[3.118s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/lib/librtabmap_core.so.0.20.18
+[3.119s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/lib/librtabmap_core.so.0.20
+[3.119s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/lib/librtabmap_core.so
+[3.119s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20
+[3.119s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap
+[3.120s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core
+[3.120s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/SensorData.h
+[3.120s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/stereo
+[3.120s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/stereo/StereoSGBM.h
+[3.126s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/stereo/StereoBM.h
+[3.126s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/stereo/stereoRectifyFisheye.h
+[3.126s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/RtabmapExp.h
+[3.127s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/CameraEvent.h
+[3.127s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/IMUThread.h
+[3.128s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/Link.h
+[3.128s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/util3d.h
+[3.129s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/Graph.h
+[3.130s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/GlobalDescriptor.h
+[3.130s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/IMUFilter.h
+[3.130s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/PDALWriter.h
+[3.131s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/CameraStereo.h
+[3.131s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/Transform.h
+[3.131s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/util3d_filtering.h
+[3.131s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/BayesFilter.h
+[3.132s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/MarkerDetector.h
+[3.132s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/Registration.h
+[3.132s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/Features2d.h
+[3.132s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/util3d_mapping.h
+[3.132s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/RegistrationIcp.h
+[3.132s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/ProgressState.h
+[3.133s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/util3d_motion_estimation.h
+[3.133s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/GPS.h
+[3.134s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/optimizer
+[3.134s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/optimizer/OptimizerCeres.h
+[3.134s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/optimizer/OptimizerGTSAM.h
+[3.134s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/optimizer/OptimizerTORO.h
+[3.135s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/optimizer/OptimizerG2O.h
+[3.135s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/optimizer/OptimizerCVSBA.h
+[3.135s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/util3d_registration.h
+[3.136s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/RegistrationInfo.h
+[3.136s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/Rtabmap.h
+[3.136s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/DBReader.h
+[3.136s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/StereoCameraModel.h
+[3.136s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/ParamEvent.h
+[3.136s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/util3d_transforms.h
+[3.137s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/RtabmapThread.h
+[3.137s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/Recovery.h
+[3.137s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/CameraThread.h
+[3.140s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/OdometryEvent.h
+[3.145s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/Camera.h
+[3.145s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/IMU.h
+[3.145s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/Memory.h
+[3.146s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/OctoMap.h
+[3.146s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/VWDictionary.h
+[3.147s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera
+[3.147s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraStereoZed.h
+[3.147s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraVideo.h
+[3.148s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraStereoVideo.h
+[3.148s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraStereoZedOC.h
+[3.150s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraImages.h
+[3.150s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraStereoFlyCapture2.h
+[3.151s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraRealSense.h
+[3.151s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraK4W2.h
+[3.151s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraStereoTara.h
+[3.151s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraFreenect2.h
+[3.152s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraFreenect.h
+[3.152s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraRealSense2.h
+[3.152s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraOpenNICV.h
+[3.152s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraStereoImages.h
+[3.153s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraRGBDImages.h
+[3.153s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraK4A.h
+[3.153s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraOpenni.h
+[3.153s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraDepthAI.h
+[3.154s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraOpenNI2.h
+[3.154s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraStereoDC1394.h
+[3.154s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraMyntEye.h
+[3.154s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/VisualWord.h
+[3.154s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/PythonInterface.h
+[3.154s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/DBDriverSqlite3.h
+[3.154s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/Image.h
+[3.154s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/util3d_correspondences.h
+[3.154s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/RtabmapEvent.h
+[3.155s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/Statistics.h
+[3.155s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/util3d_surface.h
+[3.155s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/RegistrationVis.h
+[3.155s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/DBDriver.h
+[3.155s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/CameraRGBD.h
+[3.155s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/StereoDense.h
+[3.155s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/util3d_features.h
+[3.155s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/ParticleFilter.h
+[3.156s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/Landmark.h
+[3.156s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/Stereo.h
+[3.156s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/util2d.h
+[3.156s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/UserDataEvent.h
+[3.156s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/FlannIndex.h
+[3.157s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/LaserScan.h
+[3.157s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/GainCompensator.h
+[3.157s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/Compression.h
+[3.157s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/Parameters.h
+[3.157s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/Optimizer.h
+[3.157s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/GeodeticCoords.h
+[3.157s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/CameraRGB.h
+[3.157s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/CameraInfo.h
+[3.158s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/OdometryThread.h
+[3.158s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/Odometry.h
+[3.158s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry
+[3.158s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry/OdometryMono.h
+[3.158s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry/OdometryLOAM.h
+[3.158s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry/OdometryF2M.h
+[3.158s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry/OdometryOpenVINS.h
+[3.158s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry/OdometryViso2.h
+[3.158s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry/OdometryDVO.h
+[3.159s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry/OdometryVINS.h
+[3.159s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry/OdometryMSCKF.h
+[3.159s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry/OdometryOkvis.h
+[3.159s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry/OdometryFLOAM.h
+[3.159s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry/OdometryF2F.h
+[3.159s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry/OdometryORBSLAM.h
+[3.159s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry/OdometryOpen3D.h
+[3.159s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry/OdometryFovis.h
+[3.160s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/impl
+[3.160s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/impl/util3d_surface.hpp
+[3.160s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/impl/util3d_mapping.hpp
+[3.160s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/impl/OccupancyGrid.hpp
+[3.160s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/impl/util3d.hpp
+[3.160s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/EpipolarGeometry.h
+[3.160s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/clams
+[3.160s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/clams/slam_calibrator.h
+[3.160s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/clams/discrete_depth_distortion_model.h
+[3.161s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/clams/frame_projector.h
+[3.161s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/OdometryInfo.h
+[3.161s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/CameraModel.h
+[3.161s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/EnvSensor.h
+[3.161s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/OccupancyGrid.h
+[3.161s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/Signature.h
+[3.161s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20
+[3.161s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap
+[3.162s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core
+[3.162s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/core/Version.h
+[3.162s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/lib/librtabmap_gui.so.0.20.18
+[3.162s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/lib/librtabmap_gui.so.0.20
+[3.162s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/lib/librtabmap_gui.so
+[3.162s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20
+[3.162s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap
+[3.162s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite
+[3.162s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UPlot.h
+[3.163s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UCv2Qt.h
+[3.163s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UImageView.h
+[3.163s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/gui
+[3.163s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/ImageView.h
+[3.163s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/ParametersToolBox.h
+[3.163s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/LoopClosureViewer.h
+[3.164s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/CreateSimpleCalibrationDialog.h
+[3.164s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/EditMapArea.h
+[3.164s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/ExportBundlerDialog.h
+[3.164s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/ExportDialog.h
+[3.164s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/CloudViewer.h
+[3.165s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/DepthCalibrationDialog.h
+[3.165s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/PreferencesDialog.h
+[3.165s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/MapVisibilityWidget.h
+[3.165s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/AboutDialog.h
+[3.165s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/CalibrationDialog.h
+[3.165s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/PostProcessingDialog.h
+[3.166s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/KeypointItem.h
+[3.166s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/DataRecorder.h
+[3.166s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/StatsToolBox.h
+[3.166s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/EditDepthArea.h
+[3.166s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/GraphViewer.h
+[3.167s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/CameraViewer.h
+[3.167s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/ExportCloudsDialog.h
+[3.167s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/DatabaseViewer.h
+[3.167s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/RtabmapGuiExp.h
+[3.167s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/PdfPlot.h
+[3.168s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/CloudViewerCellPicker.h
+[3.168s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/ProgressDialog.h
+[3.168s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/ConsoleWidget.h
+[3.168s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/TexturingState.h
+[3.169s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/RecoveryState.h
+[3.169s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/CloudViewerInteractorStyle.h
+[3.169s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/MainWindow.h
+[3.169s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/EditConstraintDialog.h
+[3.169s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/OdometryViewer.h
+[3.169s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/bin/rtabmap
+[3.170s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/bin/rtabmap-console
+[3.170s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/bin/rtabmap-extractObject
+[3.170s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/bin/rtabmap-camera
+[3.170s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/bin/rtabmap-kitti_dataset
+[3.170s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/bin/rtabmap-rgbd_dataset
+[3.171s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/bin/rtabmap-euroc_dataset
+[3.173s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/bin/rtabmap-recovery
+[3.173s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/bin/rtabmap-reprocess
+[3.173s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/bin/rtabmap-detectMoreLoopClosures
+[3.173s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/bin/rtabmap-export
+[3.173s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/bin/rtabmap-report
+[3.174s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/bin/rtabmap-info
+[3.174s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/bin/rtabmap-cleanupLocalGrids
+[3.174s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/bin/rtabmap-globalBundleAdjustment
+[3.174s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/bin/rtabmap-rgbd_camera
+[3.174s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/bin/rtabmap-databaseViewer
+[3.175s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/bin/rtabmap-odometryViewer
+[3.175s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/bin/rtabmap-dataRecorder
+[3.175s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap/bin/rtabmap-calibration
+[3.176s] Invoked command in '/home/jaime/RM3_ws/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jaime/RM3_ws/build/rtabmap

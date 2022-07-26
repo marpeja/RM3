@@ -1,0 +1,110 @@
+[0.023s] Invoking command in '/home/jaime/RM3_ws/build/joint_trajectory_controller': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jaime/RM3_ws/src/ros2_controllers/joint_trajectory_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jaime/RM3_ws/install/joint_trajectory_controller
+[0.095s] -- The C compiler identification is GNU 9.4.0
+[0.159s] -- The CXX compiler identification is GNU 9.4.0
+[0.164s] -- Check for working C compiler: /usr/bin/cc
+[0.248s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.249s] -- Detecting C compiler ABI info
+[0.327s] -- Detecting C compiler ABI info - done
+[0.342s] -- Detecting C compile features
+[0.342s] -- Detecting C compile features - done
+[0.345s] -- Check for working CXX compiler: /usr/bin/c++
+[0.429s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.430s] -- Detecting CXX compiler ABI info
+[0.512s] -- Detecting CXX compiler ABI info - done
+[0.526s] -- Detecting CXX compile features
+[0.527s] -- Detecting CXX compile features - done
+[0.530s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.559s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.559s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.788s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.834s] -- Found angles: 1.12.3 (/opt/ros/foxy/share/angles/cmake)
+[0.836s] -- Found controller_interface: 0.10.1 (/home/jaime/RM3_ws/install/controller_interface/share/controller_interface/cmake)
+[0.884s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.893s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.013s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.055s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.159s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.887s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.889s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.891s] -- Looking for pthread.h
+[1.977s] -- Looking for pthread.h - found
+[1.978s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.072s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.072s] -- Looking for pthread_create in pthreads
+[2.140s] -- Looking for pthread_create in pthreads - not found
+[2.140s] -- Looking for pthread_create in pthread
+[2.224s] -- Looking for pthread_create in pthread - found
+[2.225s] -- Found Threads: TRUE  
+[2.581s] -- Found realtime_tools: 2.2.0 (/opt/ros/foxy/share/realtime_tools/cmake)
+[2.698s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[2.698s] -- Found controller_manager: 0.10.1 (/home/jaime/RM3_ws/install/controller_manager/share/controller_manager/cmake)
+[2.779s] -- Found ros2_control_test_assets: 0.10.1 (/home/jaime/RM3_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[2.783s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.786s] -- Check if compiler accepts -pthread
+[2.886s] -- Check if compiler accepts -pthread - yes
+[3.141s] -- Configuring done
+[3.300s] -- Generating done
+[3.303s] -- Build files have been written to: /home/jaime/RM3_ws/build/joint_trajectory_controller
+[3.319s] Invoked command in '/home/jaime/RM3_ws/build/joint_trajectory_controller' returned '0': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jaime/RM3_ws/src/ros2_controllers/joint_trajectory_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jaime/RM3_ws/install/joint_trajectory_controller
+[3.323s] Invoking command in '/home/jaime/RM3_ws/build/joint_trajectory_controller': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jaime/RM3_ws/build/joint_trajectory_controller -- -j8 -l8
+[3.368s] [35m[1mScanning dependencies of target gtest[0m
+[3.368s] [35m[1mScanning dependencies of target gtest_main[0m
+[3.369s] [35m[1mScanning dependencies of target joint_trajectory_controller[0m
+[3.386s] [  6%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[3.389s] [ 13%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[3.467s] [ 20%] [32mBuilding CXX object CMakeFiles/joint_trajectory_controller.dir/src/joint_trajectory_controller.cpp.o[0m
+[3.474s] [ 26%] [32mBuilding CXX object CMakeFiles/joint_trajectory_controller.dir/src/trajectory.cpp.o[0m
+[4.206s] [ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.246s] [ 33%] Built target gtest_main
+[7.296s] [ 40%] [32m[1mLinking CXX static library libgtest.a[0m
+[7.356s] [ 40%] Built target gtest
+[7.367s] [35m[1mScanning dependencies of target test_load_joint_trajectory_controller[0m
+[7.432s] [ 46%] [32mBuilding CXX object CMakeFiles/test_load_joint_trajectory_controller.dir/test/test_load_joint_trajectory_controller.cpp.o[0m
+[12.827s] [ 53%] [32m[1mLinking CXX shared library libjoint_trajectory_controller.so[0m
+[13.447s] [ 60%] [32m[1mLinking CXX executable test_load_joint_trajectory_controller[0m
+[13.742s] [ 60%] Built target joint_trajectory_controller
+[13.753s] [35m[1mScanning dependencies of target test_trajectory[0m
+[13.753s] [35m[1mScanning dependencies of target test_trajectory_actions[0m
+[13.753s] [35m[1mScanning dependencies of target test_trajectory_controller[0m
+[13.777s] [ 66%] [32mBuilding CXX object CMakeFiles/test_trajectory.dir/test/test_trajectory.cpp.o[0m
+[13.811s] [ 73%] [32mBuilding CXX object CMakeFiles/test_trajectory_controller.dir/test/test_trajectory_controller.cpp.o[0m
+[13.826s] [ 80%] [32mBuilding CXX object CMakeFiles/test_trajectory_actions.dir/test/test_trajectory_actions.cpp.o[0m
+[14.650s] [ 80%] Built target test_load_joint_trajectory_controller
+[15.100s] [ 86%] [32m[1mLinking CXX executable test_trajectory[0m
+[16.160s] [ 86%] Built target test_trajectory
+[23.246s] [ 93%] [32m[1mLinking CXX executable test_trajectory_actions[0m
+[25.004s] [ 93%] Built target test_trajectory_actions
+[25.408s] [100%] [32m[1mLinking CXX executable test_trajectory_controller[0m
+[27.394s] [100%] Built target test_trajectory_controller
+[27.406s] Invoked command in '/home/jaime/RM3_ws/build/joint_trajectory_controller' returned '0': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jaime/RM3_ws/build/joint_trajectory_controller -- -j8 -l8
+[27.446s] Invoking command in '/home/jaime/RM3_ws/build/joint_trajectory_controller': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jaime/RM3_ws/build/joint_trajectory_controller
+[27.454s] -- Install configuration: ""
+[27.454s] -- Execute custom install script
+[27.455s] -- Symlinking: /home/jaime/RM3_ws/install/joint_trajectory_controller/share/joint_trajectory_controller//joint_trajectory_plugin.xml
+[27.467s] -- Symlinking: /home/jaime/RM3_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller.hpp
+[27.476s] -- Symlinking: /home/jaime/RM3_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/tolerances.hpp
+[27.486s] -- Symlinking: /home/jaime/RM3_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/trajectory.hpp
+[27.495s] -- Symlinking: /home/jaime/RM3_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/visibility_control.h
+[27.504s] -- Symlinking: /home/jaime/RM3_ws/install/joint_trajectory_controller/lib/libjoint_trajectory_controller.so
+[27.513s] -- Symlinking: /home/jaime/RM3_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/library_path.sh
+[27.522s] -- Symlinking: /home/jaime/RM3_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/library_path.dsv
+[27.533s] -- Symlinking: /home/jaime/RM3_ws/install/joint_trajectory_controller/share/ament_index/resource_index/package_run_dependencies/joint_trajectory_controller
+[27.540s] -- Symlinking: /home/jaime/RM3_ws/install/joint_trajectory_controller/share/ament_index/resource_index/parent_prefix_path/joint_trajectory_controller
+[27.550s] -- Symlinking: /home/jaime/RM3_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/ament_prefix_path.sh
+[27.559s] -- Symlinking: /home/jaime/RM3_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/ament_prefix_path.dsv
+[27.569s] -- Symlinking: /home/jaime/RM3_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/path.sh
+[27.588s] -- Symlinking: /home/jaime/RM3_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/path.dsv
+[27.597s] -- Symlinking: /home/jaime/RM3_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.bash
+[27.607s] -- Symlinking: /home/jaime/RM3_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.sh
+[27.617s] -- Symlinking: /home/jaime/RM3_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.zsh
+[27.626s] -- Symlinking: /home/jaime/RM3_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.dsv
+[27.636s] -- Symlinking: /home/jaime/RM3_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/package.dsv
+[27.654s] -- Symlinking: /home/jaime/RM3_ws/install/joint_trajectory_controller/share/ament_index/resource_index/packages/joint_trajectory_controller
+[27.668s] -- Symlinking: /home/jaime/RM3_ws/install/joint_trajectory_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/joint_trajectory_controller
+[27.676s] -- Symlinking: /home/jaime/RM3_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[27.686s] -- Symlinking: /home/jaime/RM3_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.695s] -- Symlinking: /home/jaime/RM3_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[27.704s] -- Symlinking: /home/jaime/RM3_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/joint_trajectory_controllerConfig.cmake
+[27.716s] -- Symlinking: /home/jaime/RM3_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/joint_trajectory_controllerConfig-version.cmake
+[27.722s] -- Symlinking: /home/jaime/RM3_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/package.xml
+[27.736s] Invoked command in '/home/jaime/RM3_ws/build/joint_trajectory_controller' returned '0': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jaime/RM3_ws/build/joint_trajectory_controller

@@ -1,0 +1,94 @@
+[0.022s] Invoking command in '/home/jaime/RM3_ws/build/gripper_controllers': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jaime/RM3_ws/src/ros2_controllers/gripper_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jaime/RM3_ws/install/gripper_controllers
+[0.090s] -- The C compiler identification is GNU 9.4.0
+[0.150s] -- The CXX compiler identification is GNU 9.4.0
+[0.156s] -- Check for working C compiler: /usr/bin/cc
+[0.231s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.231s] -- Detecting C compiler ABI info
+[0.305s] -- Detecting C compiler ABI info - done
+[0.320s] -- Detecting C compile features
+[0.321s] -- Detecting C compile features - done
+[0.326s] -- Check for working CXX compiler: /usr/bin/c++
+[0.412s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.413s] -- Detecting CXX compiler ABI info
+[0.498s] -- Detecting CXX compiler ABI info - done
+[0.514s] -- Detecting CXX compile features
+[0.515s] -- Detecting CXX compile features - done
+[0.518s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.546s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.546s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.761s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.792s] -- Found rclcpp_action: 2.4.1 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[0.831s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.839s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.933s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.967s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.060s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.216s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.218s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.218s] -- Looking for pthread.h
+[1.301s] -- Looking for pthread.h - found
+[1.301s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.381s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.381s] -- Looking for pthread_create in pthreads
+[1.444s] -- Looking for pthread_create in pthreads - not found
+[1.444s] -- Looking for pthread_create in pthread
+[1.520s] -- Looking for pthread_create in pthread - found
+[1.521s] -- Found Threads: TRUE  
+[1.748s] -- Found control_msgs: 2.5.1 (/opt/ros/foxy/share/control_msgs/cmake)
+[2.177s] -- Found control_toolbox: 2.0.2 (/opt/ros/foxy/share/control_toolbox/cmake)
+[2.206s] -- Found controller_interface: 0.10.1 (/home/jaime/RM3_ws/install/controller_interface/share/controller_interface/cmake)
+[2.505s] -- Found ament_cmake_gmock: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[2.506s] -- Found controller_manager: 0.10.1 (/home/jaime/RM3_ws/install/controller_manager/share/controller_manager/cmake)
+[2.574s] -- Found ros2_control_test_assets: 0.10.1 (/home/jaime/RM3_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[2.577s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.583s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[2.584s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.728s] -- Configuring done
+[2.797s] -- Generating done
+[2.800s] -- Build files have been written to: /home/jaime/RM3_ws/build/gripper_controllers
+[2.814s] Invoked command in '/home/jaime/RM3_ws/build/gripper_controllers' returned '0': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jaime/RM3_ws/src/ros2_controllers/gripper_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jaime/RM3_ws/install/gripper_controllers
+[2.817s] Invoking command in '/home/jaime/RM3_ws/build/gripper_controllers': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jaime/RM3_ws/build/gripper_controllers -- -j8 -l8
+[2.860s] [35m[1mScanning dependencies of target gripper_action_controller[0m
+[2.860s] [35m[1mScanning dependencies of target gmock[0m
+[2.861s] [35m[1mScanning dependencies of target gmock_main[0m
+[2.883s] [ 11%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[2.888s] [ 33%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[2.888s] [ 33%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[2.916s] [ 44%] [32mBuilding CXX object CMakeFiles/gripper_action_controller.dir/src/gripper_action_controller.cpp.o[0m
+[3.835s] [ 55%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[3.871s] [ 55%] Built target gmock_main
+[6.365s] [ 66%] [32m[1mLinking CXX static library libgmock.a[0m
+[6.436s] [ 66%] Built target gmock
+[6.447s] [35m[1mScanning dependencies of target test_load_gripper_action_controllers[0m
+[6.510s] [ 77%] [32mBuilding CXX object CMakeFiles/test_load_gripper_action_controllers.dir/test/test_load_gripper_action_controllers.cpp.o[0m
+[7.152s] [ 88%] [32m[1mLinking CXX shared library libgripper_action_controller.so[0m
+[7.474s] [ 88%] Built target gripper_action_controller
+[10.241s] [100%] [32m[1mLinking CXX executable test_load_gripper_action_controllers[0m
+[11.148s] [100%] Built target test_load_gripper_action_controllers
+[11.159s] Invoked command in '/home/jaime/RM3_ws/build/gripper_controllers' returned '0': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jaime/RM3_ws/build/gripper_controllers -- -j8 -l8
+[11.189s] Invoking command in '/home/jaime/RM3_ws/build/gripper_controllers': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jaime/RM3_ws/build/gripper_controllers
+[11.196s] -- Install configuration: ""
+[11.197s] -- Execute custom install script
+[11.197s] -- Symlinking: /home/jaime/RM3_ws/install/gripper_controllers/share/gripper_controllers//ros_control_plugins.xml
+[11.206s] -- Symlinking: /home/jaime/RM3_ws/install/gripper_controllers/include/gripper_action_controller.hpp
+[11.218s] -- Symlinking: /home/jaime/RM3_ws/install/gripper_controllers/include/gripper_action_controller_impl.hpp
+[11.227s] -- Symlinking: /home/jaime/RM3_ws/install/gripper_controllers/include/hardware_interface_adapter.hpp
+[11.236s] -- Symlinking: /home/jaime/RM3_ws/install/gripper_controllers/include/visibility_control.hpp
+[11.245s] -- Symlinking: /home/jaime/RM3_ws/install/gripper_controllers/lib/libgripper_action_controller.so
+[11.255s] -- Symlinking: /home/jaime/RM3_ws/install/gripper_controllers/share/ament_index/resource_index/package_run_dependencies/gripper_controllers
+[11.263s] -- Symlinking: /home/jaime/RM3_ws/install/gripper_controllers/share/ament_index/resource_index/parent_prefix_path/gripper_controllers
+[11.272s] -- Symlinking: /home/jaime/RM3_ws/install/gripper_controllers/share/gripper_controllers/environment/ament_prefix_path.sh
+[11.280s] -- Symlinking: /home/jaime/RM3_ws/install/gripper_controllers/share/gripper_controllers/environment/ament_prefix_path.dsv
+[11.289s] -- Symlinking: /home/jaime/RM3_ws/install/gripper_controllers/share/gripper_controllers/environment/path.sh
+[11.298s] -- Symlinking: /home/jaime/RM3_ws/install/gripper_controllers/share/gripper_controllers/environment/path.dsv
+[11.308s] -- Symlinking: /home/jaime/RM3_ws/install/gripper_controllers/share/gripper_controllers/local_setup.bash
+[11.316s] -- Symlinking: /home/jaime/RM3_ws/install/gripper_controllers/share/gripper_controllers/local_setup.sh
+[11.326s] -- Symlinking: /home/jaime/RM3_ws/install/gripper_controllers/share/gripper_controllers/local_setup.zsh
+[11.335s] -- Symlinking: /home/jaime/RM3_ws/install/gripper_controllers/share/gripper_controllers/local_setup.dsv
+[11.344s] -- Symlinking: /home/jaime/RM3_ws/install/gripper_controllers/share/gripper_controllers/package.dsv
+[11.354s] -- Symlinking: /home/jaime/RM3_ws/install/gripper_controllers/share/ament_index/resource_index/packages/gripper_controllers
+[11.363s] -- Symlinking: /home/jaime/RM3_ws/install/gripper_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/gripper_controllers
+[11.371s] -- Symlinking: /home/jaime/RM3_ws/install/gripper_controllers/share/gripper_controllers/cmake/gripper_controllersConfig.cmake
+[11.380s] -- Symlinking: /home/jaime/RM3_ws/install/gripper_controllers/share/gripper_controllers/cmake/gripper_controllersConfig-version.cmake
+[11.390s] -- Symlinking: /home/jaime/RM3_ws/install/gripper_controllers/share/gripper_controllers/package.xml
+[11.404s] Invoked command in '/home/jaime/RM3_ws/build/gripper_controllers' returned '0': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jaime/RM3_ws/build/gripper_controllers

@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robominer_msgs/msg/SpectrometerMeasurement.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3.idl"
+#include "std_msgs/msg/Header.idl"
+
+module robominer_msgs {
+  module msg {
+    typedef uint16 uint16__288[288];
+    @verbatim (language="comment", text=
+      " Message for sending spectrometer measurements to the Olimex")
+    struct SpectrometerMeasurement {
+      std_msgs::msg::Header header;
+
+      geometry_msgs::msg::Vector3 orientation;
+
+      uint16 exposure_time;
+
+      uint16__288 spectrum;
+    };
+  };
+};

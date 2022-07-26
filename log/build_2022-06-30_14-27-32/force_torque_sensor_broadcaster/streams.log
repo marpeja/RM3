@@ -1,0 +1,99 @@
+[0.022s] Invoking command in '/home/jaime/RM3_ws/build/force_torque_sensor_broadcaster': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jaime/RM3_ws/src/ros2_controllers/force_torque_sensor_broadcaster -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jaime/RM3_ws/install/force_torque_sensor_broadcaster
+[0.083s] -- The C compiler identification is GNU 9.4.0
+[0.139s] -- The CXX compiler identification is GNU 9.4.0
+[0.144s] -- Check for working C compiler: /usr/bin/cc
+[0.222s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.223s] -- Detecting C compiler ABI info
+[0.307s] -- Detecting C compiler ABI info - done
+[0.322s] -- Detecting C compile features
+[0.323s] -- Detecting C compile features - done
+[0.325s] -- Check for working CXX compiler: /usr/bin/c++
+[0.408s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.409s] -- Detecting CXX compiler ABI info
+[0.495s] -- Detecting CXX compiler ABI info - done
+[0.511s] -- Detecting CXX compile features
+[0.512s] -- Detecting CXX compile features - done
+[0.515s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.541s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.541s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.743s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.773s] -- Found controller_interface: 0.10.1 (/home/jaime/RM3_ws/install/controller_interface/share/controller_interface/cmake)
+[0.816s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.825s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.927s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.964s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.058s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.725s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.727s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.728s] -- Looking for pthread.h
+[1.810s] -- Looking for pthread.h - found
+[1.810s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.894s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.895s] -- Looking for pthread_create in pthreads
+[1.961s] -- Looking for pthread_create in pthreads - not found
+[1.961s] -- Looking for pthread_create in pthread
+[2.046s] -- Looking for pthread_create in pthread - found
+[2.047s] -- Found Threads: TRUE  
+[2.381s] -- Found realtime_tools: 2.2.0 (/opt/ros/foxy/share/realtime_tools/cmake)
+[2.497s] -- Found ament_cmake_gmock: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[2.498s] -- Found controller_manager: 0.10.1 (/home/jaime/RM3_ws/install/controller_manager/share/controller_manager/cmake)
+[2.580s] -- Found ros2_control_test_assets: 0.10.1 (/home/jaime/RM3_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[2.583s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.588s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[2.589s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.936s] -- Configuring done
+[3.044s] -- Generating done
+[3.047s] -- Build files have been written to: /home/jaime/RM3_ws/build/force_torque_sensor_broadcaster
+[3.061s] Invoked command in '/home/jaime/RM3_ws/build/force_torque_sensor_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jaime/RM3_ws/src/ros2_controllers/force_torque_sensor_broadcaster -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jaime/RM3_ws/install/force_torque_sensor_broadcaster
+[3.065s] Invoking command in '/home/jaime/RM3_ws/build/force_torque_sensor_broadcaster': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jaime/RM3_ws/build/force_torque_sensor_broadcaster -- -j8 -l8
+[3.109s] [35m[1mScanning dependencies of target gmock_main[0m
+[3.110s] [35m[1mScanning dependencies of target gmock[0m
+[3.110s] [35m[1mScanning dependencies of target force_torque_sensor_broadcaster[0m
+[3.129s] [  9%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[3.134s] [ 18%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[3.135s] [ 27%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[3.166s] [ 36%] [32mBuilding CXX object CMakeFiles/force_torque_sensor_broadcaster.dir/src/force_torque_sensor_broadcaster.cpp.o[0m
+[4.138s] [ 45%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[4.175s] [ 45%] Built target gmock_main
+[6.708s] [ 54%] [32m[1mLinking CXX static library libgmock.a[0m
+[6.782s] [ 54%] Built target gmock
+[6.795s] [35m[1mScanning dependencies of target test_load_force_torque_sensor_broadcaster[0m
+[6.858s] [ 63%] [32mBuilding CXX object CMakeFiles/test_load_force_torque_sensor_broadcaster.dir/test/test_load_force_torque_sensor_broadcaster.cpp.o[0m
+[7.295s] [ 72%] [32m[1mLinking CXX shared library libforce_torque_sensor_broadcaster.so[0m
+[7.718s] [ 72%] Built target force_torque_sensor_broadcaster
+[7.730s] [35m[1mScanning dependencies of target test_force_torque_sensor_broadcaster[0m
+[7.784s] [ 81%] [32mBuilding CXX object CMakeFiles/test_force_torque_sensor_broadcaster.dir/test/test_force_torque_sensor_broadcaster.cpp.o[0m
+[10.822s] [ 90%] [32m[1mLinking CXX executable test_load_force_torque_sensor_broadcaster[0m
+[12.606s] [ 90%] Built target test_load_force_torque_sensor_broadcaster
+[16.184s] [100%] [32m[1mLinking CXX executable test_force_torque_sensor_broadcaster[0m
+[17.404s] [100%] Built target test_force_torque_sensor_broadcaster
+[17.417s] Invoked command in '/home/jaime/RM3_ws/build/force_torque_sensor_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jaime/RM3_ws/build/force_torque_sensor_broadcaster -- -j8 -l8
+[17.453s] Invoking command in '/home/jaime/RM3_ws/build/force_torque_sensor_broadcaster': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jaime/RM3_ws/build/force_torque_sensor_broadcaster
+[17.465s] -- Install configuration: ""
+[17.465s] -- Execute custom install script
+[17.466s] -- Symlinking: /home/jaime/RM3_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster//force_torque_sensor_broadcaster.xml
+[17.475s] -- Symlinking: /home/jaime/RM3_ws/install/force_torque_sensor_broadcaster/lib/libforce_torque_sensor_broadcaster.so
+[17.484s] -- Symlinking: /home/jaime/RM3_ws/install/force_torque_sensor_broadcaster/include/force_torque_sensor_broadcaster/force_torque_sensor_broadcaster.hpp
+[17.493s] -- Symlinking: /home/jaime/RM3_ws/install/force_torque_sensor_broadcaster/include/force_torque_sensor_broadcaster/visibility_control.h
+[17.503s] -- Symlinking: /home/jaime/RM3_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/environment/library_path.sh
+[17.514s] -- Symlinking: /home/jaime/RM3_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/environment/library_path.dsv
+[17.529s] -- Symlinking: /home/jaime/RM3_ws/install/force_torque_sensor_broadcaster/share/ament_index/resource_index/package_run_dependencies/force_torque_sensor_broadcaster
+[17.540s] -- Symlinking: /home/jaime/RM3_ws/install/force_torque_sensor_broadcaster/share/ament_index/resource_index/parent_prefix_path/force_torque_sensor_broadcaster
+[17.550s] -- Symlinking: /home/jaime/RM3_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/environment/ament_prefix_path.sh
+[17.561s] -- Symlinking: /home/jaime/RM3_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/environment/ament_prefix_path.dsv
+[17.571s] -- Symlinking: /home/jaime/RM3_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/environment/path.sh
+[17.580s] -- Symlinking: /home/jaime/RM3_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/environment/path.dsv
+[17.590s] -- Symlinking: /home/jaime/RM3_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/local_setup.bash
+[17.600s] -- Symlinking: /home/jaime/RM3_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/local_setup.sh
+[17.609s] -- Symlinking: /home/jaime/RM3_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/local_setup.zsh
+[17.619s] -- Symlinking: /home/jaime/RM3_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/local_setup.dsv
+[17.629s] -- Symlinking: /home/jaime/RM3_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/package.dsv
+[17.638s] -- Symlinking: /home/jaime/RM3_ws/install/force_torque_sensor_broadcaster/share/ament_index/resource_index/packages/force_torque_sensor_broadcaster
+[17.648s] -- Symlinking: /home/jaime/RM3_ws/install/force_torque_sensor_broadcaster/share/ament_index/resource_index/controller_interface__pluginlib__plugin/force_torque_sensor_broadcaster
+[17.658s] -- Symlinking: /home/jaime/RM3_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.668s] -- Symlinking: /home/jaime/RM3_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/cmake/ament_cmake_export_libraries-extras.cmake
+[17.678s] -- Symlinking: /home/jaime/RM3_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.688s] -- Symlinking: /home/jaime/RM3_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/cmake/force_torque_sensor_broadcasterConfig.cmake
+[17.697s] -- Symlinking: /home/jaime/RM3_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/cmake/force_torque_sensor_broadcasterConfig-version.cmake
+[17.706s] -- Symlinking: /home/jaime/RM3_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/package.xml
+[17.718s] Invoked command in '/home/jaime/RM3_ws/build/force_torque_sensor_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jaime/RM3_ws/build/force_torque_sensor_broadcaster

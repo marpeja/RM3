@@ -1,0 +1,17 @@
+[0.813s] Invoking command in '/home/jaime/RM3_ws/build/robominer_locomotion_control': PYTHONPATH=/home/jaime/RM3_ws/install/robominer_locomotion_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/jaime/RM3_ws/install/robominer_locomotion_control --editable --build-directory /home/jaime/RM3_ws/build/robominer_locomotion_control/build --no-deps install_data --install-dir /home/jaime/RM3_ws/install/robominer_locomotion_control
+[1.087s] running develop
+[1.224s] running egg_info
+[1.225s] writing robominer_locomotion_control.egg-info/PKG-INFO
+[1.225s] writing dependency_links to robominer_locomotion_control.egg-info/dependency_links.txt
+[1.225s] writing entry points to robominer_locomotion_control.egg-info/entry_points.txt
+[1.226s] writing requirements to robominer_locomotion_control.egg-info/requires.txt
+[1.226s] writing top-level names to robominer_locomotion_control.egg-info/top_level.txt
+[1.272s] reading manifest file 'robominer_locomotion_control.egg-info/SOURCES.txt'
+[1.273s] writing manifest file 'robominer_locomotion_control.egg-info/SOURCES.txt'
+[1.321s] running build_ext
+[1.321s] Creating /home/jaime/RM3_ws/install/robominer_locomotion_control/lib/python3.8/site-packages/robominer-locomotion-control.egg-link (link to .)
+[1.322s] Installing open_loop_steering script to /home/jaime/RM3_ws/install/robominer_locomotion_control/lib/robominer_locomotion_control
+[1.323s] 
+[1.323s] Installed /home/jaime/RM3_ws/build/robominer_locomotion_control
+[1.323s] running install_data
+[1.373s] Invoked command in '/home/jaime/RM3_ws/build/robominer_locomotion_control' returned '0': PYTHONPATH=/home/jaime/RM3_ws/install/robominer_locomotion_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/jaime/RM3_ws/install/robominer_locomotion_control --editable --build-directory /home/jaime/RM3_ws/build/robominer_locomotion_control/build --no-deps install_data --install-dir /home/jaime/RM3_ws/install/robominer_locomotion_control

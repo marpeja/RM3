@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robominer_msgs/msg/WhiskerPosInGrid.msg
+// generated code does not contain a copyright notice
+
+
+module robominer_msgs {
+  module msg {
+    struct WhiskerPosInGrid {
+      uint8 row_num;
+
+      uint8 col_num;
+
+      float offset_y;
+    };
+  };
+};

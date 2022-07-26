@@ -1,0 +1,1 @@
+/home/jaime/RM3_ws/src/rtabmap_ros/msg/RGBDImages.msg

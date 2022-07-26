@@ -1,0 +1,2 @@
+Invoking command in '/home/jaime/RM3_ws/build/rtabmap': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jaime/RM3_ws/src/rtabmap -DCMAKE_INSTALL_PREFIX=/home/jaime/RM3_ws/install/rtabmap
+Invoked command in '/home/jaime/RM3_ws/build/rtabmap' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jaime/RM3_ws/src/rtabmap -DCMAKE_INSTALL_PREFIX=/home/jaime/RM3_ws/install/rtabmap

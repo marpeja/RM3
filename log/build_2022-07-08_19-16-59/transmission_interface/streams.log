@@ -1,0 +1,37 @@
+[0.061s] Invoking command in '/home/jaime/RM3_ws/build/transmission_interface': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/hardware_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/jaime/RM3_ws/build/transmission_interface -- -j8 -l8
+[0.199s] [ 18%] Built target gmock_main
+[0.211s] [ 45%] Built target gmock
+[0.338s] [ 63%] Built target test_simple_transmission
+[0.364s] [ 81%] Built target test_four_bar_linkage_transmission
+[0.364s] [100%] Built target test_differential_transmission
+[0.400s] Invoked command in '/home/jaime/RM3_ws/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/hardware_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/jaime/RM3_ws/build/transmission_interface -- -j8 -l8
+[0.570s] Invoking command in '/home/jaime/RM3_ws/build/transmission_interface': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/hardware_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/jaime/RM3_ws/build/transmission_interface
+[0.593s] -- Install configuration: ""
+[0.595s] -- Execute custom install script
+[0.597s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/transmission_interface/include/transmission_interface/accessor.hpp
+[0.598s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/transmission_interface/include/transmission_interface/differential_transmission.hpp
+[0.599s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/transmission_interface/include/transmission_interface/exception.hpp
+[0.599s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/transmission_interface/include/transmission_interface/four_bar_linkage_transmission.hpp
+[0.600s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/transmission_interface/include/transmission_interface/handle.hpp
+[0.601s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/transmission_interface/include/transmission_interface/simple_transmission.hpp
+[0.601s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/transmission_interface/include/transmission_interface/transmission.hpp
+[0.602s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/transmission_interface/include/transmission_interface/transmission_parser.hpp
+[0.603s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/transmission_interface/include/transmission_interface/visibility_control.h
+[0.606s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/transmission_interface/share/ament_index/resource_index/package_run_dependencies/transmission_interface
+[0.608s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/transmission_interface/share/ament_index/resource_index/parent_prefix_path/transmission_interface
+[0.610s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.sh
+[0.610s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.dsv
+[0.615s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/transmission_interface/share/transmission_interface/environment/path.sh
+[0.616s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/transmission_interface/share/transmission_interface/environment/path.dsv
+[0.619s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/transmission_interface/share/transmission_interface/local_setup.bash
+[0.619s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/transmission_interface/share/transmission_interface/local_setup.sh
+[0.620s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/transmission_interface/share/transmission_interface/local_setup.zsh
+[0.620s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/transmission_interface/share/transmission_interface/local_setup.dsv
+[0.620s] -- Symlinking: /home/jaime/RM3_ws/install/transmission_interface/share/transmission_interface/package.dsv
+[0.637s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/transmission_interface/share/ament_index/resource_index/packages/transmission_interface
+[0.638s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.639s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.648s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig.cmake
+[0.648s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig-version.cmake
+[0.648s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/transmission_interface/share/transmission_interface/package.xml
+[0.677s] Invoked command in '/home/jaime/RM3_ws/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/hardware_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/jaime/RM3_ws/build/transmission_interface

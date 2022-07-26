@@ -1,0 +1,98 @@
+[0.023s] Invoking command in '/home/jaime/RM3_ws/build/position_controllers': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/forward_command_controller:/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/forward_command_controller:/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/forward_command_controller/lib:/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jaime/RM3_ws/src/ros2_controllers/position_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jaime/RM3_ws/install/position_controllers
+[0.098s] -- The C compiler identification is GNU 9.4.0
+[0.177s] -- The CXX compiler identification is GNU 9.4.0
+[0.181s] -- Check for working C compiler: /usr/bin/cc
+[0.256s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.257s] -- Detecting C compiler ABI info
+[0.335s] -- Detecting C compiler ABI info - done
+[0.351s] -- Detecting C compile features
+[0.352s] -- Detecting C compile features - done
+[0.354s] -- Check for working CXX compiler: /usr/bin/c++
+[0.444s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.445s] -- Detecting CXX compiler ABI info
+[0.536s] -- Detecting CXX compiler ABI info - done
+[0.551s] -- Detecting CXX compile features
+[0.552s] -- Detecting CXX compile features - done
+[0.555s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.585s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.586s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.799s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.828s] -- Found forward_command_controller: 0.8.0 (/home/jaime/RM3_ws/install/forward_command_controller/share/forward_command_controller/cmake)
+[0.871s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.879s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.977s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.014s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.108s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.769s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.771s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.772s] -- Looking for pthread.h
+[1.847s] -- Looking for pthread.h - found
+[1.848s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.928s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.928s] -- Looking for pthread_create in pthreads
+[1.992s] -- Looking for pthread_create in pthreads - not found
+[1.992s] -- Looking for pthread_create in pthread
+[2.069s] -- Looking for pthread_create in pthread - found
+[2.071s] -- Found Threads: TRUE  
+[2.707s] -- Found ament_cmake_gmock: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[2.707s] -- Found controller_manager: 0.10.1 (/home/jaime/RM3_ws/install/controller_manager/share/controller_manager/cmake)
+[2.789s] -- Found ros2_control_test_assets: 0.10.1 (/home/jaime/RM3_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[2.792s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.797s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[2.799s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.967s] -- Configuring done
+[3.044s] -- Generating done
+[3.047s] -- Build files have been written to: /home/jaime/RM3_ws/build/position_controllers
+[3.061s] Invoked command in '/home/jaime/RM3_ws/build/position_controllers' returned '0': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/forward_command_controller:/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/forward_command_controller:/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/forward_command_controller/lib:/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jaime/RM3_ws/src/ros2_controllers/position_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jaime/RM3_ws/install/position_controllers
+[3.065s] Invoking command in '/home/jaime/RM3_ws/build/position_controllers': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/forward_command_controller:/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/forward_command_controller:/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/forward_command_controller/lib:/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jaime/RM3_ws/build/position_controllers -- -j8 -l8
+[3.109s] [35m[1mScanning dependencies of target gmock[0m
+[3.109s] [35m[1mScanning dependencies of target gmock_main[0m
+[3.109s] [35m[1mScanning dependencies of target position_controllers[0m
+[3.129s] [  9%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[3.140s] [ 27%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[3.140s] [ 27%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[3.154s] [ 36%] [32mBuilding CXX object CMakeFiles/position_controllers.dir/src/joint_group_position_controller.cpp.o[0m
+[4.299s] [ 45%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[4.345s] [ 45%] Built target gmock_main
+[5.448s] [ 54%] [32m[1mLinking CXX shared library libposition_controllers.so[0m
+[5.847s] [ 54%] Built target position_controllers
+[6.849s] [ 63%] [32m[1mLinking CXX static library libgmock.a[0m
+[6.914s] [ 63%] Built target gmock
+[6.924s] [35m[1mScanning dependencies of target test_joint_group_position_controller[0m
+[6.925s] [35m[1mScanning dependencies of target test_load_joint_group_position_controller[0m
+[6.977s] [ 72%] [32mBuilding CXX object CMakeFiles/test_joint_group_position_controller.dir/test/test_joint_group_position_controller.cpp.o[0m
+[6.982s] [ 81%] [32mBuilding CXX object CMakeFiles/test_load_joint_group_position_controller.dir/test/test_load_joint_group_position_controller.cpp.o[0m
+[10.773s] [ 90%] [32m[1mLinking CXX executable test_load_joint_group_position_controller[0m
+[12.135s] [ 90%] Built target test_load_joint_group_position_controller
+[12.687s] [100%] [32m[1mLinking CXX executable test_joint_group_position_controller[0m
+[13.606s] [100%] Built target test_joint_group_position_controller
+[13.618s] Invoked command in '/home/jaime/RM3_ws/build/position_controllers' returned '0': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/forward_command_controller:/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/forward_command_controller:/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/forward_command_controller/lib:/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jaime/RM3_ws/build/position_controllers -- -j8 -l8
+[13.655s] Invoking command in '/home/jaime/RM3_ws/build/position_controllers': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/forward_command_controller:/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/forward_command_controller:/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/forward_command_controller/lib:/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jaime/RM3_ws/build/position_controllers
+[13.664s] -- Install configuration: ""
+[13.664s] -- Execute custom install script
+[13.665s] -- Symlinking: /home/jaime/RM3_ws/install/position_controllers/share/position_controllers//position_controllers_plugins.xml
+[13.675s] -- Symlinking: /home/jaime/RM3_ws/install/position_controllers/include/position_controllers/joint_group_position_controller.hpp
+[13.685s] -- Symlinking: /home/jaime/RM3_ws/install/position_controllers/include/position_controllers/visibility_control.h
+[13.696s] -- Symlinking: /home/jaime/RM3_ws/install/position_controllers/lib/libposition_controllers.so
+[13.707s] -- Symlinking: /home/jaime/RM3_ws/install/position_controllers/share/position_controllers/environment/library_path.sh
+[13.724s] -- Symlinking: /home/jaime/RM3_ws/install/position_controllers/share/position_controllers/environment/library_path.dsv
+[13.733s] -- Symlinking: /home/jaime/RM3_ws/install/position_controllers/share/ament_index/resource_index/package_run_dependencies/position_controllers
+[13.744s] -- Symlinking: /home/jaime/RM3_ws/install/position_controllers/share/ament_index/resource_index/parent_prefix_path/position_controllers
+[13.753s] -- Symlinking: /home/jaime/RM3_ws/install/position_controllers/share/position_controllers/environment/ament_prefix_path.sh
+[13.763s] -- Symlinking: /home/jaime/RM3_ws/install/position_controllers/share/position_controllers/environment/ament_prefix_path.dsv
+[13.772s] -- Symlinking: /home/jaime/RM3_ws/install/position_controllers/share/position_controllers/environment/path.sh
+[13.783s] -- Symlinking: /home/jaime/RM3_ws/install/position_controllers/share/position_controllers/environment/path.dsv
+[13.793s] -- Symlinking: /home/jaime/RM3_ws/install/position_controllers/share/position_controllers/local_setup.bash
+[13.802s] -- Symlinking: /home/jaime/RM3_ws/install/position_controllers/share/position_controllers/local_setup.sh
+[13.812s] -- Symlinking: /home/jaime/RM3_ws/install/position_controllers/share/position_controllers/local_setup.zsh
+[13.822s] -- Symlinking: /home/jaime/RM3_ws/install/position_controllers/share/position_controllers/local_setup.dsv
+[13.832s] -- Symlinking: /home/jaime/RM3_ws/install/position_controllers/share/position_controllers/package.dsv
+[13.841s] -- Symlinking: /home/jaime/RM3_ws/install/position_controllers/share/ament_index/resource_index/packages/position_controllers
+[13.851s] -- Symlinking: /home/jaime/RM3_ws/install/position_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/position_controllers
+[13.860s] -- Symlinking: /home/jaime/RM3_ws/install/position_controllers/share/position_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.871s] -- Symlinking: /home/jaime/RM3_ws/install/position_controllers/share/position_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.880s] -- Symlinking: /home/jaime/RM3_ws/install/position_controllers/share/position_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[13.889s] -- Symlinking: /home/jaime/RM3_ws/install/position_controllers/share/position_controllers/cmake/position_controllersConfig.cmake
+[13.899s] -- Symlinking: /home/jaime/RM3_ws/install/position_controllers/share/position_controllers/cmake/position_controllersConfig-version.cmake
+[13.908s] -- Symlinking: /home/jaime/RM3_ws/install/position_controllers/share/position_controllers/package.xml
+[13.920s] Invoked command in '/home/jaime/RM3_ws/build/position_controllers' returned '0': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/forward_command_controller:/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/forward_command_controller:/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/forward_command_controller/lib:/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jaime/RM3_ws/build/position_controllers

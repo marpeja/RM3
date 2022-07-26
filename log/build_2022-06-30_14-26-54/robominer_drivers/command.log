@@ -1,0 +1,6 @@
+Invoking command in '/home/jaime/RM3_ws/build/robominer_drivers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_drivers -DCMAKE_INSTALL_PREFIX=/home/jaime/RM3_ws/install/robominer_drivers
+Invoked command in '/home/jaime/RM3_ws/build/robominer_drivers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_drivers -DCMAKE_INSTALL_PREFIX=/home/jaime/RM3_ws/install/robominer_drivers
+Invoking command in '/home/jaime/RM3_ws/build/robominer_drivers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jaime/RM3_ws/build/robominer_drivers -- -j8 -l8
+Invoked command in '/home/jaime/RM3_ws/build/robominer_drivers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jaime/RM3_ws/build/robominer_drivers -- -j8 -l8
+Invoking command in '/home/jaime/RM3_ws/build/robominer_drivers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jaime/RM3_ws/build/robominer_drivers
+Invoked command in '/home/jaime/RM3_ws/build/robominer_drivers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jaime/RM3_ws/build/robominer_drivers

@@ -1,0 +1,67 @@
+[0.028s] Invoking command in '/home/jaime/RM3_ws/build/hardware_interface': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/ros2_control_test_assets CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/ros2_control_test_assets /usr/bin/cmake --build /home/jaime/RM3_ws/build/hardware_interface -- -j8 -l8
+[0.142s] [ 17%] Built target hardware_interface
+[0.171s] [ 23%] Built target gmock_main
+[0.216s] [ 38%] Built target test_hardware_components
+[0.255s] [ 50%] Built target test_components
+[0.292s] [ 55%] Built target fake_components
+[0.328s] [ 64%] Built target gmock
+[0.371s] [ 70%] Built target test_component_interfaces
+[0.418s] [ 76%] Built target test_resource_manager
+[0.451s] [ 82%] Built target test_macros
+[0.495s] [ 88%] Built target test_generic_system
+[0.533s] [ 94%] Built target test_component_parser
+[0.594s] [100%] Built target test_joint_handle
+[0.615s] Invoked command in '/home/jaime/RM3_ws/build/hardware_interface' returned '0': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/ros2_control_test_assets CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/ros2_control_test_assets /usr/bin/cmake --build /home/jaime/RM3_ws/build/hardware_interface -- -j8 -l8
+[0.723s] Invoking command in '/home/jaime/RM3_ws/build/hardware_interface': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/ros2_control_test_assets CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/ros2_control_test_assets /usr/bin/cmake --install /home/jaime/RM3_ws/build/hardware_interface
+[0.737s] -- Install configuration: ""
+[0.741s] -- Execute custom install script
+[0.742s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/share/hardware_interface//fake_components_plugin_description.xml
+[0.742s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/include/fake_components/generic_system.hpp
+[0.743s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/include/fake_components/visibility_control.h
+[0.743s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/include/hardware_interface/actuator.hpp
+[0.744s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/include/hardware_interface/actuator_interface.hpp
+[0.745s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/include/hardware_interface/base_interface.hpp
+[0.745s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/include/hardware_interface/component_parser.hpp
+[0.746s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/include/hardware_interface/controller_info.hpp
+[0.746s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/include/hardware_interface/handle.hpp
+[0.748s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/include/hardware_interface/hardware_info.hpp
+[0.748s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/include/hardware_interface/loaned_command_interface.hpp
+[0.748s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/include/hardware_interface/loaned_state_interface.hpp
+[0.749s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/include/hardware_interface/macros.hpp
+[0.749s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/include/hardware_interface/resource_manager.hpp
+[0.750s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/include/hardware_interface/sensor.hpp
+[0.750s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/include/hardware_interface/sensor_interface.hpp
+[0.750s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/include/hardware_interface/system.hpp
+[0.751s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/include/hardware_interface/system_interface.hpp
+[0.752s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/include/hardware_interface/types/hardware_interface_return_values.hpp
+[0.752s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/include/hardware_interface/types/hardware_interface_status_values.hpp
+[0.752s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/include/hardware_interface/types/hardware_interface_type_values.hpp
+[0.753s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/include/hardware_interface/visibility_control.h
+[0.753s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/lib/libfake_components.so
+[0.754s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/lib/libhardware_interface.so
+[0.754s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/lib/libtest_components.so
+[0.755s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/share/hardware_interface/test/test_components/test_components.xml
+[0.755s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/lib/libtest_hardware_components.so
+[0.755s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/share/hardware_interface/test/test_hardware_components/test_hardware_components.xml
+[0.756s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/share/hardware_interface/environment/library_path.sh
+[0.756s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/share/hardware_interface/environment/library_path.dsv
+[0.756s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/share/ament_index/resource_index/package_run_dependencies/hardware_interface
+[0.757s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/share/ament_index/resource_index/parent_prefix_path/hardware_interface
+[0.757s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/share/hardware_interface/environment/ament_prefix_path.sh
+[0.757s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/share/hardware_interface/environment/ament_prefix_path.dsv
+[0.757s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/share/hardware_interface/environment/path.sh
+[0.757s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/share/hardware_interface/environment/path.dsv
+[0.758s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/share/hardware_interface/local_setup.bash
+[0.759s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/share/hardware_interface/local_setup.sh
+[0.759s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/share/hardware_interface/local_setup.zsh
+[0.760s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/share/hardware_interface/local_setup.dsv
+[0.760s] -- Symlinking: /home/jaime/RM3_ws/install/hardware_interface/share/hardware_interface/package.dsv
+[0.771s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/share/ament_index/resource_index/packages/hardware_interface
+[0.772s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/hardware_interface
+[0.773s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.774s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[0.774s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.776s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/share/hardware_interface/cmake/hardware_interfaceConfig.cmake
+[0.776s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/share/hardware_interface/cmake/hardware_interfaceConfig-version.cmake
+[0.777s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/hardware_interface/share/hardware_interface/package.xml
+[0.786s] Invoked command in '/home/jaime/RM3_ws/build/hardware_interface' returned '0': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/ros2_control_test_assets CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/ros2_control_test_assets /usr/bin/cmake --install /home/jaime/RM3_ws/build/hardware_interface

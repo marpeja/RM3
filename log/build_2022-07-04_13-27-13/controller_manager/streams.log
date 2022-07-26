@@ -1,0 +1,58 @@
+[0.029s] Invoking command in '/home/jaime/RM3_ws/build/controller_manager': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jaime/RM3_ws/build/controller_manager -- -j8 -l8
+[0.089s] [ 16%] Built target gmock_main
+[0.089s] [ 20%] Built target gmock
+[0.099s] [ 28%] Built target controller_manager
+[0.143s] [ 36%] Built target test_controller_failed_init
+[0.143s] [ 44%] Built target test_controller_with_interfaces
+[0.151s] [ 52%] Built target test_controller
+[0.157s] [ 60%] Built target ros2_control_node
+[0.174s] [ 68%] Built target test_release_interfaces
+[0.187s] [ 84%] Built target test_spawner_unspawner
+[0.187s] [ 80%] Built target test_controller_manager
+[0.188s] [ 92%] Built target test_load_controller
+[0.193s] [100%] Built target test_controller_manager_srvs
+[0.206s] Invoked command in '/home/jaime/RM3_ws/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jaime/RM3_ws/build/controller_manager -- -j8 -l8
+[0.265s] Invoking command in '/home/jaime/RM3_ws/build/controller_manager': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jaime/RM3_ws/build/controller_manager
+[0.272s] -- Install configuration: ""
+[0.272s] -- Execute custom install script
+[0.273s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/controller_manager/lib/libcontroller_manager.so
+[0.273s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/controller_manager/lib/controller_manager/ros2_control_node
+[0.274s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/controller_manager/include/controller_manager/controller_manager.hpp
+[0.274s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/controller_manager/include/controller_manager/controller_spec.hpp
+[0.274s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/controller_manager/include/controller_manager/visibility_control.h
+[0.275s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/controller_manager/lib/controller_manager/spawner.py
+[0.275s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/controller_manager/lib/controller_manager/unspawner.py
+[0.275s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/controller_manager/share/controller_manager/test/test_controller/test_controller.xml
+[0.276s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/controller_manager/lib/libtest_controller.so
+[0.276s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/controller_manager/share/controller_manager/test/test_controller_failed_init/test_controller_failed_init.xml
+[0.276s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/controller_manager/lib/libtest_controller_failed_init.so
+[0.276s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/controller_manager/share/controller_manager/test/test_controller_with_interfaces/test_controller_with_interfaces.xml
+[0.276s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/controller_manager/lib/libtest_controller_with_interfaces.so
+[0.277s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/controller_manager/share/controller_manager/environment/pythonpath.sh
+[0.277s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/controller_manager/share/controller_manager/environment/pythonpath.dsv
+[0.278s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages/controller_manager/__init__.py
+[0.278s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages/controller_manager/controller_manager_services.py
+[0.278s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages/controller_manager/launch_utils.py
+[0.279s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/controller_manager/share/controller_manager/environment/library_path.sh
+[0.279s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/controller_manager/share/controller_manager/environment/library_path.dsv
+[0.279s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/controller_manager/share/ament_index/resource_index/package_run_dependencies/controller_manager
+[0.280s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/controller_manager/share/ament_index/resource_index/parent_prefix_path/controller_manager
+[0.280s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/controller_manager/share/controller_manager/environment/ament_prefix_path.sh
+[0.281s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/controller_manager/share/controller_manager/environment/ament_prefix_path.dsv
+[0.281s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/controller_manager/share/controller_manager/environment/path.sh
+[0.281s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/controller_manager/share/controller_manager/environment/path.dsv
+[0.281s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/controller_manager/share/controller_manager/local_setup.bash
+[0.281s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/controller_manager/share/controller_manager/local_setup.sh
+[0.282s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/controller_manager/share/controller_manager/local_setup.zsh
+[0.282s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/controller_manager/share/controller_manager/local_setup.dsv
+[0.282s] -- Symlinking: /home/jaime/RM3_ws/install/controller_manager/share/controller_manager/package.dsv
+[0.291s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/controller_manager/share/ament_index/resource_index/packages/controller_manager
+[0.292s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/controller_manager/share/ament_index/resource_index/controller_interface__pluginlib__plugin/controller_manager
+[0.292s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_libraries-extras.cmake
+[0.292s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.292s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.293s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/controller_manager/share/controller_manager/cmake/controller_managerConfig.cmake
+[0.293s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/controller_manager/share/controller_manager/cmake/controller_managerConfig-version.cmake
+[0.293s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/controller_manager/share/controller_manager/package.xml
+[0.327s] Listing '/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages/controller_manager'...
+[0.344s] Invoked command in '/home/jaime/RM3_ws/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jaime/RM3_ws/build/controller_manager

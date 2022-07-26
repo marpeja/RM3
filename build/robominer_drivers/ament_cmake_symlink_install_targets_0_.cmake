@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jaime/RM3_ws/build/robominer_drivers/bno080_imu" "/home/jaime/RM3_ws/build/robominer_drivers/tlv493d_tca9548a_whiskers" "TARGETS" "bno080_imu" "tlv493d_tca9548a_whiskers" "DESTINATION" "lib/robominer_drivers")

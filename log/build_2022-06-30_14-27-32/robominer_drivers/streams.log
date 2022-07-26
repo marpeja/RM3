@@ -1,0 +1,74 @@
+[0.011s] Invoking command in '/home/jaime/RM3_ws/build/robominer_drivers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_drivers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jaime/RM3_ws/install/robominer_drivers
+[0.024s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.048s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.258s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.266s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.303s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.307s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.449s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.509s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.509s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.691s] -- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)
+[0.691s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.834s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.921s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[0.933s] -- Found robominer_msgs: 0.0.0 (/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake)
+[1.024s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.104s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.106s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.106s] -- Configured cppcheck include dirs: /home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_drivers/include
+[1.106s] -- Configured cppcheck exclude dirs and/or files: 
+[1.108s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.109s] -- Configured cpplint exclude dirs and/or files: 
+[1.109s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.110s] -- Added test 'lint_cmake' to check CMake code style
+[1.110s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.112s] -- Added test 'uncrustify' to check C / C++ code style
+[1.112s] -- Configured uncrustify additional arguments: 
+[1.112s] -- Added test 'xmllint' to check XML markup files
+[1.115s] -- Configuring done
+[1.133s] -- Generating done
+[1.135s] -- Build files have been written to: /home/jaime/RM3_ws/build/robominer_drivers
+[1.145s] Invoked command in '/home/jaime/RM3_ws/build/robominer_drivers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_drivers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jaime/RM3_ws/install/robominer_drivers
+[1.149s] Invoking command in '/home/jaime/RM3_ws/build/robominer_drivers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jaime/RM3_ws/build/robominer_drivers -- -j8 -l8
+[1.212s] [ 16%] [32m[1mLinking CXX executable tlv493d_tca9548a_whiskers[0m
+[1.212s] [ 16%] [32m[1mLinking CXX executable bno080_imu[0m
+[1.481s] [100%] Built target tlv493d_tca9548a_whiskers
+[1.482s] [100%] Built target bno080_imu
+[1.493s] Invoked command in '/home/jaime/RM3_ws/build/robominer_drivers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jaime/RM3_ws/build/robominer_drivers -- -j8 -l8
+[1.532s] Invoking command in '/home/jaime/RM3_ws/build/robominer_drivers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jaime/RM3_ws/build/robominer_drivers
+[1.543s] -- Install configuration: ""
+[1.543s] -- Execute custom install script
+[1.543s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/lib/robominer_drivers/bno080_imu
+[1.553s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/lib/robominer_drivers/tlv493d_tca9548a_whiskers
+[1.562s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/environment/pythonpath.sh
+[1.571s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/environment/pythonpath.dsv
+[1.581s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/lib/python3.8/site-packages/robominer_drivers/__init__.py
+[1.589s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/lib/robominer_drivers/motor_serial_interface.py
+[1.598s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/lib/robominer_drivers/temperature_sensor.py
+[1.606s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/lib/robominer_drivers/pi48_interface.py
+[1.616s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/launch/four_motor_modules.launch.py
+[1.625s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/launch/old_module_com_id.launch.py
+[1.633s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/launch/pi48.launch.py
+[1.642s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/launch/right_module_com_id.launch.py
+[1.650s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/launch/single_motor.launch.py
+[1.659s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/launch/single_motor_com_id.launch.py
+[1.668s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/launch/two_unos_com_id.launch.py
+[1.678s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/launch/whiskers_launch.py
+[1.687s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/ament_index/resource_index/package_run_dependencies/robominer_drivers
+[1.696s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/ament_index/resource_index/parent_prefix_path/robominer_drivers
+[1.705s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/environment/ament_prefix_path.sh
+[1.714s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/environment/ament_prefix_path.dsv
+[1.723s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/environment/path.sh
+[1.731s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/environment/path.dsv
+[1.740s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/local_setup.bash
+[1.749s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/local_setup.sh
+[1.758s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/local_setup.zsh
+[1.767s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/local_setup.dsv
+[1.776s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/package.dsv
+[1.785s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/ament_index/resource_index/packages/robominer_drivers
+[1.802s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/cmake/robominer_driversConfig.cmake
+[1.811s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/cmake/robominer_driversConfig-version.cmake
+[1.821s] -- Symlinking: /home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/package.xml
+[1.871s] Listing '/home/jaime/RM3_ws/install/robominer_drivers/lib/python3.8/site-packages/robominer_drivers'...
+[1.892s] Invoked command in '/home/jaime/RM3_ws/build/robominer_drivers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jaime/RM3_ws/build/robominer_drivers

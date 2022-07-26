@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jaime/RM3_ws/build/effort_controllers/libeffort_controllers.so" "TARGETS" "effort_controllers" "RUNTIME_DESTINATION" "bin" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib")

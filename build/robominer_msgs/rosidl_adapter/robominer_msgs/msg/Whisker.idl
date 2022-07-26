@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robominer_msgs/msg/Whisker.msg
+// generated code does not contain a copyright notice
+
+#include "robominer_msgs/msg/WhiskerPosInGrid.idl"
+
+module robominer_msgs {
+  module msg {
+    struct Whisker {
+      robominer_msgs::msg::WhiskerPosInGrid pos;
+
+      boolean has_error;
+
+      float x;
+
+      float y;
+
+      float z;
+    };
+  };
+};

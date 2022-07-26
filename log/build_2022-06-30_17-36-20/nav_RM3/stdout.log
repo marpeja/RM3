@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/nav_RM3/nav_RM3.egg-info
+writing ../../build/nav_RM3/nav_RM3.egg-info/PKG-INFO
+writing dependency_links to ../../build/nav_RM3/nav_RM3.egg-info/dependency_links.txt
+writing entry points to ../../build/nav_RM3/nav_RM3.egg-info/entry_points.txt
+writing requirements to ../../build/nav_RM3/nav_RM3.egg-info/requires.txt
+writing top-level names to ../../build/nav_RM3/nav_RM3.egg-info/top_level.txt
+writing manifest file '../../build/nav_RM3/nav_RM3.egg-info/SOURCES.txt'
+reading manifest file '../../build/nav_RM3/nav_RM3.egg-info/SOURCES.txt'
+writing manifest file '../../build/nav_RM3/nav_RM3.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jaime/RM3_ws/build/nav_RM3/build
+creating /home/jaime/RM3_ws/build/nav_RM3/build/lib
+creating /home/jaime/RM3_ws/build/nav_RM3/build/lib/nav_RM3
+copying nav_RM3/__init__.py -> /home/jaime/RM3_ws/build/nav_RM3/build/lib/nav_RM3
+running install
+running install_lib
+creating /home/jaime/RM3_ws/install/nav_RM3/lib/python3.8/site-packages/nav_RM3
+copying /home/jaime/RM3_ws/build/nav_RM3/build/lib/nav_RM3/__init__.py -> /home/jaime/RM3_ws/install/nav_RM3/lib/python3.8/site-packages/nav_RM3
+byte-compiling /home/jaime/RM3_ws/install/nav_RM3/lib/python3.8/site-packages/nav_RM3/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/jaime/RM3_ws/install/nav_RM3/share/ament_index
+creating /home/jaime/RM3_ws/install/nav_RM3/share/ament_index/resource_index
+creating /home/jaime/RM3_ws/install/nav_RM3/share/ament_index/resource_index/packages
+copying resource/nav_RM3 -> /home/jaime/RM3_ws/install/nav_RM3/share/ament_index/resource_index/packages
+copying package.xml -> /home/jaime/RM3_ws/install/nav_RM3/share/nav_RM3
+creating /home/jaime/RM3_ws/install/nav_RM3/share/nav_RM3/launch
+copying launch/navigation2.launch.py -> /home/jaime/RM3_ws/install/nav_RM3/share/nav_RM3/launch
+creating /home/jaime/RM3_ws/install/nav_RM3/share/nav_RM3/config
+copying config/nav2.yaml -> /home/jaime/RM3_ws/install/nav_RM3/share/nav_RM3/config
+creating /home/jaime/RM3_ws/install/nav_RM3/share/nav_RM3/rviz
+copying rviz/nav2_default_view.rviz -> /home/jaime/RM3_ws/install/nav_RM3/share/nav_RM3/rviz
+running install_egg_info
+Copying ../../build/nav_RM3/nav_RM3.egg-info to /home/jaime/RM3_ws/install/nav_RM3/lib/python3.8/site-packages/nav_RM3-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/jaime/RM3_ws/build/nav_RM3/install.log'

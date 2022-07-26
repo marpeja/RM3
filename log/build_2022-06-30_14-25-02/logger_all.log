@@ -1,0 +1,309 @@
+[0.150s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.150s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fdda703d7f0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fdda703d7f0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fdda703dd60>)
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.176s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jaime/RM3_ws'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES) by extension 'ros'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES) by extensions ['cmake', 'python']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES) by extension 'cmake'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES) by extension 'python'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES) by extensions ['python_setup_py']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES) by extension 'python_setup_py'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES/robominer_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES/robominer_bringup) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES/robominer_bringup) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES/robominer_bringup) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES/robominer_bringup) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES/robominer_bringup) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES/robominer_bringup) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES/robominer_bringup) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES/robominer_bringup) by extension 'ros'
+[0.195s] DEBUG:colcon.colcon_core.package_identification:Package 'src/TALTECH_RM3_ROS_PACKAGES/robominer_bringup' with type 'ros.ament_python' and name 'robominer_bringup'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES/robominer_drivers) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES/robominer_drivers) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES/robominer_drivers) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES/robominer_drivers) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES/robominer_drivers) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES/robominer_drivers) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES/robominer_drivers) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES/robominer_drivers) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES/robominer_drivers) by extension 'ros'
+[0.196s] DEBUG:colcon.colcon_core.package_identification:Package 'src/TALTECH_RM3_ROS_PACKAGES/robominer_drivers' with type 'ros.ament_cmake' and name 'robominer_drivers'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES/robominer_locomotion_control) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES/robominer_locomotion_control) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES/robominer_locomotion_control) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES/robominer_locomotion_control) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES/robominer_locomotion_control) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES/robominer_locomotion_control) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES/robominer_locomotion_control) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES/robominer_locomotion_control) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES/robominer_locomotion_control) by extension 'ros'
+[0.198s] DEBUG:colcon.colcon_core.package_identification:Package 'src/TALTECH_RM3_ROS_PACKAGES/robominer_locomotion_control' with type 'ros.ament_python' and name 'robominer_locomotion_control'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES/robominer_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES/robominer_msgs) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES/robominer_msgs) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES/robominer_msgs) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES/robominer_msgs) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES/robominer_msgs) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES/robominer_msgs) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES/robominer_msgs) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/TALTECH_RM3_ROS_PACKAGES/robominer_msgs) by extension 'ros'
+[0.199s] DEBUG:colcon.colcon_core.package_identification:Package 'src/TALTECH_RM3_ROS_PACKAGES/robominer_msgs' with type 'ros.ament_cmake' and name 'robominer_msgs'
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.222s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 311 installed packages in /opt/ros/foxy
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'robominer_bringup' build argument 'cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'robominer_bringup' build argument 'cmake_target' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'robominer_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'robominer_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'robominer_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'robominer_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'robominer_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'robominer_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'robominer_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.322s] DEBUG:colcon.colcon_core.verb:Building package 'robominer_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jaime/RM3_ws/build/robominer_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jaime/RM3_ws/install/robominer_bringup', 'merge_install': False, 'path': '/home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'robominer_drivers' build argument 'cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'robominer_drivers' build argument 'cmake_target' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'robominer_drivers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'robominer_drivers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'robominer_drivers' build argument 'cmake_clean_first' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'robominer_drivers' build argument 'cmake_force_configure' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'robominer_drivers' build argument 'ament_cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'robominer_drivers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'robominer_drivers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.323s] DEBUG:colcon.colcon_core.verb:Building package 'robominer_drivers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jaime/RM3_ws/build/robominer_drivers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jaime/RM3_ws/install/robominer_drivers', 'merge_install': False, 'path': '/home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_drivers', 'symlink_install': False, 'test_result_base': None}
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'robominer_locomotion_control' build argument 'cmake_args' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'robominer_locomotion_control' build argument 'cmake_target' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'robominer_locomotion_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'robominer_locomotion_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'robominer_locomotion_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'robominer_locomotion_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'robominer_locomotion_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'robominer_locomotion_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'robominer_locomotion_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.324s] DEBUG:colcon.colcon_core.verb:Building package 'robominer_locomotion_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jaime/RM3_ws/build/robominer_locomotion_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jaime/RM3_ws/install/robominer_locomotion_control', 'merge_install': False, 'path': '/home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_locomotion_control', 'symlink_install': False, 'test_result_base': None}
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'robominer_msgs' build argument 'cmake_args' from command line to 'None'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'robominer_msgs' build argument 'cmake_target' from command line to 'None'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'robominer_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'robominer_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'robominer_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'robominer_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'robominer_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'robominer_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'robominer_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.324s] DEBUG:colcon.colcon_core.verb:Building package 'robominer_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jaime/RM3_ws/build/robominer_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jaime/RM3_ws/install/robominer_msgs', 'merge_install': False, 'path': '/home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.325s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.327s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.327s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_bringup' with build type 'ament_python'
+[0.328s] Level 1:colcon.colcon_core.shell:create_environment_hook('robominer_bringup', 'ament_prefix_path')
+[0.331s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaime/RM3_ws/install/robominer_bringup/share/robominer_bringup/hook/ament_prefix_path.ps1'
+[0.332s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaime/RM3_ws/install/robominer_bringup/share/robominer_bringup/hook/ament_prefix_path.dsv'
+[0.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaime/RM3_ws/install/robominer_bringup/share/robominer_bringup/hook/ament_prefix_path.sh'
+[0.334s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.334s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.339s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_drivers' with build type 'ament_cmake'
+[0.339s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_drivers'
+[0.340s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.340s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.346s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_locomotion_control' with build type 'ament_python'
+[0.347s] Level 1:colcon.colcon_core.shell:create_environment_hook('robominer_locomotion_control', 'ament_prefix_path')
+[0.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaime/RM3_ws/install/robominer_locomotion_control/share/robominer_locomotion_control/hook/ament_prefix_path.ps1'
+[0.349s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaime/RM3_ws/install/robominer_locomotion_control/share/robominer_locomotion_control/hook/ament_prefix_path.dsv'
+[0.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaime/RM3_ws/install/robominer_locomotion_control/share/robominer_locomotion_control/hook/ament_prefix_path.sh'
+[0.350s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.350s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.355s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_msgs' with build type 'ament_cmake'
+[0.355s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_msgs'
+[0.356s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.356s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.600s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_bringup'
+[0.600s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.601s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.611s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaime/RM3_ws/build/robominer_drivers': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_drivers -DCMAKE_INSTALL_PREFIX=/home/jaime/RM3_ws/install/robominer_drivers
+[0.864s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_locomotion_control'
+[0.866s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.866s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.879s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaime/RM3_ws/build/robominer_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jaime/RM3_ws/build/robominer_msgs -- -j8 -l8
+[1.110s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaime/RM3_ws/build/robominer_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jaime/RM3_ws/build/robominer_msgs -- -j8 -l8
+[1.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaime/RM3_ws/build/robominer_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jaime/RM3_ws/build/robominer_msgs
+[1.360s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robominer_msgs)
+[1.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaime/RM3_ws/build/robominer_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jaime/RM3_ws/build/robominer_msgs
+[1.365s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/RM3_ws/install/robominer_msgs' for CMake module files
+[1.366s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/RM3_ws/install/robominer_msgs' for CMake config files
+[1.366s] Level 1:colcon.colcon_core.shell:create_environment_hook('robominer_msgs', 'cmake_prefix_path')
+[1.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/hook/cmake_prefix_path.ps1'
+[1.369s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/hook/cmake_prefix_path.dsv'
+[1.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/hook/cmake_prefix_path.sh'
+[1.370s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/RM3_ws/install/robominer_msgs/lib'
+[1.370s] Level 1:colcon.colcon_core.shell:create_environment_hook('robominer_msgs', 'ld_library_path_lib')
+[1.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/hook/ld_library_path_lib.ps1'
+[1.372s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/hook/ld_library_path_lib.dsv'
+[1.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/hook/ld_library_path_lib.sh'
+[1.373s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/RM3_ws/install/robominer_msgs/bin'
+[1.373s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/RM3_ws/install/robominer_msgs/lib/pkgconfig/robominer_msgs.pc'
+[1.373s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/RM3_ws/install/robominer_msgs/lib/python3.8/site-packages'
+[1.373s] Level 1:colcon.colcon_core.shell:create_environment_hook('robominer_msgs', 'pythonpath')
+[1.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/hook/pythonpath.ps1'
+[1.374s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/hook/pythonpath.dsv'
+[1.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/hook/pythonpath.sh'
+[1.376s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/RM3_ws/install/robominer_msgs/bin'
+[1.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/package.ps1'
+[1.378s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/package.dsv'
+[1.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/package.sh'
+[1.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/package.bash'
+[1.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/package.zsh'
+[1.382s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jaime/RM3_ws/install/robominer_msgs/share/colcon-core/packages/robominer_msgs)
+[1.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_bringup': PYTHONPATH=/home/jaime/RM3_ws/install/robominer_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/robominer_bringup build --build-base /home/jaime/RM3_ws/build/robominer_bringup/build install --prefix /home/jaime/RM3_ws/install/robominer_bringup --record /home/jaime/RM3_ws/build/robominer_bringup/install.log --single-version-externally-managed
+[1.509s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_locomotion_control': PYTHONPATH=/home/jaime/RM3_ws/install/robominer_locomotion_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/robominer_locomotion_control build --build-base /home/jaime/RM3_ws/build/robominer_locomotion_control/build install --prefix /home/jaime/RM3_ws/install/robominer_locomotion_control --record /home/jaime/RM3_ws/build/robominer_locomotion_control/install.log --single-version-externally-managed
+[1.568s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robominer_msgs)
+[1.569s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/RM3_ws/install/robominer_msgs' for CMake module files
+[1.570s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/RM3_ws/install/robominer_msgs' for CMake config files
+[1.571s] Level 1:colcon.colcon_core.shell:create_environment_hook('robominer_msgs', 'cmake_prefix_path')
+[1.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/hook/cmake_prefix_path.ps1'
+[1.572s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/hook/cmake_prefix_path.dsv'
+[1.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/hook/cmake_prefix_path.sh'
+[1.573s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/RM3_ws/install/robominer_msgs/lib'
+[1.573s] Level 1:colcon.colcon_core.shell:create_environment_hook('robominer_msgs', 'ld_library_path_lib')
+[1.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/hook/ld_library_path_lib.ps1'
+[1.575s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/hook/ld_library_path_lib.dsv'
+[1.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/hook/ld_library_path_lib.sh'
+[1.576s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/RM3_ws/install/robominer_msgs/bin'
+[1.576s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/RM3_ws/install/robominer_msgs/lib/pkgconfig/robominer_msgs.pc'
+[1.576s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/RM3_ws/install/robominer_msgs/lib/python3.8/site-packages'
+[1.576s] Level 1:colcon.colcon_core.shell:create_environment_hook('robominer_msgs', 'pythonpath')
+[1.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/hook/pythonpath.ps1'
+[1.577s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/hook/pythonpath.dsv'
+[1.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/hook/pythonpath.sh'
+[1.578s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/RM3_ws/install/robominer_msgs/bin'
+[1.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/package.ps1'
+[1.580s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/package.dsv'
+[1.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/package.sh'
+[1.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/package.bash'
+[1.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/package.zsh'
+[1.582s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jaime/RM3_ws/install/robominer_msgs/share/colcon-core/packages/robominer_msgs)
+[1.859s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/RM3_ws/install/robominer_bringup' for CMake module files
+[1.860s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_bringup' returned '0': PYTHONPATH=/home/jaime/RM3_ws/install/robominer_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/robominer_bringup build --build-base /home/jaime/RM3_ws/build/robominer_bringup/build install --prefix /home/jaime/RM3_ws/install/robominer_bringup --record /home/jaime/RM3_ws/build/robominer_bringup/install.log --single-version-externally-managed
+[1.860s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/RM3_ws/install/robominer_bringup' for CMake config files
+[1.861s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/RM3_ws/install/robominer_bringup/lib'
+[1.861s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/RM3_ws/install/robominer_bringup/bin'
+[1.861s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/RM3_ws/install/robominer_bringup/lib/pkgconfig/robominer_bringup.pc'
+[1.861s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/RM3_ws/install/robominer_bringup/lib/python3.8/site-packages'
+[1.862s] Level 1:colcon.colcon_core.shell:create_environment_hook('robominer_bringup', 'pythonpath')
+[1.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaime/RM3_ws/install/robominer_bringup/share/robominer_bringup/hook/pythonpath.ps1'
+[1.863s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaime/RM3_ws/install/robominer_bringup/share/robominer_bringup/hook/pythonpath.dsv'
+[1.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaime/RM3_ws/install/robominer_bringup/share/robominer_bringup/hook/pythonpath.sh'
+[1.864s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/RM3_ws/install/robominer_bringup/bin'
+[1.864s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robominer_bringup)
+[1.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaime/RM3_ws/install/robominer_bringup/share/robominer_bringup/package.ps1'
+[1.865s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jaime/RM3_ws/install/robominer_bringup/share/robominer_bringup/package.dsv'
+[1.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaime/RM3_ws/install/robominer_bringup/share/robominer_bringup/package.sh'
+[1.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaime/RM3_ws/install/robominer_bringup/share/robominer_bringup/package.bash'
+[1.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaime/RM3_ws/install/robominer_bringup/share/robominer_bringup/package.zsh'
+[1.866s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jaime/RM3_ws/install/robominer_bringup/share/colcon-core/packages/robominer_bringup)
+[1.869s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/RM3_ws/install/robominer_locomotion_control' for CMake module files
+[1.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_locomotion_control' returned '0': PYTHONPATH=/home/jaime/RM3_ws/install/robominer_locomotion_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/robominer_locomotion_control build --build-base /home/jaime/RM3_ws/build/robominer_locomotion_control/build install --prefix /home/jaime/RM3_ws/install/robominer_locomotion_control --record /home/jaime/RM3_ws/build/robominer_locomotion_control/install.log --single-version-externally-managed
+[1.870s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/RM3_ws/install/robominer_locomotion_control' for CMake config files
+[1.871s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/RM3_ws/install/robominer_locomotion_control/lib'
+[1.871s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/RM3_ws/install/robominer_locomotion_control/bin'
+[1.871s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/RM3_ws/install/robominer_locomotion_control/lib/pkgconfig/robominer_locomotion_control.pc'
+[1.871s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/RM3_ws/install/robominer_locomotion_control/lib/python3.8/site-packages'
+[1.871s] Level 1:colcon.colcon_core.shell:create_environment_hook('robominer_locomotion_control', 'pythonpath')
+[1.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaime/RM3_ws/install/robominer_locomotion_control/share/robominer_locomotion_control/hook/pythonpath.ps1'
+[1.872s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaime/RM3_ws/install/robominer_locomotion_control/share/robominer_locomotion_control/hook/pythonpath.dsv'
+[1.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaime/RM3_ws/install/robominer_locomotion_control/share/robominer_locomotion_control/hook/pythonpath.sh'
+[1.873s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/RM3_ws/install/robominer_locomotion_control/bin'
+[1.873s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robominer_locomotion_control)
+[1.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaime/RM3_ws/install/robominer_locomotion_control/share/robominer_locomotion_control/package.ps1'
+[1.874s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jaime/RM3_ws/install/robominer_locomotion_control/share/robominer_locomotion_control/package.dsv'
+[1.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaime/RM3_ws/install/robominer_locomotion_control/share/robominer_locomotion_control/package.sh'
+[1.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaime/RM3_ws/install/robominer_locomotion_control/share/robominer_locomotion_control/package.bash'
+[1.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaime/RM3_ws/install/robominer_locomotion_control/share/robominer_locomotion_control/package.zsh'
+[1.876s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jaime/RM3_ws/install/robominer_locomotion_control/share/colcon-core/packages/robominer_locomotion_control)
+[2.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaime/RM3_ws/build/robominer_drivers' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_drivers -DCMAKE_INSTALL_PREFIX=/home/jaime/RM3_ws/install/robominer_drivers
+[2.521s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robominer_drivers)
+[2.523s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/RM3_ws/install/robominer_drivers' for CMake module files
+[2.523s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/RM3_ws/install/robominer_drivers' for CMake config files
+[2.523s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/RM3_ws/install/robominer_drivers/bin'
+[2.523s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/RM3_ws/install/robominer_drivers/lib/pkgconfig/robominer_drivers.pc'
+[2.524s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/RM3_ws/install/robominer_drivers/lib/python3.8/site-packages'
+[2.524s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/RM3_ws/install/robominer_drivers/bin'
+[2.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/package.ps1'
+[2.525s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/package.dsv'
+[2.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/package.sh'
+[2.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/package.bash'
+[2.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaime/RM3_ws/install/robominer_drivers/share/robominer_drivers/package.zsh'
+[2.526s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jaime/RM3_ws/install/robominer_drivers/share/colcon-core/packages/robominer_drivers)
+[2.537s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.537s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.538s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[2.538s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.544s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.544s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.544s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.557s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.558s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jaime/RM3_ws/install/local_setup.ps1'
+[2.559s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jaime/RM3_ws/install/_local_setup_util_ps1.py'
+[2.561s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jaime/RM3_ws/install/setup.ps1'
+[2.563s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jaime/RM3_ws/install/local_setup.sh'
+[2.565s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jaime/RM3_ws/install/_local_setup_util_sh.py'
+[2.565s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jaime/RM3_ws/install/setup.sh'
+[2.567s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jaime/RM3_ws/install/local_setup.bash'
+[2.568s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jaime/RM3_ws/install/setup.bash'
+[2.569s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jaime/RM3_ws/install/local_setup.zsh'
+[2.570s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jaime/RM3_ws/install/setup.zsh'

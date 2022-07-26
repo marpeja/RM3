@@ -1,0 +1,680 @@
+[0.074s] Invoking command in '/home/jaime/RM3_ws/build/rtabmap_ros': CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/rtabmap:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/jaime/RM3_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/jaime/RM3_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/jaime/RM3_ws/install/rtabmap/lib/pkgconfig /usr/bin/cmake --build /home/jaime/RM3_ws/build/rtabmap_ros -- -j8 -l8
+[0.201s] [  0%] Built target rtabmap_ros__cpp
+[0.224s] [ 10%] Built target rtabmap_ros__rosidl_generator_c
+[0.283s] [ 20%] Built target rtabmap_ros__rosidl_typesupport_cpp
+[0.291s] [ 30%] Built target rtabmap_ros__rosidl_typesupport_fastrtps_cpp
+[0.349s] [ 39%] Built target rtabmap_ros__rosidl_typesupport_c
+[0.353s] [ 49%] Built target rtabmap_ros__rosidl_typesupport_introspection_cpp
+[0.364s] [ 59%] Built target rtabmap_ros__rosidl_typesupport_introspection_c
+[0.394s] [ 68%] Built target rtabmap_ros__rosidl_typesupport_fastrtps_c
+[0.426s] [ 68%] Built target rtabmap_ros
+[0.463s] [ 68%] Built target rtabmap_ros__py
+[0.527s] [ 69%] Built target rtabmap_common
+[0.599s] [ 79%] Built target rtabmap_ros__python
+[0.706s] [ 80%] Built target rtabmap_ros__rosidl_typesupport_fastrtps_c__pyext
+[0.734s] [ 80%] Built target rtabmap_ros__rosidl_typesupport_introspection_c__pyext
+[0.755s] [ 81%] Built target rtabmap_ros__rosidl_typesupport_c__pyext
+[0.760s] [ 83%] Built target rtabmap_sync
+[0.769s] [ 86%] Built target rtabmap_rviz_plugins
+[0.780s] [ 90%] Built target rtabmap_plugins
+[0.938s] [ 92%] Built target rtabmapviz
+[0.939s] [ 93%] Built target rtabmap_pointcloud_to_depthimage
+[0.952s] [ 93%] Built target rtabmap
+[0.956s] [ 93%] Built target rtabmap_point_cloud_assembler
+[0.961s] [ 94%] Built target rtabmap_stereo_sync
+[0.978s] [ 94%] Built target rtabmap_point_cloud_xyzrgb
+[0.979s] [ 95%] Built target rtabmap_point_cloud_xyz
+[0.991s] [ 95%] Built target rtabmap_stereo_odometry
+[1.028s] [ 96%] Built target rtabmap_point_cloud_aggregator
+[1.039s] [ 96%] Built target rtabmap_rgbd_sync
+[1.102s] [ 96%] Built target rtabmap_obstacles_detection
+[1.109s] [ 97%] Built target rtabmap_rgbdx_sync
+[1.114s] [ 97%] Built target rtabmap_rgbd_odometry
+[1.134s] [ 98%] Built target rtabmap_icp_odometry
+[1.137s] [ 99%] Built target rtabmap_rgb_sync
+[1.175s] [100%] Built target rtabmap_rgbd_relay
+[1.233s] Invoked command in '/home/jaime/RM3_ws/build/rtabmap_ros' returned '0': CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/rtabmap:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/jaime/RM3_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/jaime/RM3_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/jaime/RM3_ws/install/rtabmap/lib/pkgconfig /usr/bin/cmake --build /home/jaime/RM3_ws/build/rtabmap_ros -- -j8 -l8
+[2.745s] Invoking command in '/home/jaime/RM3_ws/build/rtabmap_ros': CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/rtabmap:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/jaime/RM3_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/jaime/RM3_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/jaime/RM3_ws/install/rtabmap/lib/pkgconfig /usr/bin/cmake --install /home/jaime/RM3_ws/build/rtabmap_ros
+[2.774s] -- Install configuration: ""
+[2.775s] -- Execute custom install script
+[2.785s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/ament_index/resource_index/rosidl_interfaces/rtabmap_ros
+[2.785s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/env_sensor__functions.h
+[2.785s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/env_sensor__struct.h
+[2.786s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/env_sensor__type_support.h
+[2.787s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/global_descriptor__functions.h
+[2.788s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/global_descriptor__struct.h
+[2.788s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/global_descriptor__type_support.h
+[2.789s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/goal__functions.h
+[2.789s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/goal__struct.h
+[2.790s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/goal__type_support.h
+[2.790s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/gps__functions.h
+[2.791s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/gps__struct.h
+[2.792s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/gps__type_support.h
+[2.793s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/info__functions.h
+[2.793s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/info__struct.h
+[2.794s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/info__type_support.h
+[2.794s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/key_point__functions.h
+[2.795s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/key_point__struct.h
+[2.802s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/key_point__type_support.h
+[2.803s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/link__functions.h
+[2.803s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/link__struct.h
+[2.805s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/link__type_support.h
+[2.805s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_data__functions.h
+[2.806s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_data__struct.h
+[2.806s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_data__type_support.h
+[2.806s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_graph__functions.h
+[2.807s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_graph__struct.h
+[2.807s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_graph__type_support.h
+[2.807s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/node_data__functions.h
+[2.807s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/node_data__struct.h
+[2.807s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/node_data__type_support.h
+[2.808s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/odom_info__functions.h
+[2.808s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/odom_info__struct.h
+[2.809s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/odom_info__type_support.h
+[2.809s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/path__functions.h
+[2.809s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/path__struct.h
+[2.810s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/path__type_support.h
+[2.810s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point2f__functions.h
+[2.810s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point2f__struct.h
+[2.811s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point2f__type_support.h
+[2.811s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point3f__functions.h
+[2.811s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point3f__struct.h
+[2.811s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point3f__type_support.h
+[2.812s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_image__functions.h
+[2.812s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_image__struct.h
+[2.813s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_image__type_support.h
+[2.816s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_images__functions.h
+[2.816s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_images__struct.h
+[2.817s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_images__type_support.h
+[2.817s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/scan_descriptor__functions.h
+[2.818s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/scan_descriptor__struct.h
+[2.818s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/scan_descriptor__type_support.h
+[2.818s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/user_data__functions.h
+[2.819s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/user_data__struct.h
+[2.819s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/user_data__type_support.h
+[2.820s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/env_sensor.h
+[2.821s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/global_descriptor.h
+[2.822s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/goal.h
+[2.823s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/gps.h
+[2.823s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/info.h
+[2.827s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/key_point.h
+[2.829s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/link.h
+[2.830s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/map_data.h
+[2.831s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/map_graph.h
+[2.831s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/node_data.h
+[2.832s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/odom_info.h
+[2.838s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/path.h
+[2.839s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/point2f.h
+[2.839s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/point3f.h
+[2.840s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/rgbd_image.h
+[2.841s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/rgbd_images.h
+[2.841s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/rosidl_generator_c__visibility_control.h
+[2.842s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/scan_descriptor.h
+[2.843s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/user_data.h
+[2.843s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/add_link.h
+[2.849s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/cleanup_local_grids.h
+[2.861s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/add_link__functions.h
+[2.862s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/add_link__struct.h
+[2.863s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/add_link__type_support.h
+[2.863s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/cleanup_local_grids__functions.h
+[2.864s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/cleanup_local_grids__struct.h
+[2.865s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/cleanup_local_grids__type_support.h
+[2.866s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/detect_more_loop_closures__functions.h
+[2.873s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/detect_more_loop_closures__struct.h
+[2.874s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/detect_more_loop_closures__type_support.h
+[2.875s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map2__functions.h
+[2.875s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map2__struct.h
+[2.875s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map2__type_support.h
+[2.875s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map__functions.h
+[2.880s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map__struct.h
+[2.881s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map__type_support.h
+[2.881s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_node_data__functions.h
+[2.882s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_node_data__struct.h
+[2.882s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_node_data__type_support.h
+[2.883s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_nodes_in_radius__functions.h
+[2.884s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_nodes_in_radius__struct.h
+[2.884s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_nodes_in_radius__type_support.h
+[2.885s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_plan__functions.h
+[2.885s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_plan__struct.h
+[2.886s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_plan__type_support.h
+[2.886s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/global_bundle_adjustment__functions.h
+[2.886s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/global_bundle_adjustment__struct.h
+[2.887s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/global_bundle_adjustment__type_support.h
+[2.887s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/list_labels__functions.h
+[2.888s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/list_labels__struct.h
+[2.889s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/list_labels__type_support.h
+[2.890s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/load_database__functions.h
+[2.890s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/load_database__struct.h
+[2.890s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/load_database__type_support.h
+[2.891s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/publish_map__functions.h
+[2.891s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/publish_map__struct.h
+[2.891s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/publish_map__type_support.h
+[2.892s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/remove_label__functions.h
+[2.893s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/remove_label__struct.h
+[2.894s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/remove_label__type_support.h
+[2.903s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/reset_pose__functions.h
+[2.905s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/reset_pose__struct.h
+[2.907s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/reset_pose__type_support.h
+[2.907s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_goal__functions.h
+[2.907s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_goal__struct.h
+[2.908s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_goal__type_support.h
+[2.916s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_label__functions.h
+[2.916s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_label__struct.h
+[2.925s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_label__type_support.h
+[2.926s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detect_more_loop_closures.h
+[2.926s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/get_map.h
+[2.926s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/get_map2.h
+[2.927s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/get_node_data.h
+[2.931s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/get_nodes_in_radius.h
+[2.931s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/get_plan.h
+[2.932s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/global_bundle_adjustment.h
+[2.932s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/list_labels.h
+[2.932s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/load_database.h
+[2.933s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/publish_map.h
+[2.933s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/remove_label.h
+[2.935s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/reset_pose.h
+[2.936s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/set_goal.h
+[2.936s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/set_label.h
+[2.937s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/environment/library_path.sh
+[2.937s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/environment/library_path.dsv
+[2.937s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/env_sensor__rosidl_typesupport_fastrtps_c.h
+[2.940s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/global_descriptor__rosidl_typesupport_fastrtps_c.h
+[2.941s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/goal__rosidl_typesupport_fastrtps_c.h
+[2.941s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/gps__rosidl_typesupport_fastrtps_c.h
+[2.942s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/info__rosidl_typesupport_fastrtps_c.h
+[2.942s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/key_point__rosidl_typesupport_fastrtps_c.h
+[2.942s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/link__rosidl_typesupport_fastrtps_c.h
+[2.943s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_data__rosidl_typesupport_fastrtps_c.h
+[2.943s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_graph__rosidl_typesupport_fastrtps_c.h
+[2.944s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/node_data__rosidl_typesupport_fastrtps_c.h
+[2.945s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/odom_info__rosidl_typesupport_fastrtps_c.h
+[2.945s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/path__rosidl_typesupport_fastrtps_c.h
+[2.946s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point2f__rosidl_typesupport_fastrtps_c.h
+[2.946s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point3f__rosidl_typesupport_fastrtps_c.h
+[2.947s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_image__rosidl_typesupport_fastrtps_c.h
+[2.947s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_images__rosidl_typesupport_fastrtps_c.h
+[2.948s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/scan_descriptor__rosidl_typesupport_fastrtps_c.h
+[2.949s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/user_data__rosidl_typesupport_fastrtps_c.h
+[2.949s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.950s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/add_link__rosidl_typesupport_fastrtps_c.h
+[2.950s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/cleanup_local_grids__rosidl_typesupport_fastrtps_c.h
+[2.951s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/detect_more_loop_closures__rosidl_typesupport_fastrtps_c.h
+[2.951s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map2__rosidl_typesupport_fastrtps_c.h
+[2.951s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map__rosidl_typesupport_fastrtps_c.h
+[2.952s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_node_data__rosidl_typesupport_fastrtps_c.h
+[2.960s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_nodes_in_radius__rosidl_typesupport_fastrtps_c.h
+[2.960s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_plan__rosidl_typesupport_fastrtps_c.h
+[2.961s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/global_bundle_adjustment__rosidl_typesupport_fastrtps_c.h
+[2.961s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/list_labels__rosidl_typesupport_fastrtps_c.h
+[2.961s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/load_database__rosidl_typesupport_fastrtps_c.h
+[2.962s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/publish_map__rosidl_typesupport_fastrtps_c.h
+[2.962s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/remove_label__rosidl_typesupport_fastrtps_c.h
+[2.962s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/reset_pose__rosidl_typesupport_fastrtps_c.h
+[2.963s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_goal__rosidl_typesupport_fastrtps_c.h
+[2.963s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_label__rosidl_typesupport_fastrtps_c.h
+[2.963s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/librtabmap_ros__rosidl_typesupport_fastrtps_c.so
+[2.964s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/env_sensor__rosidl_typesupport_fastrtps_cpp.hpp
+[2.964s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/global_descriptor__rosidl_typesupport_fastrtps_cpp.hpp
+[2.968s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/goal__rosidl_typesupport_fastrtps_cpp.hpp
+[2.968s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/gps__rosidl_typesupport_fastrtps_cpp.hpp
+[2.969s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/info__rosidl_typesupport_fastrtps_cpp.hpp
+[2.969s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/key_point__rosidl_typesupport_fastrtps_cpp.hpp
+[2.969s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/link__rosidl_typesupport_fastrtps_cpp.hpp
+[2.969s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_data__rosidl_typesupport_fastrtps_cpp.hpp
+[2.970s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_graph__rosidl_typesupport_fastrtps_cpp.hpp
+[2.970s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/node_data__rosidl_typesupport_fastrtps_cpp.hpp
+[2.970s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/odom_info__rosidl_typesupport_fastrtps_cpp.hpp
+[2.970s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/path__rosidl_typesupport_fastrtps_cpp.hpp
+[2.970s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point2f__rosidl_typesupport_fastrtps_cpp.hpp
+[2.971s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point3f__rosidl_typesupport_fastrtps_cpp.hpp
+[2.971s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_image__rosidl_typesupport_fastrtps_cpp.hpp
+[2.971s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_images__rosidl_typesupport_fastrtps_cpp.hpp
+[2.972s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/scan_descriptor__rosidl_typesupport_fastrtps_cpp.hpp
+[2.972s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/user_data__rosidl_typesupport_fastrtps_cpp.hpp
+[2.973s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.979s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/add_link__rosidl_typesupport_fastrtps_cpp.hpp
+[2.979s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/cleanup_local_grids__rosidl_typesupport_fastrtps_cpp.hpp
+[2.980s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/detect_more_loop_closures__rosidl_typesupport_fastrtps_cpp.hpp
+[2.980s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map2__rosidl_typesupport_fastrtps_cpp.hpp
+[2.980s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map__rosidl_typesupport_fastrtps_cpp.hpp
+[2.981s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_node_data__rosidl_typesupport_fastrtps_cpp.hpp
+[2.981s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_nodes_in_radius__rosidl_typesupport_fastrtps_cpp.hpp
+[2.981s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_plan__rosidl_typesupport_fastrtps_cpp.hpp
+[2.982s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/global_bundle_adjustment__rosidl_typesupport_fastrtps_cpp.hpp
+[2.982s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/list_labels__rosidl_typesupport_fastrtps_cpp.hpp
+[2.982s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/load_database__rosidl_typesupport_fastrtps_cpp.hpp
+[2.983s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/publish_map__rosidl_typesupport_fastrtps_cpp.hpp
+[2.984s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/remove_label__rosidl_typesupport_fastrtps_cpp.hpp
+[2.984s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/reset_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[2.985s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_goal__rosidl_typesupport_fastrtps_cpp.hpp
+[2.986s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_label__rosidl_typesupport_fastrtps_cpp.hpp
+[2.987s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/librtabmap_ros__rosidl_typesupport_fastrtps_cpp.so
+[2.987s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/env_sensor__rosidl_typesupport_introspection_c.h
+[2.988s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/global_descriptor__rosidl_typesupport_introspection_c.h
+[2.988s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/goal__rosidl_typesupport_introspection_c.h
+[2.988s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/gps__rosidl_typesupport_introspection_c.h
+[2.989s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/info__rosidl_typesupport_introspection_c.h
+[2.989s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/key_point__rosidl_typesupport_introspection_c.h
+[2.989s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/link__rosidl_typesupport_introspection_c.h
+[2.989s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_data__rosidl_typesupport_introspection_c.h
+[2.990s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_graph__rosidl_typesupport_introspection_c.h
+[2.990s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/node_data__rosidl_typesupport_introspection_c.h
+[2.991s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/odom_info__rosidl_typesupport_introspection_c.h
+[2.991s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/path__rosidl_typesupport_introspection_c.h
+[2.991s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point2f__rosidl_typesupport_introspection_c.h
+[2.992s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point3f__rosidl_typesupport_introspection_c.h
+[2.992s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_image__rosidl_typesupport_introspection_c.h
+[2.992s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_images__rosidl_typesupport_introspection_c.h
+[2.994s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/scan_descriptor__rosidl_typesupport_introspection_c.h
+[2.994s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/user_data__rosidl_typesupport_introspection_c.h
+[2.994s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.995s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/add_link__rosidl_typesupport_introspection_c.h
+[2.996s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/cleanup_local_grids__rosidl_typesupport_introspection_c.h
+[2.996s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/detect_more_loop_closures__rosidl_typesupport_introspection_c.h
+[2.996s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map2__rosidl_typesupport_introspection_c.h
+[2.997s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map__rosidl_typesupport_introspection_c.h
+[3.000s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_node_data__rosidl_typesupport_introspection_c.h
+[3.000s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_nodes_in_radius__rosidl_typesupport_introspection_c.h
+[3.001s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_plan__rosidl_typesupport_introspection_c.h
+[3.002s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/global_bundle_adjustment__rosidl_typesupport_introspection_c.h
+[3.003s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/list_labels__rosidl_typesupport_introspection_c.h
+[3.003s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/load_database__rosidl_typesupport_introspection_c.h
+[3.003s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/publish_map__rosidl_typesupport_introspection_c.h
+[3.003s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/remove_label__rosidl_typesupport_introspection_c.h
+[3.004s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/reset_pose__rosidl_typesupport_introspection_c.h
+[3.005s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_goal__rosidl_typesupport_introspection_c.h
+[3.005s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_label__rosidl_typesupport_introspection_c.h
+[3.006s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/env_sensor__builder.hpp
+[3.007s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/env_sensor__struct.hpp
+[3.007s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/env_sensor__traits.hpp
+[3.011s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/global_descriptor__builder.hpp
+[3.013s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/global_descriptor__struct.hpp
+[3.019s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/global_descriptor__traits.hpp
+[3.019s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/goal__builder.hpp
+[3.020s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/goal__struct.hpp
+[3.020s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/goal__traits.hpp
+[3.021s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/gps__builder.hpp
+[3.023s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/gps__struct.hpp
+[3.023s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/gps__traits.hpp
+[3.024s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/info__builder.hpp
+[3.024s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/info__struct.hpp
+[3.025s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/info__traits.hpp
+[3.025s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/key_point__builder.hpp
+[3.025s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/key_point__struct.hpp
+[3.025s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/key_point__traits.hpp
+[3.026s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/link__builder.hpp
+[3.026s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/link__struct.hpp
+[3.026s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/link__traits.hpp
+[3.026s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_data__builder.hpp
+[3.027s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_data__struct.hpp
+[3.027s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_data__traits.hpp
+[3.027s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_graph__builder.hpp
+[3.027s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_graph__struct.hpp
+[3.028s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_graph__traits.hpp
+[3.028s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/node_data__builder.hpp
+[3.029s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/node_data__struct.hpp
+[3.029s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/node_data__traits.hpp
+[3.029s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/odom_info__builder.hpp
+[3.030s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/odom_info__struct.hpp
+[3.030s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/odom_info__traits.hpp
+[3.030s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/path__builder.hpp
+[3.031s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/path__struct.hpp
+[3.031s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/path__traits.hpp
+[3.031s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point2f__builder.hpp
+[3.031s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point2f__struct.hpp
+[3.032s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point2f__traits.hpp
+[3.032s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point3f__builder.hpp
+[3.032s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point3f__struct.hpp
+[3.033s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point3f__traits.hpp
+[3.033s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_image__builder.hpp
+[3.033s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_image__struct.hpp
+[3.034s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_image__traits.hpp
+[3.034s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_images__builder.hpp
+[3.035s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_images__struct.hpp
+[3.035s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_images__traits.hpp
+[3.035s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/scan_descriptor__builder.hpp
+[3.036s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/scan_descriptor__struct.hpp
+[3.036s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/scan_descriptor__traits.hpp
+[3.036s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/user_data__builder.hpp
+[3.037s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/user_data__struct.hpp
+[3.037s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/user_data__traits.hpp
+[3.037s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/env_sensor.hpp
+[3.037s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/global_descriptor.hpp
+[3.038s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/goal.hpp
+[3.038s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/gps.hpp
+[3.038s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/info.hpp
+[3.038s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/key_point.hpp
+[3.039s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/link.hpp
+[3.039s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/map_data.hpp
+[3.039s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/map_graph.hpp
+[3.039s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/node_data.hpp
+[3.040s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/odom_info.hpp
+[3.040s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/path.hpp
+[3.040s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/point2f.hpp
+[3.040s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/point3f.hpp
+[3.041s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/rgbd_image.hpp
+[3.041s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/rgbd_images.hpp
+[3.041s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/scan_descriptor.hpp
+[3.041s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/user_data.hpp
+[3.042s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/add_link.hpp
+[3.042s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/cleanup_local_grids.hpp
+[3.042s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/add_link__builder.hpp
+[3.042s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/add_link__struct.hpp
+[3.043s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/add_link__traits.hpp
+[3.043s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/cleanup_local_grids__builder.hpp
+[3.043s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/cleanup_local_grids__struct.hpp
+[3.043s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/cleanup_local_grids__traits.hpp
+[3.043s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/detect_more_loop_closures__builder.hpp
+[3.044s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/detect_more_loop_closures__struct.hpp
+[3.044s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/detect_more_loop_closures__traits.hpp
+[3.044s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map2__builder.hpp
+[3.044s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map2__struct.hpp
+[3.045s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map2__traits.hpp
+[3.045s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map__builder.hpp
+[3.045s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map__struct.hpp
+[3.045s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map__traits.hpp
+[3.045s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_node_data__builder.hpp
+[3.046s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_node_data__struct.hpp
+[3.046s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_node_data__traits.hpp
+[3.046s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_nodes_in_radius__builder.hpp
+[3.046s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_nodes_in_radius__struct.hpp
+[3.052s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_nodes_in_radius__traits.hpp
+[3.052s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_plan__builder.hpp
+[3.052s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_plan__struct.hpp
+[3.052s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_plan__traits.hpp
+[3.052s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/global_bundle_adjustment__builder.hpp
+[3.053s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/global_bundle_adjustment__struct.hpp
+[3.053s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/global_bundle_adjustment__traits.hpp
+[3.053s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/list_labels__builder.hpp
+[3.054s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/list_labels__struct.hpp
+[3.054s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/list_labels__traits.hpp
+[3.054s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/load_database__builder.hpp
+[3.055s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/load_database__struct.hpp
+[3.055s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/load_database__traits.hpp
+[3.055s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/publish_map__builder.hpp
+[3.055s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/publish_map__struct.hpp
+[3.056s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/publish_map__traits.hpp
+[3.056s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/remove_label__builder.hpp
+[3.056s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/remove_label__struct.hpp
+[3.056s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/remove_label__traits.hpp
+[3.057s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/reset_pose__builder.hpp
+[3.058s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/reset_pose__struct.hpp
+[3.058s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/reset_pose__traits.hpp
+[3.058s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_goal__builder.hpp
+[3.059s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_goal__struct.hpp
+[3.059s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_goal__traits.hpp
+[3.059s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_label__builder.hpp
+[3.059s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_label__struct.hpp
+[3.059s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_label__traits.hpp
+[3.059s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detect_more_loop_closures.hpp
+[3.059s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/get_map.hpp
+[3.061s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/get_map2.hpp
+[3.061s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/get_node_data.hpp
+[3.061s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/get_nodes_in_radius.hpp
+[3.061s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/get_plan.hpp
+[3.061s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/global_bundle_adjustment.hpp
+[3.061s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/list_labels.hpp
+[3.062s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/load_database.hpp
+[3.062s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/publish_map.hpp
+[3.062s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/remove_label.hpp
+[3.062s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/reset_pose.hpp
+[3.063s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/set_goal.hpp
+[3.063s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/set_label.hpp
+[3.063s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/env_sensor__rosidl_typesupport_introspection_cpp.hpp
+[3.063s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/global_descriptor__rosidl_typesupport_introspection_cpp.hpp
+[3.063s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/goal__rosidl_typesupport_introspection_cpp.hpp
+[3.063s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/gps__rosidl_typesupport_introspection_cpp.hpp
+[3.064s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/info__rosidl_typesupport_introspection_cpp.hpp
+[3.064s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/key_point__rosidl_typesupport_introspection_cpp.hpp
+[3.064s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/link__rosidl_typesupport_introspection_cpp.hpp
+[3.064s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_data__rosidl_typesupport_introspection_cpp.hpp
+[3.064s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_graph__rosidl_typesupport_introspection_cpp.hpp
+[3.064s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/node_data__rosidl_typesupport_introspection_cpp.hpp
+[3.065s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/odom_info__rosidl_typesupport_introspection_cpp.hpp
+[3.065s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/path__rosidl_typesupport_introspection_cpp.hpp
+[3.065s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point2f__rosidl_typesupport_introspection_cpp.hpp
+[3.065s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point3f__rosidl_typesupport_introspection_cpp.hpp
+[3.066s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_image__rosidl_typesupport_introspection_cpp.hpp
+[3.066s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_images__rosidl_typesupport_introspection_cpp.hpp
+[3.066s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/scan_descriptor__rosidl_typesupport_introspection_cpp.hpp
+[3.066s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/msg/detail/user_data__rosidl_typesupport_introspection_cpp.hpp
+[3.066s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/add_link__rosidl_typesupport_introspection_cpp.hpp
+[3.066s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/cleanup_local_grids__rosidl_typesupport_introspection_cpp.hpp
+[3.066s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/detect_more_loop_closures__rosidl_typesupport_introspection_cpp.hpp
+[3.067s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map2__rosidl_typesupport_introspection_cpp.hpp
+[3.067s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map__rosidl_typesupport_introspection_cpp.hpp
+[3.067s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_node_data__rosidl_typesupport_introspection_cpp.hpp
+[3.067s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_nodes_in_radius__rosidl_typesupport_introspection_cpp.hpp
+[3.067s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_plan__rosidl_typesupport_introspection_cpp.hpp
+[3.067s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/global_bundle_adjustment__rosidl_typesupport_introspection_cpp.hpp
+[3.067s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/list_labels__rosidl_typesupport_introspection_cpp.hpp
+[3.068s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/load_database__rosidl_typesupport_introspection_cpp.hpp
+[3.069s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/publish_map__rosidl_typesupport_introspection_cpp.hpp
+[3.069s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/remove_label__rosidl_typesupport_introspection_cpp.hpp
+[3.070s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/reset_pose__rosidl_typesupport_introspection_cpp.hpp
+[3.070s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_goal__rosidl_typesupport_introspection_cpp.hpp
+[3.070s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_label__rosidl_typesupport_introspection_cpp.hpp
+[3.070s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/environment/pythonpath.sh
+[3.071s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/environment/pythonpath.dsv
+[3.071s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/__init__.py
+[3.071s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/__init__.py
+[3.071s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_env_sensor.py
+[3.071s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_global_descriptor.py
+[3.071s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_goal.py
+[3.072s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_gps.py
+[3.072s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_info.py
+[3.072s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_key_point.py
+[3.073s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_link.py
+[3.073s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_map_data.py
+[3.073s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_map_graph.py
+[3.073s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_node_data.py
+[3.073s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_odom_info.py
+[3.074s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_path.py
+[3.074s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_point2f.py
+[3.074s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_point3f.py
+[3.074s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_rgbd_image.py
+[3.074s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_rgbd_images.py
+[3.074s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_scan_descriptor.py
+[3.074s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_user_data.py
+[3.075s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/__init__.py
+[3.075s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_add_link.py
+[3.075s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_cleanup_local_grids.py
+[3.075s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_detect_more_loop_closures.py
+[3.075s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_get_map.py
+[3.076s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_get_map2.py
+[3.076s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_get_node_data.py
+[3.077s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_get_nodes_in_radius.py
+[3.077s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_get_plan.py
+[3.077s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_global_bundle_adjustment.py
+[3.077s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_list_labels.py
+[3.078s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_load_database.py
+[3.078s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_publish_map.py
+[3.078s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_remove_label.py
+[3.078s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_reset_pose.py
+[3.081s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_set_goal.py
+[3.081s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_set_label.py
+[3.081s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/rtabmap_ros_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[3.081s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/rtabmap_ros_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[3.081s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/rtabmap_ros_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[3.081s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/librtabmap_ros__python.so
+[3.082s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/msg/Info.idl
+[3.082s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/msg/KeyPoint.idl
+[3.082s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/msg/GlobalDescriptor.idl
+[3.082s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/msg/ScanDescriptor.idl
+[3.082s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/msg/MapData.idl
+[3.082s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/msg/MapGraph.idl
+[3.082s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/msg/NodeData.idl
+[3.083s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/msg/Link.idl
+[3.083s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/msg/OdomInfo.idl
+[3.086s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/msg/Point2f.idl
+[3.086s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/msg/Point3f.idl
+[3.086s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/msg/Goal.idl
+[3.086s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/msg/RGBDImage.idl
+[3.087s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/msg/RGBDImages.idl
+[3.087s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/msg/UserData.idl
+[3.087s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/msg/GPS.idl
+[3.087s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/msg/Path.idl
+[3.087s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/msg/EnvSensor.idl
+[3.087s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/GetMap.idl
+[3.087s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/GetMap2.idl
+[3.088s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/ListLabels.idl
+[3.088s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/PublishMap.idl
+[3.088s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/ResetPose.idl
+[3.088s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/SetGoal.idl
+[3.088s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/SetLabel.idl
+[3.088s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/RemoveLabel.idl
+[3.089s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/GetPlan.idl
+[3.089s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/AddLink.idl
+[3.089s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/GetNodeData.idl
+[3.089s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/GetNodesInRadius.idl
+[3.089s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/LoadDatabase.idl
+[3.089s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/DetectMoreLoopClosures.idl
+[3.089s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/GlobalBundleAdjustment.idl
+[3.090s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/CleanupLocalGrids.idl
+[3.091s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/msg/Info.msg
+[3.091s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/msg/KeyPoint.msg
+[3.091s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/msg/GlobalDescriptor.msg
+[3.091s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/msg/ScanDescriptor.msg
+[3.091s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/msg/MapData.msg
+[3.091s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/msg/MapGraph.msg
+[3.091s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/msg/NodeData.msg
+[3.092s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/msg/Link.msg
+[3.092s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/msg/OdomInfo.msg
+[3.092s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/msg/Point2f.msg
+[3.092s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/msg/Point3f.msg
+[3.092s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/msg/Goal.msg
+[3.092s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/msg/RGBDImage.msg
+[3.092s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/msg/RGBDImages.msg
+[3.093s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/msg/UserData.msg
+[3.093s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/msg/GPS.msg
+[3.093s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/msg/Path.msg
+[3.093s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/msg/EnvSensor.msg
+[3.094s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/GetMap.srv
+[3.094s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/GetMap_Request.msg
+[3.094s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/GetMap_Response.msg
+[3.094s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/GetMap2.srv
+[3.095s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/GetMap2_Request.msg
+[3.095s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/GetMap2_Response.msg
+[3.095s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/ListLabels.srv
+[3.095s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/ListLabels_Request.msg
+[3.095s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/ListLabels_Response.msg
+[3.095s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/PublishMap.srv
+[3.095s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/PublishMap_Request.msg
+[3.096s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/PublishMap_Response.msg
+[3.096s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/ResetPose.srv
+[3.096s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/ResetPose_Request.msg
+[3.096s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/ResetPose_Response.msg
+[3.096s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/SetGoal.srv
+[3.096s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/SetGoal_Request.msg
+[3.096s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/SetGoal_Response.msg
+[3.097s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/SetLabel.srv
+[3.097s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/SetLabel_Request.msg
+[3.097s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/SetLabel_Response.msg
+[3.097s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/RemoveLabel.srv
+[3.097s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/RemoveLabel_Request.msg
+[3.097s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/RemoveLabel_Response.msg
+[3.098s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/GetPlan.srv
+[3.098s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/GetPlan_Request.msg
+[3.098s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/GetPlan_Response.msg
+[3.098s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/AddLink.srv
+[3.098s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/AddLink_Request.msg
+[3.098s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/AddLink_Response.msg
+[3.098s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/GetNodeData.srv
+[3.099s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/GetNodeData_Request.msg
+[3.099s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/GetNodeData_Response.msg
+[3.104s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/GetNodesInRadius.srv
+[3.104s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/GetNodesInRadius_Request.msg
+[3.104s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/GetNodesInRadius_Response.msg
+[3.110s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/LoadDatabase.srv
+[3.110s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/LoadDatabase_Request.msg
+[3.111s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/LoadDatabase_Response.msg
+[3.112s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/DetectMoreLoopClosures.srv
+[3.112s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/DetectMoreLoopClosures_Request.msg
+[3.112s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/DetectMoreLoopClosures_Response.msg
+[3.112s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/GlobalBundleAdjustment.srv
+[3.112s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/GlobalBundleAdjustment_Request.msg
+[3.113s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/GlobalBundleAdjustment_Response.msg
+[3.114s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/CleanupLocalGrids.srv
+[3.114s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/CleanupLocalGrids_Request.msg
+[3.114s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/srv/CleanupLocalGrids_Response.msg
+[3.115s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros//rviz_plugins.xml
+[3.115s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/librtabmap_sync.so
+[3.115s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/librtabmap_common.so
+[3.115s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/librtabmap_plugins.so
+[3.115s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/rtabmap_ros/rtabmap
+[3.115s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/rtabmap_ros/rgbd_odometry
+[3.115s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/rtabmap_ros/icp_odometry
+[3.118s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/rtabmap_ros/stereo_odometry
+[3.121s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/rtabmap_ros/pointcloud_to_depthimage
+[3.121s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/rtabmap_ros/point_cloud_xyz
+[3.121s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/rtabmap_ros/point_cloud_xyzrgb
+[3.121s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/rtabmap_ros/obstacles_detection
+[3.122s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/rtabmap_ros/point_cloud_aggregator
+[3.122s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/rtabmap_ros/point_cloud_assembler
+[3.122s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/rtabmap_ros/rgbd_sync
+[3.122s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/rtabmap_ros/rgbdx_sync
+[3.122s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/rtabmap_ros/stereo_sync
+[3.122s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/rtabmap_ros/rgb_sync
+[3.123s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/rtabmap_ros/rgbd_relay
+[3.123s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/lib/rtabmap_ros/rtabmapviz
+[3.123s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/launch/./.gitignore
+[3.123s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/launch/./config/rgbd.rviz
+[3.123s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/launch/./realsense_d400.launch.py
+[3.123s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/launch/./rtabmap.launch.py
+[3.124s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/launch/./turtlebot3_rgbd.launch.py
+[3.124s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/launch/./turtlebot3_rgbd_sync.launch.py
+[3.124s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/launch/./turtlebot3_scan.launch.py
+[3.124s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/ament_index/resource_index/package_run_dependencies/rtabmap_ros
+[3.124s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/ament_index/resource_index/parent_prefix_path/rtabmap_ros
+[3.125s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/environment/ament_prefix_path.sh
+[3.126s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/environment/ament_prefix_path.dsv
+[3.126s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/environment/path.sh
+[3.126s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/environment/path.dsv
+[3.126s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/local_setup.bash
+[3.126s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/local_setup.sh
+[3.126s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/local_setup.zsh
+[3.126s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/local_setup.dsv
+[3.127s] -- Symlinking: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/package.dsv
+[3.128s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/ament_index/resource_index/packages/rtabmap_ros
+[3.128s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rtabmap_ros
+[3.128s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/ament_index/resource_index/rclcpp_components/rtabmap_ros
+[3.128s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/cmake/rosidl_cmake-extras.cmake
+[3.129s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.129s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[3.129s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/cmake/ament_cmake_export_targets-extras.cmake
+[3.129s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.129s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.129s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.129s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/cmake/rtabmap_rosConfig.cmake
+[3.129s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/cmake/rtabmap_rosConfig-version.cmake
+[3.130s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/package.xml
+[3.130s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap_ros/lib/librtabmap_ros__rosidl_generator_c.so
+[3.130s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap_ros/lib/librtabmap_ros__rosidl_typesupport_introspection_c.so
+[3.130s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap_ros/lib/librtabmap_ros__rosidl_typesupport_c.so
+[3.130s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap_ros/lib/librtabmap_ros__rosidl_typesupport_introspection_cpp.so
+[3.130s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap_ros/lib/librtabmap_ros__rosidl_typesupport_cpp.so
+[3.130s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros
+[3.131s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/CoreWrapper.h
+[3.131s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/MsgConversion.h
+[3.131s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/CommonDataSubscriber.h
+[3.132s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/PluginInterface.h
+[3.133s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/GuiWrapper.h
+[3.133s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/MapsManager.h
+[3.133s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/visibility.h
+[3.133s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/OdometryROS.h
+[3.133s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/GetTopicName.h
+[3.133s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/PreferencesDialogROS.h
+[3.134s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap_ros/include/rtabmap_ros/CommonDataSubscriberDefines.h
+[3.134s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap_ros/lib/librtabmap_rviz_plugins.so
+[3.134s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/cmake/rtabmap_ros__rosidl_generator_cExport.cmake
+[3.134s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/cmake/rtabmap_ros__rosidl_generator_cExport-noconfig.cmake
+[3.137s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/cmake/rtabmap_ros__rosidl_typesupport_introspection_cExport.cmake
+[3.138s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/cmake/rtabmap_ros__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.138s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/cmake/rtabmap_ros__rosidl_typesupport_cExport.cmake
+[3.138s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/cmake/rtabmap_ros__rosidl_typesupport_cExport-noconfig.cmake
+[3.138s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/cmake/rtabmap_ros__rosidl_generator_cppExport.cmake
+[3.138s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/cmake/rtabmap_ros__rosidl_typesupport_introspection_cppExport.cmake
+[3.138s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/cmake/rtabmap_ros__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.139s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/cmake/rtabmap_ros__rosidl_typesupport_cppExport.cmake
+[3.139s] -- Up-to-date: /home/jaime/RM3_ws/install/rtabmap_ros/share/rtabmap_ros/cmake/rtabmap_ros__rosidl_typesupport_cppExport-noconfig.cmake
+[3.249s] Invoked command in '/home/jaime/RM3_ws/build/rtabmap_ros' returned '0': CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/rtabmap:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/jaime/RM3_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/jaime/RM3_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/jaime/RM3_ws/install/rtabmap/lib/pkgconfig /usr/bin/cmake --install /home/jaime/RM3_ws/build/rtabmap_ros

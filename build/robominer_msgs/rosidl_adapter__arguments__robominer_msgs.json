@@ -1,0 +1,15 @@
+{
+  "package_name": "robominer_msgs",
+  "non_idl_tuples": [
+    "/home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_msgs:msg/MotorModuleFeedback.msg",
+    "/home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_msgs:msg/MotorModuleCommand.msg",
+    "/home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_msgs:msg/WhiskerPosInGrid.msg",
+    "/home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_msgs:msg/Whisker.msg",
+    "/home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_msgs:msg/WhiskerArray.msg",
+    "/home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_msgs:msg/SpectrometerMeasurement.msg",
+    "/home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_msgs:msg/SpectrometerCalibration.msg",
+    "/home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_msgs:msg/SpectrometerFrequencyCommand.msg",
+    "/home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_msgs:msg/FiducialTransform.msg",
+    "/home/jaime/RM3_ws/src/TALTECH_RM3_ROS_PACKAGES/robominer_msgs:msg/FiducialTransformArray.msg"
+  ]
+}

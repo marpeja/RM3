@@ -1,0 +1,99 @@
+[0.036s] Invoking command in '/home/jaime/RM3_ws/build/forward_command_controller': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jaime/RM3_ws/src/ros2_controllers/forward_command_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jaime/RM3_ws/install/forward_command_controller
+[0.098s] -- The C compiler identification is GNU 9.4.0
+[0.157s] -- The CXX compiler identification is GNU 9.4.0
+[0.163s] -- Check for working C compiler: /usr/bin/cc
+[0.236s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.237s] -- Detecting C compiler ABI info
+[0.313s] -- Detecting C compiler ABI info - done
+[0.327s] -- Detecting C compile features
+[0.327s] -- Detecting C compile features - done
+[0.330s] -- Check for working CXX compiler: /usr/bin/c++
+[0.418s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.419s] -- Detecting CXX compiler ABI info
+[0.512s] -- Detecting CXX compiler ABI info - done
+[0.527s] -- Detecting CXX compile features
+[0.528s] -- Detecting CXX compile features - done
+[0.530s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.557s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.557s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.756s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.781s] -- Found controller_interface: 0.10.1 (/home/jaime/RM3_ws/install/controller_interface/share/controller_interface/cmake)
+[0.825s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.833s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.928s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.967s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.056s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.732s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.734s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.734s] -- Looking for pthread.h
+[1.814s] -- Looking for pthread.h - found
+[1.815s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.893s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.893s] -- Looking for pthread_create in pthreads
+[1.952s] -- Looking for pthread_create in pthreads - not found
+[1.952s] -- Looking for pthread_create in pthread
+[2.027s] -- Looking for pthread_create in pthread - found
+[2.029s] -- Found Threads: TRUE  
+[2.350s] -- Found realtime_tools: 2.2.0 (/opt/ros/foxy/share/realtime_tools/cmake)
+[2.464s] -- Found ament_cmake_gmock: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[2.465s] -- Found controller_manager: 0.10.1 (/home/jaime/RM3_ws/install/controller_manager/share/controller_manager/cmake)
+[2.544s] -- Found ros2_control_test_assets: 0.10.1 (/home/jaime/RM3_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[2.547s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.552s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[2.553s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.756s] -- Configuring done
+[2.836s] -- Generating done
+[2.840s] -- Build files have been written to: /home/jaime/RM3_ws/build/forward_command_controller
+[2.855s] Invoked command in '/home/jaime/RM3_ws/build/forward_command_controller' returned '0': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jaime/RM3_ws/src/ros2_controllers/forward_command_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jaime/RM3_ws/install/forward_command_controller
+[2.864s] Invoking command in '/home/jaime/RM3_ws/build/forward_command_controller': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jaime/RM3_ws/build/forward_command_controller -- -j8 -l8
+[2.910s] [35m[1mScanning dependencies of target gmock[0m
+[2.910s] [35m[1mScanning dependencies of target gmock_main[0m
+[2.910s] [35m[1mScanning dependencies of target forward_command_controller[0m
+[2.937s] [  9%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[2.940s] [ 18%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[2.954s] [ 27%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[2.996s] [ 36%] [32mBuilding CXX object CMakeFiles/forward_command_controller.dir/src/forward_command_controller.cpp.o[0m
+[4.480s] [ 45%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[4.632s] [ 45%] Built target gmock_main
+[6.890s] [ 54%] [32m[1mLinking CXX static library libgmock.a[0m
+[6.960s] [ 54%] Built target gmock
+[6.971s] [35m[1mScanning dependencies of target test_load_forward_command_controller[0m
+[7.033s] [ 63%] [32mBuilding CXX object CMakeFiles/test_load_forward_command_controller.dir/test/test_load_forward_command_controller.cpp.o[0m
+[10.175s] [ 72%] [32m[1mLinking CXX shared library libforward_command_controller.so[0m
+[10.803s] [ 72%] Built target forward_command_controller
+[10.815s] [35m[1mScanning dependencies of target test_forward_command_controller[0m
+[10.869s] [ 81%] [32mBuilding CXX object CMakeFiles/test_forward_command_controller.dir/test/test_forward_command_controller.cpp.o[0m
+[11.045s] [ 90%] [32m[1mLinking CXX executable test_load_forward_command_controller[0m
+[12.463s] [ 90%] Built target test_load_forward_command_controller
+[16.424s] [100%] [32m[1mLinking CXX executable test_forward_command_controller[0m
+[17.305s] [100%] Built target test_forward_command_controller
+[17.320s] Invoked command in '/home/jaime/RM3_ws/build/forward_command_controller' returned '0': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jaime/RM3_ws/build/forward_command_controller -- -j8 -l8
+[17.354s] Invoking command in '/home/jaime/RM3_ws/build/forward_command_controller': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jaime/RM3_ws/build/forward_command_controller
+[17.361s] -- Install configuration: ""
+[17.362s] -- Execute custom install script
+[17.363s] -- Symlinking: /home/jaime/RM3_ws/install/forward_command_controller/share/forward_command_controller//forward_command_plugin.xml
+[17.373s] -- Symlinking: /home/jaime/RM3_ws/install/forward_command_controller/include/forward_command_controller/forward_command_controller.hpp
+[17.382s] -- Symlinking: /home/jaime/RM3_ws/install/forward_command_controller/include/forward_command_controller/visibility_control.h
+[17.394s] -- Symlinking: /home/jaime/RM3_ws/install/forward_command_controller/lib/libforward_command_controller.so
+[17.403s] -- Symlinking: /home/jaime/RM3_ws/install/forward_command_controller/share/forward_command_controller/environment/library_path.sh
+[17.413s] -- Symlinking: /home/jaime/RM3_ws/install/forward_command_controller/share/forward_command_controller/environment/library_path.dsv
+[17.423s] -- Symlinking: /home/jaime/RM3_ws/install/forward_command_controller/share/ament_index/resource_index/package_run_dependencies/forward_command_controller
+[17.433s] -- Symlinking: /home/jaime/RM3_ws/install/forward_command_controller/share/ament_index/resource_index/parent_prefix_path/forward_command_controller
+[17.443s] -- Symlinking: /home/jaime/RM3_ws/install/forward_command_controller/share/forward_command_controller/environment/ament_prefix_path.sh
+[17.454s] -- Symlinking: /home/jaime/RM3_ws/install/forward_command_controller/share/forward_command_controller/environment/ament_prefix_path.dsv
+[17.463s] -- Symlinking: /home/jaime/RM3_ws/install/forward_command_controller/share/forward_command_controller/environment/path.sh
+[17.473s] -- Symlinking: /home/jaime/RM3_ws/install/forward_command_controller/share/forward_command_controller/environment/path.dsv
+[17.482s] -- Symlinking: /home/jaime/RM3_ws/install/forward_command_controller/share/forward_command_controller/local_setup.bash
+[17.491s] -- Symlinking: /home/jaime/RM3_ws/install/forward_command_controller/share/forward_command_controller/local_setup.sh
+[17.500s] -- Symlinking: /home/jaime/RM3_ws/install/forward_command_controller/share/forward_command_controller/local_setup.zsh
+[17.509s] -- Symlinking: /home/jaime/RM3_ws/install/forward_command_controller/share/forward_command_controller/local_setup.dsv
+[17.519s] -- Symlinking: /home/jaime/RM3_ws/install/forward_command_controller/share/forward_command_controller/package.dsv
+[17.528s] -- Symlinking: /home/jaime/RM3_ws/install/forward_command_controller/share/ament_index/resource_index/packages/forward_command_controller
+[17.539s] -- Symlinking: /home/jaime/RM3_ws/install/forward_command_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/forward_command_controller
+[17.549s] -- Symlinking: /home/jaime/RM3_ws/install/forward_command_controller/share/forward_command_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.558s] -- Symlinking: /home/jaime/RM3_ws/install/forward_command_controller/share/forward_command_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.567s] -- Symlinking: /home/jaime/RM3_ws/install/forward_command_controller/share/forward_command_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[17.577s] -- Symlinking: /home/jaime/RM3_ws/install/forward_command_controller/share/forward_command_controller/cmake/forward_command_controllerConfig.cmake
+[17.585s] -- Symlinking: /home/jaime/RM3_ws/install/forward_command_controller/share/forward_command_controller/cmake/forward_command_controllerConfig-version.cmake
+[17.595s] -- Symlinking: /home/jaime/RM3_ws/install/forward_command_controller/share/forward_command_controller/package.xml
+[17.608s] Invoked command in '/home/jaime/RM3_ws/build/forward_command_controller' returned '0': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jaime/RM3_ws/build/forward_command_controller

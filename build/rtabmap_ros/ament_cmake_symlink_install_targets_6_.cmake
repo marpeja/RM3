@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jaime/RM3_ws/build/rtabmap_ros/librtabmap_sync.so" "/home/jaime/RM3_ws/build/rtabmap_ros/librtabmap_common.so" "/home/jaime/RM3_ws/build/rtabmap_ros/librtabmap_plugins.so" "TARGETS" "rtabmap_sync" "rtabmap_common" "rtabmap_plugins" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

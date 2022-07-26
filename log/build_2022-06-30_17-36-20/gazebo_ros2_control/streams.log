@@ -1,0 +1,116 @@
+[0.362s] Invoking command in '/home/jaime/RM3_ws/build/gazebo_ros2_control': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jaime/RM3_ws/src/gazebo_ros2_control/gazebo_ros2_control -DCMAKE_INSTALL_PREFIX=/home/jaime/RM3_ws/install/gazebo_ros2_control
+[1.831s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.831s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.831s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.831s] -- Found angles: 1.12.3 (/opt/ros/foxy/share/angles/cmake)
+[1.831s] -- Found controller_manager: 0.10.1 (/home/jaime/RM3_ws/install/controller_manager/share/controller_manager/cmake)
+[1.831s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.831s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.831s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.831s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.832s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.858s] -- Found gazebo_dev: 3.5.3 (/opt/ros/foxy/share/gazebo_dev/cmake)
+[1.921s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.963s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[1.965s] -- Looking for ignition-math6 -- found version 6.10.0
+[1.971s] -- Searching for dependencies of ignition-math6
+[1.973s] -- Looking for OGRE...
+[1.980s] -- Found Ogre Ghadamon (1.9.0)
+[1.981s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.995s] -- Looking for OGRE_Paging...
+[1.995s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.995s] -- Looking for OGRE_Terrain...
+[1.996s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.996s] -- Looking for OGRE_Property...
+[1.996s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.996s] -- Looking for OGRE_RTShaderSystem...
+[1.996s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.996s] -- Looking for OGRE_Volume...
+[1.996s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.996s] -- Looking for OGRE_Overlay...
+[1.996s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.300s] -- Looking for ignition-math6 -- found version 6.10.0
+[2.300s] -- Looking for ignition-transport8 -- found version 8.2.1
+[2.300s] -- Searching for dependencies of ignition-transport8
+[2.316s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[2.328s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.336s] -- Checking for module 'libzmq >= 4'
+[2.390s] --   Found libzmq , version 4.3.2
+[2.491s] -- Checking for module 'uuid'
+[2.534s] --   Found uuid, version 2.34.0
+[2.612s] -- Looking for ignition-msgs5 -- found version 5.9.0
+[2.613s] -- Searching for dependencies of ignition-msgs5
+[2.652s] -- Looking for ignition-math6 -- found version 6.10.0
+[2.652s] -- Looking for ignition-msgs5 -- found version 5.9.0
+[2.652s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.652s] -- Searching for dependencies of ignition-common3
+[2.652s] -- Looking for dlfcn.h - found
+[2.652s] -- Looking for libdl - found
+[2.705s] -- Searching for <ignition-common3> component [graphics]
+[2.705s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.705s] -- Searching for dependencies of ignition-common3-graphics
+[2.705s] -- Looking for ignition-math6 -- found version 6.10.0
+[2.706s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.706s] -- Searching for dependencies of ignition-fuel_tools4
+[2.757s] -- Checking for module 'jsoncpp'
+[2.818s] --   Found jsoncpp, version 1.7.4
+[2.900s] -- Checking for module 'libzip'
+[2.921s] --   Found libzip, version 1.5.1
+[2.998s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.999s] -- Looking for ignition-math6 -- found version 6.10.0
+[3.000s] -- Looking for ignition-msgs5 -- found version 5.9.0
+[3.002s] -- Gazebo version: 11.10
+[3.003s] -- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)
+[3.015s] -- Found yaml_cpp_vendor: 7.0.2 (/opt/ros/foxy/share/yaml_cpp_vendor/cmake)
+[3.016s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[3.249s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[3.249s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.340s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.341s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.342s] -- Configured cppcheck include dirs: /home/jaime/RM3_ws/src/gazebo_ros2_control/gazebo_ros2_control/include
+[3.342s] -- Configured cppcheck exclude dirs and/or files: 
+[3.343s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.343s] -- Configured cpplint exclude dirs and/or files: 
+[3.344s] -- Added test 'lint_cmake' to check CMake code style
+[3.345s] -- Added test 'uncrustify' to check C / C++ code style
+[3.345s] -- Configured uncrustify additional arguments: 
+[3.346s] -- Added test 'xmllint' to check XML markup files
+[3.351s] -- Configuring done
+[3.436s] -- Generating done
+[3.440s] -- Build files have been written to: /home/jaime/RM3_ws/build/gazebo_ros2_control
+[3.458s] Invoked command in '/home/jaime/RM3_ws/build/gazebo_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jaime/RM3_ws/src/gazebo_ros2_control/gazebo_ros2_control -DCMAKE_INSTALL_PREFIX=/home/jaime/RM3_ws/install/gazebo_ros2_control
+[3.460s] Invoking command in '/home/jaime/RM3_ws/build/gazebo_ros2_control': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jaime/RM3_ws/build/gazebo_ros2_control -- -j8 -l8
+[4.324s] [ 50%] Built target gazebo_hardware_plugins
+[4.324s] [100%] Built target gazebo_ros2_control
+[4.331s] Invoked command in '/home/jaime/RM3_ws/build/gazebo_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jaime/RM3_ws/build/gazebo_ros2_control -- -j8 -l8
+[4.423s] Invoking command in '/home/jaime/RM3_ws/build/gazebo_ros2_control': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jaime/RM3_ws/build/gazebo_ros2_control
+[4.478s] -- Install configuration: ""
+[4.479s] -- Execute custom install script
+[4.479s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so
+[4.479s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so
+[4.479s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.sh
+[4.479s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.dsv
+[4.479s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp
+[4.480s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp
+[4.480s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp
+[4.480s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/gazebo_ros2_control/share/gazebo_ros2_control//gazebo_hardware_plugins.xml
+[4.480s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control
+[4.480s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control
+[4.482s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh
+[4.482s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv
+[4.483s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh
+[4.483s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv
+[4.483s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash
+[4.483s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh
+[4.483s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh
+[4.483s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv
+[4.483s] -- Symlinking: /home/jaime/RM3_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv
+[4.483s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control
+[4.483s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/gazebo_ros2_control/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/gazebo_ros2_control
+[4.483s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.483s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.483s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[4.483s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake
+[4.484s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake
+[4.484s] -- Up-to-date symlink: /home/jaime/RM3_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml
+[4.493s] Invoked command in '/home/jaime/RM3_ws/build/gazebo_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jaime/RM3_ws/build/gazebo_ros2_control

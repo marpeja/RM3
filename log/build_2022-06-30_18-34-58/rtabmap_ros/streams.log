@@ -1,0 +1,35 @@
+[0.050s] Invoking command in '/home/jaime/RM3_ws/build/rtabmap_ros': CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/rtabmap:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/jaime/RM3_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/jaime/RM3_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/jaime/RM3_ws/install/rtabmap/lib/pkgconfig /usr/bin/cmake --build /home/jaime/RM3_ws/build/rtabmap_ros -- -j8 -l8
+[0.162s] [ 10%] Built target rtabmap_ros__rosidl_generator_c
+[0.216s] [ 10%] Built target rtabmap_ros__cpp
+[0.232s] [ 20%] Built target rtabmap_ros__rosidl_typesupport_introspection_c
+[0.233s] [ 29%] Built target rtabmap_ros__rosidl_typesupport_c
+[0.285s] [ 39%] Built target rtabmap_ros__rosidl_typesupport_introspection_cpp
+[0.303s] [ 49%] Built target rtabmap_ros__rosidl_typesupport_fastrtps_cpp
+[0.303s] [ 59%] Built target rtabmap_ros__rosidl_typesupport_cpp
+[0.349s] [ 68%] Built target rtabmap_ros__rosidl_typesupport_fastrtps_c
+[0.368s] [ 68%] Built target rtabmap_ros
+[0.395s] [ 68%] Built target rtabmap_ros__py
+[0.434s] [ 69%] Built target rtabmap_common
+[0.446s] [ 79%] Built target rtabmap_ros__python
+[0.505s] [ 80%] Built target rtabmap_ros__rosidl_typesupport_fastrtps_c__pyext
+[0.519s] [ 81%] Built target rtabmap_ros__rosidl_typesupport_c__pyext
+[0.528s] [ 81%] Built target rtabmap_ros__rosidl_typesupport_introspection_c__pyext
+[0.537s] [ 85%] Built target rtabmap_sync
+[0.537s] [ 86%] Built target rtabmap_rviz_plugins
+[0.566s] [ 90%] Built target rtabmap_plugins
+[0.604s] [ 90%] Built target rtabmap
+[0.620s] [ 92%] Built target rtabmapviz
+[0.636s] [ 93%] Built target rtabmap_pointcloud_to_depthimage
+[0.639s] [ 93%] Built target rtabmap_point_cloud_assembler
+[0.648s] [ 94%] Built target rtabmap_stereo_sync
+[0.651s] [ 94%] Built target rtabmap_point_cloud_xyzrgb
+[0.662s] [ 95%] Built target rtabmap_point_cloud_xyz
+[0.674s] [ 95%] Built target rtabmap_stereo_odometry
+[0.699s] [ 96%] Built target rtabmap_point_cloud_aggregator
+[0.724s] [ 96%] Built target rtabmap_rgbd_odometry
+[0.724s] [ 96%] Built target rtabmap_rgbd_sync
+[0.727s] [ 96%] Built target rtabmap_obstacles_detection
+[0.736s] [ 99%] Built target rtabmap_icp_odometry
+[0.736s] [ 99%] Built target rtabmap_rgbdx_sync
+[0.736s] [ 99%] Built target rtabmap_rgb_sync
+[0.763s] [100%] Built target rtabmap_rgbd_relay

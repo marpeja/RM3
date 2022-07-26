@@ -1,0 +1,18 @@
+{
+  "package_name": "controller_manager_msgs",
+  "non_idl_tuples": [
+    "/home/jaime/RM3_ws/src/ros2_control/controller_manager_msgs:msg/ControllerState.msg",
+    "/home/jaime/RM3_ws/src/ros2_control/controller_manager_msgs:msg/HardwareInterface.msg",
+    "/home/jaime/RM3_ws/src/ros2_control/controller_manager_msgs:srv/ConfigureController.srv",
+    "/home/jaime/RM3_ws/src/ros2_control/controller_manager_msgs:srv/ConfigureStartController.srv",
+    "/home/jaime/RM3_ws/src/ros2_control/controller_manager_msgs:srv/ListControllers.srv",
+    "/home/jaime/RM3_ws/src/ros2_control/controller_manager_msgs:srv/ListControllerTypes.srv",
+    "/home/jaime/RM3_ws/src/ros2_control/controller_manager_msgs:srv/ListHardwareInterfaces.srv",
+    "/home/jaime/RM3_ws/src/ros2_control/controller_manager_msgs:srv/LoadConfigureController.srv",
+    "/home/jaime/RM3_ws/src/ros2_control/controller_manager_msgs:srv/LoadController.srv",
+    "/home/jaime/RM3_ws/src/ros2_control/controller_manager_msgs:srv/LoadStartController.srv",
+    "/home/jaime/RM3_ws/src/ros2_control/controller_manager_msgs:srv/ReloadControllerLibraries.srv",
+    "/home/jaime/RM3_ws/src/ros2_control/controller_manager_msgs:srv/SwitchController.srv",
+    "/home/jaime/RM3_ws/src/ros2_control/controller_manager_msgs:srv/UnloadController.srv"
+  ]
+}

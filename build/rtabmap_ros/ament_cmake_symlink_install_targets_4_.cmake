@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jaime/RM3_ws/build/rtabmap_ros/rosidl_generator_py/rtabmap_ros/rtabmap_ros_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" "TARGETS" "rtabmap_ros__rosidl_typesupport_c__pyext" "DESTINATION" "lib/python3.8/site-packages/rtabmap_ros")

@@ -1,0 +1,100 @@
+[0.037s] Invoking command in '/home/jaime/RM3_ws/build/joint_state_broadcaster': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jaime/RM3_ws/src/ros2_controllers/joint_state_broadcaster -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jaime/RM3_ws/install/joint_state_broadcaster
+[0.097s] -- The C compiler identification is GNU 9.4.0
+[0.156s] -- The CXX compiler identification is GNU 9.4.0
+[0.161s] -- Check for working C compiler: /usr/bin/cc
+[0.234s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.235s] -- Detecting C compiler ABI info
+[0.309s] -- Detecting C compiler ABI info - done
+[0.323s] -- Detecting C compile features
+[0.323s] -- Detecting C compile features - done
+[0.326s] -- Check for working CXX compiler: /usr/bin/c++
+[0.413s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.415s] -- Detecting CXX compiler ABI info
+[0.503s] -- Detecting CXX compiler ABI info - done
+[0.521s] -- Detecting CXX compile features
+[0.521s] -- Detecting CXX compile features - done
+[0.524s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.550s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.550s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.747s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.776s] -- Found control_msgs: 2.5.1 (/opt/ros/foxy/share/control_msgs/cmake)
+[0.813s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.821s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.917s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.954s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.041s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.558s] -- Found controller_interface: 0.10.1 (/home/jaime/RM3_ws/install/controller_interface/share/controller_interface/cmake)
+[1.684s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.685s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.686s] -- Looking for pthread.h
+[1.760s] -- Looking for pthread.h - found
+[1.761s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.840s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.840s] -- Looking for pthread_create in pthreads
+[1.900s] -- Looking for pthread_create in pthreads - not found
+[1.900s] -- Looking for pthread_create in pthread
+[1.977s] -- Looking for pthread_create in pthread - found
+[1.978s] -- Found Threads: TRUE  
+[2.309s] -- Found realtime_tools: 2.2.0 (/opt/ros/foxy/share/realtime_tools/cmake)
+[2.397s] -- Found ament_cmake_gmock: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[2.398s] -- Found controller_manager: 0.10.1 (/home/jaime/RM3_ws/install/controller_manager/share/controller_manager/cmake)
+[2.462s] -- Found ros2_control_test_assets: 0.10.1 (/home/jaime/RM3_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[2.465s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.470s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[2.471s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.633s] -- Configuring done
+[2.710s] -- Generating done
+[2.713s] -- Build files have been written to: /home/jaime/RM3_ws/build/joint_state_broadcaster
+[2.725s] Invoked command in '/home/jaime/RM3_ws/build/joint_state_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jaime/RM3_ws/src/ros2_controllers/joint_state_broadcaster -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jaime/RM3_ws/install/joint_state_broadcaster
+[2.728s] Invoking command in '/home/jaime/RM3_ws/build/joint_state_broadcaster': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jaime/RM3_ws/build/joint_state_broadcaster -- -j8 -l8
+[2.769s] [35m[1mScanning dependencies of target gmock_main[0m
+[2.770s] [35m[1mScanning dependencies of target joint_state_broadcaster[0m
+[2.770s] [35m[1mScanning dependencies of target gmock[0m
+[2.789s] [  9%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[2.794s] [ 18%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[2.795s] [ 27%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[2.823s] [ 36%] [32mBuilding CXX object CMakeFiles/joint_state_broadcaster.dir/src/joint_state_broadcaster.cpp.o[0m
+[3.873s] [ 45%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[4.023s] [ 45%] Built target gmock_main
+[7.079s] [ 54%] [32m[1mLinking CXX static library libgmock.a[0m
+[7.151s] [ 54%] Built target gmock
+[7.162s] [35m[1mScanning dependencies of target test_load_joint_state_broadcaster[0m
+[7.224s] [ 63%] [32mBuilding CXX object CMakeFiles/test_load_joint_state_broadcaster.dir/test/test_load_joint_state_broadcaster.cpp.o[0m
+[8.570s] [ 72%] [32m[1mLinking CXX shared library libjoint_state_broadcaster.so[0m
+[9.103s] [ 72%] Built target joint_state_broadcaster
+[9.115s] [35m[1mScanning dependencies of target test_joint_state_broadcaster[0m
+[9.168s] [ 81%] [32mBuilding CXX object CMakeFiles/test_joint_state_broadcaster.dir/test/test_joint_state_broadcaster.cpp.o[0m
+[11.229s] [ 90%] [32m[1mLinking CXX executable test_load_joint_state_broadcaster[0m
+[12.561s] [ 90%] Built target test_load_joint_state_broadcaster
+[19.247s] [100%] [32m[1mLinking CXX executable test_joint_state_broadcaster[0m
+[20.458s] [100%] Built target test_joint_state_broadcaster
+[20.470s] Invoked command in '/home/jaime/RM3_ws/build/joint_state_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jaime/RM3_ws/build/joint_state_broadcaster -- -j8 -l8
+[20.505s] Invoking command in '/home/jaime/RM3_ws/build/joint_state_broadcaster': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jaime/RM3_ws/build/joint_state_broadcaster
+[20.512s] -- Install configuration: ""
+[20.512s] -- Execute custom install script
+[20.513s] -- Symlinking: /home/jaime/RM3_ws/install/joint_state_broadcaster/share/joint_state_broadcaster//joint_state_plugin.xml
+[20.522s] -- Symlinking: /home/jaime/RM3_ws/install/joint_state_broadcaster/include/joint_state_broadcaster/joint_state_broadcaster.hpp
+[20.532s] -- Symlinking: /home/jaime/RM3_ws/install/joint_state_broadcaster/include/joint_state_broadcaster/visibility_control.h
+[20.542s] -- Symlinking: /home/jaime/RM3_ws/install/joint_state_broadcaster/lib/libjoint_state_broadcaster.so
+[20.551s] -- Symlinking: /home/jaime/RM3_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/library_path.sh
+[20.561s] -- Symlinking: /home/jaime/RM3_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/library_path.dsv
+[20.571s] -- Symlinking: /home/jaime/RM3_ws/install/joint_state_broadcaster/share/ament_index/resource_index/package_run_dependencies/joint_state_broadcaster
+[20.581s] -- Symlinking: /home/jaime/RM3_ws/install/joint_state_broadcaster/share/ament_index/resource_index/parent_prefix_path/joint_state_broadcaster
+[20.590s] -- Symlinking: /home/jaime/RM3_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/ament_prefix_path.sh
+[20.599s] -- Symlinking: /home/jaime/RM3_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/ament_prefix_path.dsv
+[20.609s] -- Symlinking: /home/jaime/RM3_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/path.sh
+[20.619s] -- Symlinking: /home/jaime/RM3_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/path.dsv
+[20.628s] -- Symlinking: /home/jaime/RM3_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/local_setup.bash
+[20.637s] -- Symlinking: /home/jaime/RM3_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/local_setup.sh
+[20.645s] -- Symlinking: /home/jaime/RM3_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/local_setup.zsh
+[20.654s] -- Symlinking: /home/jaime/RM3_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/local_setup.dsv
+[20.664s] -- Symlinking: /home/jaime/RM3_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/package.dsv
+[20.673s] -- Symlinking: /home/jaime/RM3_ws/install/joint_state_broadcaster/share/ament_index/resource_index/packages/joint_state_broadcaster
+[20.682s] -- Symlinking: /home/jaime/RM3_ws/install/joint_state_broadcaster/share/ament_index/resource_index/controller_interface__pluginlib__plugin/joint_state_broadcaster
+[20.692s] -- Symlinking: /home/jaime/RM3_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.701s] -- Symlinking: /home/jaime/RM3_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.712s] -- Symlinking: /home/jaime/RM3_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/ament_cmake_export_libraries-extras.cmake
+[20.721s] -- Symlinking: /home/jaime/RM3_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/joint_state_broadcasterConfig.cmake
+[20.731s] -- Symlinking: /home/jaime/RM3_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/joint_state_broadcasterConfig-version.cmake
+[20.740s] -- Symlinking: /home/jaime/RM3_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/package.xml
+[20.754s] Invoked command in '/home/jaime/RM3_ws/build/joint_state_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaime/RM3_ws/install/controller_manager:/home/jaime/RM3_ws/install/controller_interface:/home/jaime/RM3_ws/install/hardware_interface:/home/jaime/RM3_ws/install/ros2_control_test_assets:/home/jaime/RM3_ws/install/controller_manager_msgs:/home/jaime/RM3_ws/install/robominer_msgs/share/robominer_msgs/cmake:/opt/ros/foxy LD_LIBRARY_PATH=/home/jaime/RM3_ws/install/controller_manager/lib:/home/jaime/RM3_ws/install/controller_interface/lib:/home/jaime/RM3_ws/install/hardware_interface/lib:/home/jaime/RM3_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaime/RM3_ws/install/controller_manager/lib/python3.8/site-packages:/home/jaime/RM3_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jaime/RM3_ws/build/joint_state_broadcaster
